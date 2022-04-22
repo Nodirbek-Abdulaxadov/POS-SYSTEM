@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ObE8tle0rJ+yHGl+RzeVzjRXR64hkqYHm152SyJ4eQLXHDEr6Y4kFQmX7OgnJ+Sl32G4MqLBktTIkT4ohv5L0A==",
+  "success": true,
+  "projectFilePath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.API\\POS_System.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MRTMTex00135\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\MRTMTex00135\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\MRTMTex00135\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\MRTMTex00135\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\MRTMTex00135\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\MRTMTex00135\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
