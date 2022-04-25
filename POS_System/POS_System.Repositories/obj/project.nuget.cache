@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kSmHJQoFkA857CJmE8Ai7ZWTKhqORg7EJhhL82g0X2RYTDCJYQVnLwUP4jeXJtm1U3COhiJi+D1Rrrh9VOPEkA==",
+  "dgSpecHash": "vovNMMD7kO4/ICepoJCf/w2waaYzxx4mD6pq4oLMK/wHCKSs5Tw8EPIefZe3ObVPjUdeKMlnHL4DOJBe4UTjFg==",
   "success": true,
-  "projectFilePath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj",
+  "projectFilePath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
