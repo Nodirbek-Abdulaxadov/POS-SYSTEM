@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace POS_System.Domains.Admin
 {
-    public class Department
+    internal class Class1
     {
-        public Guid Id { get; set; }
-        public string Name { get; set; }
     }
 }
