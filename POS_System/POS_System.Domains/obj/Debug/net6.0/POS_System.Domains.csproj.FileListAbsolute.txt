@@ -1,0 +1,14 @@
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Domains\bin\Debug\net6.0\POS_System.Domains.deps.json
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Domains\bin\Debug\net6.0\POS_System.Domains.runtimeconfig.json
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Domains\bin\Debug\net6.0\POS_System.Domains.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Domains\bin\Debug\net6.0\ref\POS_System.Domains.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Domains\bin\Debug\net6.0\POS_System.Domains.pdb
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.csproj.AssemblyReference.cache
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.AssemblyInfoInputs.cache
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.AssemblyInfo.cs
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.csproj.CoreCompileInputs.cache
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Domains\obj\Debug\net6.0\ref\POS_System.Domains.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.pdb
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.genruntimeconfig.cache

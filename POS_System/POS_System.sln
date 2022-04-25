@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS_System.API", "POS_System.API\POS_System.API.csproj", "{791074AD-A8D4-4B18-9EEA-9AEC78583059}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POS_System.API", "POS_System.API\POS_System.API.csproj", "{791074AD-A8D4-4B18-9EEA-9AEC78583059}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS_System.Domains", "POS_System.Domains\POS_System.Domains.csproj", "{43D84CA8-8C9F-4B55-90B0-B2C65DF81D66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POS_System.Domains", "POS_System.Domains\POS_System.Domains.csproj", "{43D84CA8-8C9F-4B55-90B0-B2C65DF81D66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS_System.Data", "POS_System.Data\POS_System.Data.csproj", "{22E3C168-2803-43CB-A281-FF24B0811860}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POS_System.Data", "POS_System.Data\POS_System.Data.csproj", "{22E3C168-2803-43CB-A281-FF24B0811860}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS_System.Repositories", "POS_System.Repositories\POS_System.Repositories.csproj", "{CF5AE57C-46D1-4273-99F2-AFFA5720C8DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POS_System.Repositories", "POS_System.Repositories\POS_System.Repositories.csproj", "{CF5AE57C-46D1-4273-99F2-AFFA5720C8DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS_System.BL", "POS_System.BL\POS_System.BL.csproj", "{2C1011BA-68C8-491D-BF32-4A06AE6720D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POS_System.BL", "POS_System.BL\POS_System.BL.csproj", "{2C1011BA-68C8-491D-BF32-4A06AE6720D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS_System.ViewModels", "POS_System.ViewModels\POS_System.ViewModels.csproj", "{652980FA-5DA0-40A2-BCF4-FEF7295D1D75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POS_System.ViewModels", "POS_System.ViewModels\POS_System.ViewModels.csproj", "{652980FA-5DA0-40A2-BCF4-FEF7295D1D75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

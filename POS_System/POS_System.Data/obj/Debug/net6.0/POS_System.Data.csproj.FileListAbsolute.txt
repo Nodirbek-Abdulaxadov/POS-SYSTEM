@@ -1,0 +1,17 @@
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Data.deps.json
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Data.runtimeconfig.json
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Data.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\bin\Debug\net6.0\ref\POS_System.Data.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Data.pdb
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Domains.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Domains.pdb
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.csproj.AssemblyReference.cache
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.AssemblyInfoInputs.cache
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.AssemblyInfo.cs
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.csproj.CoreCompileInputs.cache
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.csproj.CopyComplete
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\obj\Debug\net6.0\ref\POS_System.Data.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.pdb
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.genruntimeconfig.cache

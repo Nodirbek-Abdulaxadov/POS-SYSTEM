@@ -1,0 +1,14 @@
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.csproj.AssemblyReference.cache
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.AssemblyInfoInputs.cache
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.AssemblyInfo.cs
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.csproj.CoreCompileInputs.cache
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Repositories.deps.json
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Repositories.runtimeconfig.json
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Repositories.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\bin\Debug\net6.0\ref\POS_System.Repositories.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Repositories.pdb
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\obj\Debug\net6.0\ref\POS_System.Repositories.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.pdb
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.genruntimeconfig.cache
