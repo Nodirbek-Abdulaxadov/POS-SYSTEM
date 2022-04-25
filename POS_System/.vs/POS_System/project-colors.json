@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "791074ad-a8d4-4b18-9eea-9aec78583059": {
+      "ProjectGuid": "791074ad-a8d4-4b18-9eea-9aec78583059",
+      "DisplayName": "POS_System.API",
+      "ColorIndex": 0
+    },
+    "43d84ca8-8c9f-4b55-90b0-b2c65df81d66": {
+      "ProjectGuid": "43d84ca8-8c9f-4b55-90b0-b2c65df81d66",
+      "DisplayName": "POS_System.Domains",
+      "ColorIndex": 1
+    },
+    "22e3c168-2803-43cb-a281-ff24b0811860": {
+      "ProjectGuid": "22e3c168-2803-43cb-a281-ff24b0811860",
+      "DisplayName": "POS_System.Data",
+      "ColorIndex": 2
+    },
+    "cf5ae57c-46d1-4273-99f2-affa5720c8db": {
+      "ProjectGuid": "cf5ae57c-46d1-4273-99f2-affa5720c8db",
+      "DisplayName": "POS_System.Repositories",
+      "ColorIndex": 3
+    },
+    "2c1011ba-68c8-491d-bf32-4a06ae6720d2": {
+      "ProjectGuid": "2c1011ba-68c8-491d-bf32-4a06ae6720d2",
+      "DisplayName": "POS_System.BL",
+      "ColorIndex": 4
+    },
+    "652980fa-5da0-40a2-bcf4-fef7295d1d75": {
+      "ProjectGuid": "652980fa-5da0-40a2-bcf4-fef7295d1d75",
+      "DisplayName": "POS_System.ViewModels",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

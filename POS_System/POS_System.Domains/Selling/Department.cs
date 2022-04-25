@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace POS_System.Domains.Admin
 {
-    internal class Class1
+    public class Department
     {
+
     }
 }
