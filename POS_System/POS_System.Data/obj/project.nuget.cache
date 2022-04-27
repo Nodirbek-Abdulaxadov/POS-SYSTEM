@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "c8+EoOpeAnhQ7P1TG8YG/eih20QrXQX7BmRhkHo7/IW4goC8DionQVVehvZh8xeumuCm3lSm52jrs0SBGkcvyQ==",
+  "dgSpecHash": "t1PCpycN0cRpT/todCaLtTV7si8JnutxvX9ZdT4Hpwq1CGnET+3PbSX5OjiqQEC/TaY42PNJHNcLF3SetGipvg==",
   "success": true,
   "projectFilePath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Data\\POS_System.Data.csproj",
   "expectedPackageFiles": [
@@ -26,5 +26,12 @@
     "C:\\Users\\MRTMTex00051\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\MRTMTex00051\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Data\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
