@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POS_System.Repositories.Interfaces
+namespace POS_System.Repositories.Interfaces.Selling
 {
     public interface ICategoryInterface
     {

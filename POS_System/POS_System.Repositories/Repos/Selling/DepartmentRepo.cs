@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using POS_System.Data;
 using POS_System.Domains.Selling;
-using POS_System.Repositories.Interfaces;
+using POS_System.Repositories.Interfaces.Selling;
 
-namespace POS_System.Repositories.Repos
+namespace POS_System.Repositories.Repos.Selling
 {
     public class DepartmentRepo : IDepartmentInterface
     {
