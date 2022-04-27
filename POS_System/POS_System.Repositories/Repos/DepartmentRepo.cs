@@ -16,25 +16,29 @@ namespace POS_System.Repositories.Repos
 
         public Task<Department> AddDepartmentAsync(Department department)
         {
-            throw new NotImplementedException();
+            _dbContext.Departments.AddAsync(department);
+            _dbContext.SaveChanges();
+            return Task.FromResult(department);
         }
 
         public Task DeleteDepartmentAsync(Guid departmentId)
         {
-            throw new NotImplementedException();
+            _dbContext.Departments.Remove(_dbContext.Departments.FirstOrDefault(p => p.Id == departmentId));
+            _dbContext.SaveChanges();
+            return Task.FromResult(0);
         }
 
-        public Task<Department> GetDepartmentByIdAsync(Guid id)
-        {
-            throw new NotImplementedException();
-        }
+        public Task<Department> GetDepartmentByIdAsync(Guid id) => 
+            _dbContext.Departments.FirstOrDefaultAsync(p => p.Id == id);
 
         public Task<List<Department>> GetDepartmentsAsync() =>
             _dbContext.Departments.ToListAsync();
 
         public Task<Department> UpdateDepartmentAsync(Department department)
         {
-            throw new NotImplementedException();
+            _dbContext.Departments.Update(department);
+            _dbContext.SaveChanges();
+            return Task.FromResult(department);
         }
     }
 }
