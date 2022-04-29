@@ -1,32 +1,10 @@
-using Microsoft.EntityFrameworkCore;
-using POS_System.Data;
+using POS_System.API.Configurations;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreDB")));
-builder.Services.AddDbContext<IdentityDbContext>(options =>
-                options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreDB")));
+builder.Services.AddDefaultConfigurations();
+builder.Services.AddDbContexts(builder.Configuration);
+builder.Services.AddDIContainers();
 
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();
+app.AddDefaultServiceConfigurations();

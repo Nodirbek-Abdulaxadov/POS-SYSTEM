@@ -76,3 +76,8 @@ D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\refint\POS_Sy
 D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.pdb
 D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.genruntimeconfig.cache
 D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\ref\POS_System.API.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.Repositories.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.Repositories.pdb
+D:\Visual Studio Project\POS-System\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.ViewModels.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.ViewModels.pdb
