@@ -17,3 +17,22 @@ D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\bin\Debug
 D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Data.pdb
 D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Domains.pdb
 D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.csproj.CopyComplete
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Repositories.deps.json
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Repositories.runtimeconfig.json
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Repositories.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Repositories.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Data.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Domains.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Data.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Domains.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.csproj.AssemblyReference.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.AssemblyInfoInputs.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.AssemblyInfo.cs
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.csproj.CoreCompileInputs.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.csproj.CopyComplete
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\obj\Debug\net6.0\refint\POS_System.Repositories.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.genruntimeconfig.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\obj\Debug\net6.0\ref\POS_System.Repositories.dll
