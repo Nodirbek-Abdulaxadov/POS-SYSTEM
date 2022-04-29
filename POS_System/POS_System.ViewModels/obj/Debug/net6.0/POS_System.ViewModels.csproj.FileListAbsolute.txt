@@ -12,3 +12,17 @@ D:\Visual Studio Project\POS-System\POS_System\POS_System.ViewModels\obj\Debug\n
 D:\Visual Studio Project\POS-System\POS_System\POS_System.ViewModels\obj\Debug\net6.0\ref\POS_System.ViewModels.dll
 D:\Visual Studio Project\POS-System\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.pdb
 D:\Visual Studio Project\POS-System\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.genruntimeconfig.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.ViewModels.deps.json
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.ViewModels.runtimeconfig.json
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.ViewModels.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.ViewModels.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.csproj.AssemblyReference.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.AssemblyInfoInputs.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.AssemblyInfo.cs
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.csproj.CoreCompileInputs.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.ViewModels\obj\Debug\net6.0\refint\POS_System.ViewModels.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.genruntimeconfig.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.ViewModels\obj\Debug\net6.0\ref\POS_System.ViewModels.dll

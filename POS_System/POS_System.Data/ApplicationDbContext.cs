@@ -1,4 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using POS_System.Domains.Inventory;
+using POS_System.Domains.Report;
 using POS_System.Domains.Selling;
 using System;
 using System.Collections.Generic;
@@ -15,7 +17,7 @@ namespace POS_System.Data
         {
 
         }
-
+        //Selling
         public DbSet<Category> Categories { get; set; }
         public DbSet<Client> Clients { get; set; }
         public DbSet<Department> Departments { get; set; }
@@ -23,5 +25,12 @@ namespace POS_System.Data
         public DbSet<Order> Orders { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<SellingProccess> SellingProccesses { get; set; }
+        //Inventory
+        public DbSet<LoanForInventory> LoanForInventorys { get; set; }
+        public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<TransactionProccess> TransactionProccesses { get; set; }
+        //Report
+        public DbSet<MainReport> MainReports { get; set; }
     }
 }

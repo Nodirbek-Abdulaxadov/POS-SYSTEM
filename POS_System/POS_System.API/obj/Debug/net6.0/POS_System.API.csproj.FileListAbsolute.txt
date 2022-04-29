@@ -37,3 +37,42 @@ D:\Visual Studio Project\POS-System\POS_System\POS_System.API\obj\Debug\net6.0\P
 D:\Visual Studio Project\POS-System\POS_System\POS_System.API\obj\Debug\net6.0\ref\POS_System.API.dll
 D:\Visual Studio Project\POS-System\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.pdb
 D:\Visual Studio Project\POS-System\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.genruntimeconfig.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\appsettings.Development.json
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\appsettings.json
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.API.exe
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.API.deps.json
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.API.runtimeconfig.json
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.API.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.API.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\Humanizer.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\Npgsql.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.Data.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.Domains.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.Data.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.Domains.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.csproj.AssemblyReference.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.AssemblyInfoInputs.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.AssemblyInfo.cs
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.csproj.CoreCompileInputs.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.MvcApplicationPartsAssemblyInfo.cs
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.MvcApplicationPartsAssemblyInfo.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\staticwebassets.build.json
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\staticwebassets.development.json
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\scopedcss\bundle\POS_System.API.styles.css
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.csproj.CopyComplete
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\refint\POS_System.API.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.genruntimeconfig.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.API\obj\Debug\net6.0\ref\POS_System.API.dll
