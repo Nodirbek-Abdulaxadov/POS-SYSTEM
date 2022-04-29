@@ -1,6 +1,6 @@
 ﻿using POS_System.Domains.Selling;
 
-namespace POS_System.Repositories.Interfaces
+namespace POS_System.Repositories.Interfaces.Selling
 {
     public interface IDepartmentInterface
     {

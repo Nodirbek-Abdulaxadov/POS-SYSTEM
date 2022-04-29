@@ -1,14 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using POS_System.Data;
 using POS_System.Domains.Selling;
-using POS_System.Repositories.Interfaces;
+using POS_System.Repositories.Interfaces.Selling;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POS_System.Repositories.Repos
+namespace POS_System.Repositories.Repos.Selling
 {
     public class CategoryRepo : ICategoryInterface
     {

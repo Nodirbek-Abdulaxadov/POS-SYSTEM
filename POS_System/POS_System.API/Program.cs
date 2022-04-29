@@ -11,6 +11,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreDB")));
+builder.Services.AddDbContext<IdentityDbContext>(options =>
+                options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreDB")));
 
 var app = builder.Build();
 
