@@ -12,3 +12,17 @@ D:\Visual Studio Project\POS-System\POS_System\POS_System.Domains\obj\Debug\net6
 D:\Visual Studio Project\POS-System\POS_System\POS_System.Domains\obj\Debug\net6.0\ref\POS_System.Domains.dll
 D:\Visual Studio Project\POS-System\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.pdb
 D:\Visual Studio Project\POS-System\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.genruntimeconfig.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Domains\bin\Debug\net6.0\POS_System.Domains.deps.json
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Domains\bin\Debug\net6.0\POS_System.Domains.runtimeconfig.json
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Domains\bin\Debug\net6.0\POS_System.Domains.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Domains\bin\Debug\net6.0\POS_System.Domains.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.csproj.AssemblyReference.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.GeneratedMSBuildEditorConfig.editorconfig
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.AssemblyInfoInputs.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.AssemblyInfo.cs
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.csproj.CoreCompileInputs.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Domains\obj\Debug\net6.0\refint\POS_System.Domains.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.genruntimeconfig.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Domains\obj\Debug\net6.0\ref\POS_System.Domains.dll

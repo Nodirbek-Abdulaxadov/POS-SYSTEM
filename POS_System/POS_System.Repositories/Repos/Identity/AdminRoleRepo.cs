@@ -1,6 +1,6 @@
 ﻿using POS_System.Domains.Admin;
 
-namespace POS_System.Repositories.Interfaces.Selling
+namespace POS_System.Repositories.Repos.Identity
 {
     public interface AdminRoleRepo
     {

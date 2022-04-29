@@ -15,3 +15,20 @@ D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\obj\Debug\net6.0\
 D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\obj\Debug\net6.0\ref\POS_System.Data.dll
 D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.pdb
 D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.genruntimeconfig.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Data.deps.json
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Data.runtimeconfig.json
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Data.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Data.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Domains.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Domains.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.csproj.AssemblyReference.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.AssemblyInfoInputs.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.AssemblyInfo.cs
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.csproj.CoreCompileInputs.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.csproj.CopyComplete
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\obj\Debug\net6.0\refint\POS_System.Data.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.genruntimeconfig.cache
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\obj\Debug\net6.0\ref\POS_System.Data.dll
