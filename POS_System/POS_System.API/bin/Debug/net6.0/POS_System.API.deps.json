@@ -14,6 +14,7 @@
           "Newtonsoft.Json": "13.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4",
           "POS_System.Data": "1.0.0",
+          "POS_System.Domains": "1.0.0",
           "POS_System.Repositories": "1.0.0",
           "POS_System.ViewModels": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"

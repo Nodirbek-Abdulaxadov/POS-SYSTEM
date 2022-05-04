@@ -20,6 +20,12 @@ namespace POS_System.API.Configurations
             services.AddTransient<IAdminInterface, AdminRepo>();
             services.AddTransient<IAdminRoleInterface, AdminRoleRepo>();
             services.AddTransient<ICategoryInterface, CategoryRepo>();
+            services.AddTransient<IClientInterface, ClientRepo>();
+            services.AddTransient<IDepartmentInterface, DepartmentRepo>();
+            services.AddTransient<ILoanForClientInterface, LoanForClientRepo>();
+            services.AddTransient<IOrderInterface, OrderRepo>();
+            services.AddTransient<IProductInterface, ProductRepo>();
+            services.AddTransient<ISellingProccessInterface, SellingProccessRepo>();
         }
 
         public static void AddDbContexts(this IServiceCollection services, ConfigurationManager configuration )

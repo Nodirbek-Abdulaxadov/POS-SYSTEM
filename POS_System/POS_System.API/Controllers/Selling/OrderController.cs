@@ -10,23 +10,23 @@ namespace POS_System.API.Controllers.Identity
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class CategoryController : ControllerBase
+    public class OrderController : ControllerBase
     {
-    
-        private readonly ICategoryInterface _catagoryInterface;
 
-        public CategoryController(ICategoryInterface catagoryInterface)
+        private readonly IOrderInterface _orderInterface;
+
+        public OrderController(IOrderInterface orderInterface)
         {
-            _catagoryInterface = catagoryInterface;
+            _orderInterface = orderInterface;
         }
 
         [HttpGet]
         [Route("getall")]
         public async Task<IActionResult> GetAll()
         {
-            var listofCategories = await _catagoryInterface.GetCategoriesAsync();
+            var listofOrders = await _orderInterface.GetOrdersAsync();
 
-            var json = JsonConvert.SerializeObject(listofCategories, Formatting.Indented,
+            var json = JsonConvert.SerializeObject(listofOrders, Formatting.Indented,
                     new JsonSerializerSettings
                     {
                         ReferenceLoopHandling = ReferenceLoopHandling.Ignore
@@ -37,33 +37,35 @@ namespace POS_System.API.Controllers.Identity
 
         [HttpPost]
         [Route("add")]
-        public async Task<IActionResult> AddCategory(Category category)
+        public async Task<IActionResult> AddOrder(Order order)
         {
-            var res = await _catagoryInterface.AddCategoryAsync(category);
+            var res = await _orderInterface.AddOrderAsync(order);
             return Ok(res);
+
+
         }
 
         [HttpPut]
 
 
         [Route("update")]
-        public async Task<IActionResult> UpdateCategory(Category category)
+        public async Task<IActionResult> UpdateOrder(Order order)
         {
-            category = await _catagoryInterface.UpdateCategoryAsync(category);
-            return Ok(category);
+            order = await _orderInterface.UpdateOrderAsync(order);
+            return Ok(order);
         }
 
         [HttpDelete, Route("delete/{id}")]
-        public async Task<IActionResult> DeleteCategory(Guid id)
+        public async Task<IActionResult> DeleteOrder(Guid id)
         {
-            await _catagoryInterface.DeleteCategoryAsync(id);
+            await _orderInterface.DeleteOrderAsync(id);
             return Ok();
         }
 
         [HttpGet, Route("get/{id}")]
-        public async Task<IActionResult> GetCategory(Guid id)
+        public async Task<IActionResult> GetOrder(Guid id)
         {
-            await _catagoryInterface.GetCategoryAsync(id);
+            await _orderInterface.GetOrderAsync(id);
             return Ok();
         }
 
