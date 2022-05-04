@@ -741,11 +741,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\User\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\MRTMTex00051\\.nuget\\packages\\": {}
+>>>>>>> 1a7fd840a293d1ccf44ae0697bcbf9cd3af6ab28
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj",
       "projectName": "POS_System.ViewModels",
       "projectPath": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj",
@@ -754,6 +759,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj",
+      "projectName": "POS_System.ViewModels",
+      "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj",
+      "packagesPath": "C:\\Users\\MRTMTex00051\\.nuget\\packages\\",
+      "outputPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\MRTMTex00051\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 1a7fd840a293d1ccf44ae0697bcbf9cd3af6ab28
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

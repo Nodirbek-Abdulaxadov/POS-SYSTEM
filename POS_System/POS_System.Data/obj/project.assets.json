@@ -781,11 +781,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\User\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\MRTMTex00051\\.nuget\\packages\\": {}
+>>>>>>> 1a7fd840a293d1ccf44ae0697bcbf9cd3af6ab28
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Data\\POS_System.Data.csproj",
       "projectName": "POS_System.Data",
       "projectPath": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Data\\POS_System.Data.csproj",
@@ -794,6 +799,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Data\\POS_System.Data.csproj",
+      "projectName": "POS_System.Data",
+      "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Data\\POS_System.Data.csproj",
+      "packagesPath": "C:\\Users\\MRTMTex00051\\.nuget\\packages\\",
+      "outputPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Data\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\MRTMTex00051\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 1a7fd840a293d1ccf44ae0697bcbf9cd3af6ab28
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -807,8 +822,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
               "projectPath": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
+=======
+            "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
+              "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
+>>>>>>> 1a7fd840a293d1ccf44ae0697bcbf9cd3af6ab28
             }
           }
         }
