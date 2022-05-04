@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using POS_System.ViewModels.Admin;
+using System.ComponentModel.DataAnnotations;
 
 namespace POS_System.Domains.Admin
 {
@@ -16,5 +17,26 @@ namespace POS_System.Domains.Admin
         public string Password { get; set; }
         [Required]
         public Guid AdminRoleId { get; set; }
+
+        public static explicit operator Admin(AddAdminRole viewModel)
+        {
+            return new Admin()
+            {
+                Id = Guid.NewGuid(),
+                FullName = viewModel.FullName,
+                PhoneNumber = viewModel.PhoneNumber,
+                Adress = viewModel.Adress,
+                Password = viewModel.Password,
+                AdminRoleId = viewModel.AdminRoleId
+            };
+        }
+
+        public static explicit operator AddAdminRole(Admin viewModel)
+        {
+            return new AddAdminRole()
+            {
+
+            };
+        }
     }
 }

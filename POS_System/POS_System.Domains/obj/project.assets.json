@@ -280,6 +280,20 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "POS_System.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.4",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4"
+        },
+        "compile": {
+          "bin/placeholder/POS_System.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/POS_System.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -730,6 +744,11 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "POS_System.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../POS_System.ViewModels/POS_System.ViewModels.csproj",
+      "msbuildProject": "../POS_System.ViewModels/POS_System.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -737,23 +756,24 @@
       "Microsoft.EntityFrameworkCore >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.4",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.4"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.4",
+      "POS_System.ViewModels >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MRTMTex00051\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj",
       "projectName": "POS_System.Domains",
-      "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj",
-      "packagesPath": "C:\\Users\\MRTMTex00051\\.nuget\\packages\\",
-      "outputPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Domains\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MRTMTex00051\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -766,7 +786,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

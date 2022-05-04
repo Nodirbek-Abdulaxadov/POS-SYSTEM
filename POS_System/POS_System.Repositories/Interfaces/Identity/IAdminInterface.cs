@@ -4,6 +4,7 @@ namespace POS_System.Repositories.Interfaces.Identity
 {
     public interface IAdminInterface
     {
+        Task<List<Admin>> GetAdminsAsync(); 
         Task<Admin> GetAdminByIdAsync(Guid id);
         Task<Admin> CreateAdminAsync(Admin admin);
         Task<Admin> UpdateAdminAsync(Admin admin);

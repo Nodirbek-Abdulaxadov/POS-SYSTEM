@@ -44,7 +44,8 @@ namespace POS_System.Repositories.Repos.Identity
         public Task<Admin> GetAdminByIdAsync(Guid id) =>
             Task.FromResult(_dbContext.Admins.FirstOrDefault(ad => ad.Id == id));
 
-
+        public Task<List<Admin>> GetAdminsAsync() =>
+            _dbContext.Admins.ToListAsync();
         public Task<bool> IsInRoleAsync(Guid id, string roleName)
         {
             Admin admin = _dbContext.Admins.FirstOrDefault(ad => ad.Id == id);
