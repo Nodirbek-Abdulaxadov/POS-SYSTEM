@@ -3,7 +3,7 @@
 
 namespace POS_System.ViewModels.Admin
 {
-    public class AddAdminViewModel
+    public class AddAdminRole
     {
         [Required]
         public string FullName { get; set; }

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\POS_System",
+    "\\POS_System\\POS_System.Domains\\Admin"
   ],
-  "SelectedNode": "\\POS_System.sln",
+  "SelectedNode": "\\POS_System\\POS_System.sln",
   "PreviewInSolutionExplorer": false
 }

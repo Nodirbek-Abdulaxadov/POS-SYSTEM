@@ -33,7 +33,7 @@ namespace POS_System.Repositories.Repos.Identity
         public Task<AdminRole> GetAdminRoleAsync(Guid adminRoleId) =>
              _dbContext.Roles.FirstOrDefaultAsync(roles => roles.Id == adminRoleId);
 
-        public Task<List<AdminRole>> GetCategoriesAsync() => 
+        public Task<List<AdminRole>> GetAdminRolesAsync() => 
             _dbContext.Roles.ToListAsync();
 
         public Task<AdminRole> UpdateAdminRoleAsync(AdminRole adminRole)

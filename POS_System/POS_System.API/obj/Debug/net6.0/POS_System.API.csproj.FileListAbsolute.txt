@@ -81,3 +81,47 @@ D:\Visual Studio Project\POS-System\POS_System\POS_System.API\bin\Debug\net6.0\P
 D:\Visual Studio Project\POS-System\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.Repositories.pdb
 D:\Visual Studio Project\POS-System\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.ViewModels.dll
 D:\Visual Studio Project\POS-System\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.ViewModels.pdb
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.AssemblyInfo.cs
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\obj\Debug\net6.0\refint\POS_System.API.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.pdb
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\appsettings.json
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.API.exe
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.API.deps.json
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.API.runtimeconfig.json
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.API.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.API.pdb
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\Humanizer.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\Npgsql.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.Data.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.Domains.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.Repositories.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.ViewModels.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.Data.pdb
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.Repositories.pdb
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.ViewModels.pdb
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.Domains.pdb
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\obj\Debug\net6.0\scopedcss\bundle\POS_System.API.styles.css
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.csproj.CopyComplete
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\obj\Debug\net6.0\POS_System.API.genruntimeconfig.cache
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\obj\Debug\net6.0\ref\POS_System.API.dll
