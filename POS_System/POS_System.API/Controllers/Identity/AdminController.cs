@@ -11,13 +11,10 @@ namespace POS_System.API.Controllers.Identity
     public class AdminController : ControllerBase
     {
         private readonly IAdminInterface _adminInterface;
-        private readonly IAdminRoleInterface _roleInterface;
 
-        public AdminController( IAdminInterface adminInterface,
-                                IAdminRoleInterface roleInterface)
+        public AdminController( IAdminInterface adminInterface)
         {
             _adminInterface = adminInterface;
-            _roleInterface = roleInterface;
         }
 
         [HttpGet]
