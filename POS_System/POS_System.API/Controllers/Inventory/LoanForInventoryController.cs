@@ -59,7 +59,7 @@ namespace POS_System.API.Controllers.Inventory
 
         }
 
-        [HttpDelete, Route("delete/{id}")]
+        [HttpGet, Route("get/{id}")]
 
         public async Task<IActionResult> GetLoanForInventoryAsync(Guid id)
         {

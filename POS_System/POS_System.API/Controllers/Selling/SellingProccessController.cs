@@ -10,12 +10,12 @@ namespace POS_System.API.Controllers.Identity
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class SellingProductsController : ControllerBase
+    public class SellingProccessController : ControllerBase
     {
 
         private readonly ISellingProccessInterface _sellingProccessInterface;
 
-        public SellingProductsController(ISellingProccessInterface sellingProccessInterface)
+        public SellingProccessController(ISellingProccessInterface sellingProccessInterface)
         {
             _sellingProccessInterface = sellingProccessInterface;
         }
