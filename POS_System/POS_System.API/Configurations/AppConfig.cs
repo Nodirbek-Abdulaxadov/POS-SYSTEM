@@ -30,6 +30,7 @@ namespace POS_System.API.Configurations
             services.AddTransient<ILoanForInventoryInterface, LoanForInventoryRepo>();
             services.AddTransient<ISupplierInterface, SupplierRepo>();
             services.AddTransient<ITransactionInterface, TransactionRepo>();
+            services.AddTransient<ISellingProccessInterface, SellingProccessRepo>();
             services.AddTransient<ITransactionProccessInterface, TransactionProccessRepo>();
             
         }
