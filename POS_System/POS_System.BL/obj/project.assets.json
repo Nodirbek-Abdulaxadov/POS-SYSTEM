@@ -280,6 +280,66 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "POS_System.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.4",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4",
+          "POS_System.Domains": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/POS_System.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/POS_System.Data.dll": {}
+        }
+      },
+      "POS_System.Domains/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.4",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4",
+          "POS_System.ViewModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/POS_System.Domains.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/POS_System.Domains.dll": {}
+        }
+      },
+      "POS_System.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.4",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4",
+          "POS_System.Data": "1.0.0",
+          "POS_System.Domains": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/POS_System.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/POS_System.Repositories.dll": {}
+        }
+      },
+      "POS_System.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.4",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4"
+        },
+        "compile": {
+          "bin/placeholder/POS_System.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/POS_System.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -730,6 +790,26 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "POS_System.Data/1.0.0": {
+      "type": "project",
+      "path": "../POS_System.Data/POS_System.Data.csproj",
+      "msbuildProject": "../POS_System.Data/POS_System.Data.csproj"
+    },
+    "POS_System.Domains/1.0.0": {
+      "type": "project",
+      "path": "../POS_System.Domains/POS_System.Domains.csproj",
+      "msbuildProject": "../POS_System.Domains/POS_System.Domains.csproj"
+    },
+    "POS_System.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../POS_System.Repositories/POS_System.Repositories.csproj",
+      "msbuildProject": "../POS_System.Repositories/POS_System.Repositories.csproj"
+    },
+    "POS_System.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../POS_System.ViewModels/POS_System.ViewModels.csproj",
+      "msbuildProject": "../POS_System.ViewModels/POS_System.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -737,7 +817,8 @@
       "Microsoft.EntityFrameworkCore >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.4",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.4"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.4",
+      "POS_System.Repositories >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -771,7 +852,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj": {
+              "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
