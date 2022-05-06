@@ -1052,30 +1052,26 @@
       "Newtonsoft.Json >= 13.0.1",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.4",
       "POS_System.Data >= 1.0.0",
+      "POS_System.Domains >= 1.0.0",
       "POS_System.Repositories >= 1.0.0",
       "POS_System.ViewModels >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MRTMTex00135\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.API\\POS_System.API.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.API\\POS_System.API.csproj",
       "projectName": "POS_System.API",
-      "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.API\\POS_System.API.csproj",
-      "packagesPath": "C:\\Users\\MRTMTex00135\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.API\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.API\\POS_System.API.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\MRTMTex00135\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1089,14 +1085,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {
-              "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Data\\POS_System.Data.csproj"
+            "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Data\\POS_System.Data.csproj"
             },
-            "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj": {
-              "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj"
+            "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
             },
-            "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
-              "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj"
+            "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj"
+            },
+            "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj"
             }
           }
         }
@@ -1158,7 +1157,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -1167,7 +1166,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.API\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problem reading the cache file C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.API\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }

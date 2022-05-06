@@ -10,7 +10,7 @@ namespace POS_System.API.Controllers.Identity
     [Route("api/[controller]")]
     public class AdminRoleController : ControllerBase
     {
-        private readonly IAdminInterface _adminInterface;
+      
         private readonly IAdminRoleInterface _roleInterface;
 
         public AdminRoleController(IAdminRoleInterface roleInterface)                             

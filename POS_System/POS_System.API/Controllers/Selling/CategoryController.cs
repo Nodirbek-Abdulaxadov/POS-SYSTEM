@@ -41,8 +41,6 @@ namespace POS_System.API.Controllers.Identity
         {
             var res = await _catagoryInterface.AddCategoryAsync(category);
             return Ok(res);
-
-
         }
 
         [HttpPut]

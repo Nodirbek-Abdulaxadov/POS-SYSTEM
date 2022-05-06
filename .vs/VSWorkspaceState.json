@@ -2,6 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\POS_System",
+    "\\POS_System\\POS_System.API",
+    "\\POS_System\\POS_System.API\\Controllers",
+    "\\POS_System\\POS_System.API\\Controllers\\Selling",
+    "\\POS_System\\POS_System.Data",
     "\\POS_System\\POS_System.Domains\\Admin"
   ],
   "SelectedNode": "\\POS_System\\POS_System.sln",
