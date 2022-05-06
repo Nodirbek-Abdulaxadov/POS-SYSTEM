@@ -34,7 +34,7 @@ namespace POS_System.API.Controllers.Identity
 
         [HttpPost]
         [Route("add")]
-        public async Task<IActionResult> AddAdmin(AddAdminRole admin)
+        public async Task<IActionResult> AddAdmin(AddAdminViewModel admin)
         {
             var res = await _adminInterface.CreateAdminAsync((Admin)admin);
             return Ok(res);

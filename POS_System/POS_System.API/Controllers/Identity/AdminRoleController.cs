@@ -33,9 +33,9 @@ namespace POS_System.API.Controllers.Identity
         }
         [HttpPost]
         [Route("add")]
-        public async Task<IActionResult> AddAdminRole(AdminRole adminRole)
+        public async Task<IActionResult> AddAdminRole(AddAdminRoleViewModel adminRole)
         {
-            var res = await _roleInterface.AddAdminRoleAsync(adminRole);
+            var res = await _roleInterface.AddAdminRoleAsync((AdminRole)adminRole);
             return Ok(res);
         }
 
