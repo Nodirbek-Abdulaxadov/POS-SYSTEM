@@ -15,6 +15,7 @@ namespace POS_System.Domains.Report
         public DateTime EndTime { get; set; }
         public double TotalIncomingPrice { get; set; }
         public double TotalSellingPrice { get; set; }
+        //sof foyda
         public double NetProfit { get; set; }
     }
 }

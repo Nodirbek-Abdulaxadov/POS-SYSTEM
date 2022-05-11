@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "DateTimeHelper/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/DateTimeHelper.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/DateTimeHelper.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -281,6 +290,18 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "WorkWithDateTimes/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "DateTimeHelper": "1.0.0"
+        },
+        "compile": {
+          "lib/net6.0/WorkWithDateTimes.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/WorkWithDateTimes.dll": {}
+        }
+      },
       "POS_System.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -344,6 +365,18 @@
     }
   },
   "libraries": {
+    "DateTimeHelper/1.0.0": {
+      "sha512": "2TmNZye4vaFSXXrNG2m1oz/cNmR5Gltn7tWzcO92mcfgvhgh+gGU4irIn6Vm85qDzMKQJ1acukdi5nMG7r3mLA==",
+      "type": "package",
+      "path": "datetimehelper/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "datetimehelper.1.0.0.nupkg.sha512",
+        "datetimehelper.nuspec",
+        "lib/netcoreapp3.1/DateTimeHelper.dll"
+      ]
+    },
     "Humanizer.Core/2.8.26": {
       "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "type": "package",
@@ -791,6 +824,20 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "WorkWithDateTimes/1.0.0": {
+      "sha512": "7M6ztlL5oPVcj6JLnnm9ORg76SecI51oAp04MAAE3QEqAzEnnOyG0V06Mf7ExcwFYdyyBv9EGYVXksH/C6w21w==",
+      "type": "package",
+      "path": "workwithdatetimes/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "1898373.png",
+        "lib/net6.0/WorkWithDateTimes.dll",
+        "lib/net6.0/WorkWithDateTimes.runtimeconfig.json",
+        "workwithdatetimes.1.0.0.nupkg.sha512",
+        "workwithdatetimes.nuspec"
+      ]
+    },
     "POS_System.Data/1.0.0": {
       "type": "project",
       "path": "../POS_System.Data/POS_System.Data.csproj",
@@ -818,7 +865,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.4",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.4",
-      "POS_System.Repositories >= 1.0.0"
+      "POS_System.Repositories >= 1.0.0",
+      "WorkWithDateTimes >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -888,6 +936,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[6.0.4, )"
+          },
+          "WorkWithDateTimes": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [

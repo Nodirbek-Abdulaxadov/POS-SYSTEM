@@ -67,6 +67,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[6.0.4, )"
+            },
+            "WorkWithDateTimes": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [
