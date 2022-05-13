@@ -1,4 +1,5 @@
-﻿using System;
+﻿using POS_System.ViewModels.Selling;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -17,5 +18,16 @@ namespace POS_System.Domains.Inventory
         public string? Adress { get; set; }
         [Required]
         public string? PhoneNumber { get; set; }
+
+        public static explicit operator Supplier(AddSupplierViewModel v)
+        {
+            return new Supplier
+            {
+                Id = Guid.NewGuid(),
+                CompanyName = v.CompanyName,
+                Adress = v.Adress,
+                PhoneNumber = v.PhoneNumber
+            };
+        }
     }
 }
