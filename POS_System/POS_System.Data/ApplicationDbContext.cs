@@ -2,6 +2,7 @@
 using POS_System.Domains.Inventory;
 using POS_System.Domains.Report;
 using POS_System.Domains.Selling;
+using POS_System.ViewModels.Selling;
 using System;
 using System.Collections.Generic;
 using System.Linq;

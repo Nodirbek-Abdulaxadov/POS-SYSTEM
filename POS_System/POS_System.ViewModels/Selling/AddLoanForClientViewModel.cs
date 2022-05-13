@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace POS_System.ViewModels.Selling
 {
-    internal class AddLoanForClientViewModel
+    public class AddLoanForClientViewModel
     {
     }
 }
