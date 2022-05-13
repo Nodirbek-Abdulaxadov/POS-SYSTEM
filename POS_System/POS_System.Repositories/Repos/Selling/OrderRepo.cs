@@ -19,7 +19,7 @@ namespace POS_System.Repositories.Repos.Selling
             _dbContext = dbContext;
         }
 
-        public Task<Order> AddOrderAsync(Order order)
+        public Task<AddOrderViewModel> AddOrderAsync(AddOrderViewModel order)
         {
             _dbContext.Orders.Add(order);
             _dbContext.SaveChanges();
@@ -33,13 +33,13 @@ namespace POS_System.Repositories.Repos.Selling
             return Task.CompletedTask;
         }
 
-        public Task<Order> GetOrderAsync(Guid orderId) =>
+        public Task<AddOrderViewModel> GetOrderAsync(Guid orderId) =>
             _dbContext.Orders.FirstOrDefaultAsync(p => p.Id == orderId);
 
-        public Task<List<Order>> GetOrdersAsync() =>
+        public Task<List<AddOrderViewModel>> GetOrdersAsync() =>
             _dbContext.Orders.ToListAsync();
 
-        public Task<Order> UpdateOrderAsync(Order order)
+        public Task<AddOrderViewModel> UpdateOrderAsync(AddOrderViewModel order)
         {
             _dbContext.Orders.Update(order);
             _dbContext.SaveChanges();

@@ -38,7 +38,7 @@ namespace POS_System.API.Controllers.Identity
 
         [HttpPost]
         [Route("add")]
-        public async Task<IActionResult> AddCategory(AddCategoryViewModel category)
+        public async Task<IActionResult> AddCategory(AddClientViewModel category)
         {
             var res = await _catagoryInterface.AddCategoryAsync((Category)category);
             return Ok(res);

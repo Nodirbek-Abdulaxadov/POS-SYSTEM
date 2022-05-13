@@ -71,4 +71,3 @@ namespace POS_System.API.Controllers.Identity
 
     }
 }
-
