@@ -18,7 +18,7 @@ namespace POS_System.Domains.Admin
         [Required]
         public Guid AdminRoleId { get; set; }
 
-        public static explicit operator Admin(AddAdminRole viewModel)
+        public static explicit operator Admin(AddAdminViewModel viewModel)
         {
             return new Admin()
             {
@@ -28,14 +28,6 @@ namespace POS_System.Domains.Admin
                 Adress = viewModel.Adress,
                 Password = viewModel.Password,
                 AdminRoleId = viewModel.AdminRoleId
-            };
-        }
-
-        public static explicit operator AddAdminRole(Admin viewModel)
-        {
-            return new AddAdminRole()
-            {
-
             };
         }
     }

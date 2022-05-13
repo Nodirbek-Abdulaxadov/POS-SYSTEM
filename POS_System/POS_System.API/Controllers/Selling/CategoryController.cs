@@ -5,6 +5,7 @@ using POS_System.Domains.Selling;
 using POS_System.Repositories.Interfaces.Identity;
 using POS_System.Repositories.Interfaces.Selling;
 using POS_System.ViewModels.Admin;
+using POS_System.ViewModels.Selling;
 
 namespace POS_System.API.Controllers.Identity
 {
@@ -37,12 +38,10 @@ namespace POS_System.API.Controllers.Identity
 
         [HttpPost]
         [Route("add")]
-        public async Task<IActionResult> AddCategory(Category category)
+        public async Task<IActionResult> AddCategory(AddCategoryViewModel category)
         {
-            var res = await _catagoryInterface.AddCategoryAsync(category);
+            var res = await _catagoryInterface.AddCategoryAsync((Category)category);
             return Ok(res);
-
-
         }
 
         [HttpPut]
