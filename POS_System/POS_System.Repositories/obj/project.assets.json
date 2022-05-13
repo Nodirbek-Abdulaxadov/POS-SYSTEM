@@ -802,19 +802,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\MRTMTex00051\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj",
+      "projectUniqueName": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj",
       "projectName": "POS_System.Repositories",
-      "projectPath": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Repositories\\obj\\",
+      "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj",
+      "packagesPath": "C:\\Users\\MRTMTex00051\\.nuget\\packages\\",
+      "outputPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MRTMTex00051\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -828,11 +828,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Data\\POS_System.Data.csproj"
+            "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {
+              "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Data\\POS_System.Data.csproj"
             },
-            "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
+            "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
+              "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
             }
           }
         }
@@ -886,13 +886,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\User\\Desktop\\New folder\\Pos\\POS_System\\POS_System.Repositories\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
