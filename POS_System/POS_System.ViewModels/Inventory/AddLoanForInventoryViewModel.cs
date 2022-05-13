@@ -19,5 +19,15 @@ namespace POS_System.Domains.Admin
         public bool IsPaid { get; set; }
         public Guid SupplierId { get; set; }
         public Guid TransactionId { get; set; }
+        public Supplier Supplier { get; set; }
+
+        public static explicit operator LoanForInventory(AddLoanForInventoryViewModel v)
+        {
+            return new LoanForInventory
+            {
+                Id == Guid.NewGuid(),
+
+            };
+        }
     }
 }

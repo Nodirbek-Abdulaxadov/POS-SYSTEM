@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.API\\POS_System.API.csproj": {}
   },
   "projects": {
@@ -12,13 +13,30 @@
         "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.API\\POS_System.API.csproj",
         "packagesPath": "C:\\Users\\MRTMTex00135\\.nuget\\packages\\",
         "outputPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.API\\obj\\",
+=======
+    "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.API\\POS_System.API.csproj": {}
+  },
+  "projects": {
+    "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.API\\POS_System.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.API\\POS_System.API.csproj",
+        "projectName": "POS_System.API",
+        "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.API\\POS_System.API.csproj",
+        "packagesPath": "C:\\Users\\MRTMTex00051\\.nuget\\packages\\",
+        "outputPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.API\\obj\\",
+>>>>>>> 34320eff1e5c6e5f522f1fbd7f4ecf887d85b43b
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\MRTMTex00135\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+          "C:\\Users\\MRTMTex00051\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 34320eff1e5c6e5f522f1fbd7f4ecf887d85b43b
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,6 +50,7 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {
                 "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Data\\POS_System.Data.csproj"
               },
@@ -43,6 +62,19 @@
               },
               "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
                 "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj"
+=======
+              "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {
+                "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Data\\POS_System.Data.csproj"
+              },
+              "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
+                "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
+              },
+              "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj": {
+                "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj"
+              },
+              "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
+                "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj"
+>>>>>>> 34320eff1e5c6e5f522f1fbd7f4ecf887d85b43b
               }
             }
           }
@@ -108,6 +140,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -116,13 +149,27 @@
         "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Data\\POS_System.Data.csproj",
         "packagesPath": "C:\\Users\\MRTMTex00135\\.nuget\\packages\\",
         "outputPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Data\\obj\\",
+=======
+    "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Data\\POS_System.Data.csproj",
+        "projectName": "POS_System.Data",
+        "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Data\\POS_System.Data.csproj",
+        "packagesPath": "C:\\Users\\MRTMTex00051\\.nuget\\packages\\",
+        "outputPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Data\\obj\\",
+>>>>>>> 34320eff1e5c6e5f522f1fbd7f4ecf887d85b43b
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\MRTMTex00135\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+          "C:\\Users\\MRTMTex00051\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 34320eff1e5c6e5f522f1fbd7f4ecf887d85b43b
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -136,8 +183,13 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
                 "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
+=======
+              "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
+                "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
+>>>>>>> 34320eff1e5c6e5f522f1fbd7f4ecf887d85b43b
               }
             }
           }
@@ -192,6 +244,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -200,13 +253,27 @@
         "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj",
         "packagesPath": "C:\\Users\\MRTMTex00135\\.nuget\\packages\\",
         "outputPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Domains\\obj\\",
+=======
+    "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj",
+        "projectName": "POS_System.Domains",
+        "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj",
+        "packagesPath": "C:\\Users\\MRTMTex00051\\.nuget\\packages\\",
+        "outputPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\obj\\",
+>>>>>>> 34320eff1e5c6e5f522f1fbd7f4ecf887d85b43b
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\MRTMTex00135\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+          "C:\\Users\\MRTMTex00051\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 34320eff1e5c6e5f522f1fbd7f4ecf887d85b43b
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -220,8 +287,13 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
                 "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj"
+=======
+              "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
+                "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj"
+>>>>>>> 34320eff1e5c6e5f522f1fbd7f4ecf887d85b43b
               }
             }
           }
@@ -276,6 +348,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -284,13 +357,27 @@
         "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj",
         "packagesPath": "C:\\Users\\MRTMTex00135\\.nuget\\packages\\",
         "outputPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Repositories\\obj\\",
+=======
+    "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj",
+        "projectName": "POS_System.Repositories",
+        "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj",
+        "packagesPath": "C:\\Users\\MRTMTex00051\\.nuget\\packages\\",
+        "outputPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Repositories\\obj\\",
+>>>>>>> 34320eff1e5c6e5f522f1fbd7f4ecf887d85b43b
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\MRTMTex00135\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+          "C:\\Users\\MRTMTex00051\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 34320eff1e5c6e5f522f1fbd7f4ecf887d85b43b
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -304,11 +391,19 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {
                 "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Data\\POS_System.Data.csproj"
               },
               "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
                 "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
+=======
+              "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {
+                "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Data\\POS_System.Data.csproj"
+              },
+              "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
+                "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
+>>>>>>> 34320eff1e5c6e5f522f1fbd7f4ecf887d85b43b
               }
             }
           }
@@ -363,6 +458,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -371,13 +467,27 @@
         "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj",
         "packagesPath": "C:\\Users\\MRTMTex00135\\.nuget\\packages\\",
         "outputPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.ViewModels\\obj\\",
+=======
+    "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj",
+        "projectName": "POS_System.ViewModels",
+        "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\MRTMTex00051\\.nuget\\packages\\",
+        "outputPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\obj\\",
+>>>>>>> 34320eff1e5c6e5f522f1fbd7f4ecf887d85b43b
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\MRTMTex00135\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+          "C:\\Users\\MRTMTex00051\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 34320eff1e5c6e5f522f1fbd7f4ecf887d85b43b
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
