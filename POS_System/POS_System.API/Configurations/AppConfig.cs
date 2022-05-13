@@ -1,4 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using POS_System.BL.Interfaces;
+using POS_System.BL.Repos;
 using POS_System.Data;
 using POS_System.Repositories.Interfaces.Identity;
 using POS_System.Repositories.Interfaces.Inventory;
@@ -32,6 +34,7 @@ namespace POS_System.API.Configurations
             services.AddTransient<ITransactionInterface, TransactionRepo>();
             services.AddTransient<ISellingProccessInterface, SellingProccessRepo>();
             services.AddTransient<ITransactionProccessInterface, TransactionProccessRepo>();
+            services.AddTransient<ISellingReportInterface, SellingReportRepo>();
             
         }
 

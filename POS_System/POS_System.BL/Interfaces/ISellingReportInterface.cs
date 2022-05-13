@@ -12,7 +12,7 @@ namespace POS_System.BL.Interfaces
         //boshidan oxirigacha
         Task<MainReport> AllSellingReport();
         //sanadan sanagacha hisobot
-        Task<MainReport> AllSellingReport(DateOnly startDate, DateOnly endDate);
+        Task<MainReport> AllSellingReport(string startDate, string endDate);
         //nomi bo'yicha departmentning umumiy hisoboti
         Task<MainReport> AllSellingReportByDepartmentName(string departmentName);
         //barcha departmentlarning kunlik hisoboti

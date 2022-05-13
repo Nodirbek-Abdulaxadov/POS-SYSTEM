@@ -13,6 +13,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "6.0.4",
           "Newtonsoft.Json": "13.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4",
+          "POS_System.BL": "1.0.0",
           "POS_System.Data": "1.0.0",
           "POS_System.Domains": "1.0.0",
           "POS_System.Repositories": "1.0.0",
@@ -21,6 +22,14 @@
         },
         "runtime": {
           "POS_System.API.dll": {}
+        }
+      },
+      "DateTimeHelper/1.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/DateTimeHelper.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -230,6 +239,28 @@
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "WorkWithDateTimes/1.0.0": {
+        "dependencies": {
+          "DateTimeHelper": "1.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/WorkWithDateTimes.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "POS_System.BL/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.4",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4",
+          "POS_System.Repositories": "1.0.0",
+          "WorkWithDateTimes": "1.0.0"
+        },
+        "runtime": {
+          "POS_System.BL.dll": {}
+        }
+      },
       "POS_System.Data/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.4",
@@ -277,6 +308,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "DateTimeHelper/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2TmNZye4vaFSXXrNG2m1oz/cNmR5Gltn7tWzcO92mcfgvhgh+gGU4irIn6Vm85qDzMKQJ1acukdi5nMG7r3mLA==",
+      "path": "datetimehelper/1.0.0",
+      "hashPath": "datetimehelper.1.0.0.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
@@ -473,6 +511,18 @@
       "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "WorkWithDateTimes/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7M6ztlL5oPVcj6JLnnm9ORg76SecI51oAp04MAAE3QEqAzEnnOyG0V06Mf7ExcwFYdyyBv9EGYVXksH/C6w21w==",
+      "path": "workwithdatetimes/1.0.0",
+      "hashPath": "workwithdatetimes.1.0.0.nupkg.sha512"
+    },
+    "POS_System.BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "POS_System.Data/1.0.0": {
       "type": "project",
