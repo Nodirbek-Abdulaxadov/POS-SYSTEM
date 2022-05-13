@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POS_System.ViewModels.Selling
+namespace POS_System.Domains.Admin
 {
-    public class AddLoanForClientViewModel
+    internal class Class134
     {
     }
 }

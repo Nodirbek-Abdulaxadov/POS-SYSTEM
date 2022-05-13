@@ -5,7 +5,6 @@ using POS_System.Domains.Selling;
 using POS_System.Repositories.Interfaces.Identity;
 using POS_System.Repositories.Interfaces.Selling;
 using POS_System.ViewModels.Admin;
-using POS_System.ViewModels.Selling;
 
 namespace POS_System.API.Controllers.Identity
 {
@@ -38,9 +37,9 @@ namespace POS_System.API.Controllers.Identity
 
         [HttpPost]
         [Route("add")]
-        public async Task<IActionResult> AddClient(AddClientViewModel client)
+        public async Task<IActionResult> AddClient(Client client)
         {
-            var res = await _clientInterface.AddClientAsync((Client)client);
+            var res = await _clientInterface.AddClientAsync(client);
             return Ok(res);
 
 

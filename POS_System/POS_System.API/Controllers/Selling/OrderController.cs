@@ -37,7 +37,7 @@ namespace POS_System.API.Controllers.Identity
 
         [HttpPost]
         [Route("add")]
-        public async Task<IActionResult> AddOrder(AddOrderViewModel order)
+        public async Task<IActionResult> AddOrder(Order order)
         {
             var res = await _orderInterface.AddOrderAsync(order);
             return Ok(res);
@@ -49,7 +49,7 @@ namespace POS_System.API.Controllers.Identity
 
 
         [Route("update")]
-        public async Task<IActionResult> UpdateOrder(AddOrderViewModel order)
+        public async Task<IActionResult> UpdateOrder(Order order)
         {
             order = await _orderInterface.UpdateOrderAsync(order);
             return Ok(order);
