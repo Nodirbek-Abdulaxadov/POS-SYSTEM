@@ -7,7 +7,7 @@ namespace POS_System.Domains.Selling
         [Key, Required]
         public Guid Id { get; set; }
         [Required]
-        public string Date { get; set; }
+        public DateTime Date { get; set; }
         [Required]
         public double TotalIncomingPrice { get; set; }
         [Required]

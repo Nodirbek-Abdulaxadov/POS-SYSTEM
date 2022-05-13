@@ -2,9 +2,11 @@
 using POS_System.Data;
 using POS_System.Repositories.Interfaces.Identity;
 using POS_System.Repositories.Interfaces.Inventory;
+using POS_System.Repositories.Interfaces.Report;
 using POS_System.Repositories.Interfaces.Selling;
 using POS_System.Repositories.Repos.Identity;
 using POS_System.Repositories.Repos.Inventory;
+using POS_System.Repositories.Repos.Report;
 using POS_System.Repositories.Repos.Selling;
 
 namespace POS_System.API.Configurations
@@ -32,6 +34,7 @@ namespace POS_System.API.Configurations
             services.AddTransient<ITransactionInterface, TransactionRepo>();
             services.AddTransient<ISellingProccessInterface, SellingProccessRepo>();
             services.AddTransient<ITransactionProccessInterface, TransactionProccessRepo>();
+            services.AddTransient<IMainReportInterface, MainReportRepo>();
             
         }
 
