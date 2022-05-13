@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POS_System.Domains.Admin
+namespace POS_System.ViewModels.Selling
 {
-    internal class Class134
+    internal class OrderViewModel
     {
     }
 }

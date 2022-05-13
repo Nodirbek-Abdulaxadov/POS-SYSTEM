@@ -21,5 +21,10 @@ namespace POS_System.Domains.Selling
                 DepartmentId = viewModel.DepartmentId
             };
         }
+
+        public static explicit operator Category(AddClientViewModel v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
