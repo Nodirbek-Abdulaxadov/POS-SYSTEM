@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using POS_System.Data;
+using POS_System.Domains.Pagination;
 using POS_System.Domains.Selling;
 using POS_System.Repositories.Interfaces.Selling;
 using System;
@@ -19,7 +20,7 @@ namespace POS_System.Repositories.Repos.Selling
             _dbContext = dbContext;
         }
 
-        public Task<AddOrderViewModel> AddOrderAsync(AddOrderViewModel order)
+        public Task<Order> AddOrderAsync(Order order)
         {
             _dbContext.Orders.Add(order);
             _dbContext.SaveChanges();
@@ -33,13 +34,18 @@ namespace POS_System.Repositories.Repos.Selling
             return Task.CompletedTask;
         }
 
-        public Task<AddOrderViewModel> GetOrderAsync(Guid orderId) =>
+        public Task<Order> GetOrderAsync(Guid orderId) =>
             _dbContext.Orders.FirstOrDefaultAsync(p => p.Id == orderId);
 
-        public Task<List<AddOrderViewModel>> GetOrdersAsync() =>
+        public Task<PagedList<Order>> GetOrders(QueryStringParameters parameters)
+        {
+            return Task.FromResult(PagedList<Order>.ToPagedList(_dbContext.Orders, parameters.PageNumber, parameters.PageSize));
+        }
+
+        public Task<List<Order>> GetOrdersAsync() =>
             _dbContext.Orders.ToListAsync();
 
-        public Task<AddOrderViewModel> UpdateOrderAsync(AddOrderViewModel order)
+        public Task<Order> UpdateOrderAsync(Order order)
         {
             _dbContext.Orders.Update(order);
             _dbContext.SaveChanges();

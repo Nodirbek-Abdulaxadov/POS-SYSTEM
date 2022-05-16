@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using POS_System.BL.Extensions;
 using POS_System.Domains.Admin;
+using POS_System.Domains.Pagination;
 using POS_System.Domains.Selling;
 using POS_System.Repositories.Interfaces.Identity;
 using POS_System.Repositories.Interfaces.Selling;
@@ -35,10 +37,39 @@ namespace POS_System.API.Controllers.Identity
             return Ok(json);
         }
 
+        [HttpGet]
+        [Route("get")]
+        public async Task<IActionResult> Get([FromQuery] QueryStringParameters parameters)
+        {
+            var listofOrders = await _orderInterface.GetOrders(parameters);
+
+            var metaData = new
+            {
+                listofOrders.TotalCount,
+                listofOrders.PageSize,
+                listofOrders.CurrentPage,
+                listofOrders.HasNext,
+                listofOrders.HasPrevious
+            };
+
+            Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(metaData));
+
+            var json = JsonConvert.SerializeObject(listofOrders, Formatting.Indented,
+                    new JsonSerializerSettings
+                    {
+                        ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+                    });
+
+            return Ok(json);
+        }
+
         [HttpPost]
         [Route("add")]
-        public async Task<IActionResult> AddOrder(AddOrderViewModel order)
+        public async Task<IActionResult> AddOrder(Order order)
         {
+            Date date1 = new Date(DateTime.Now);
+            order.Date = date1.ToStringDate(date1, '/');
+
             var res = await _orderInterface.AddOrderAsync(order);
             return Ok(res);
 
@@ -49,7 +80,7 @@ namespace POS_System.API.Controllers.Identity
 
 
         [Route("update")]
-        public async Task<IActionResult> UpdateOrder(AddOrderViewModel order)
+        public async Task<IActionResult> UpdateOrder(Order order)
         {
             order = await _orderInterface.UpdateOrderAsync(order);
             return Ok(order);

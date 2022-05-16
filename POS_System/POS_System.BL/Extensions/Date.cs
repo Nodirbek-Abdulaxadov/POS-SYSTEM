@@ -27,5 +27,12 @@
         {
             return $"{date.Day}{formatChar}{date.Month}{formatChar}{date.Year}";
         }
+
+        public string DateTimeToString(DateTime dateTime)
+        {
+            string[] vs = dateTime.ToString().Split(" ");
+
+            return vs[0];
+        }
     }
 }

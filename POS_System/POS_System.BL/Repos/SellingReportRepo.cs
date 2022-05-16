@@ -23,13 +23,13 @@ namespace POS_System.BL.Repos
         {
             var ordersList = dbContext.Orders.ToList();
             double totalIncoming = 0,  totalSelling = 0, netProfit = 0;
-            string firstDate = DateTime.MaxValue.ToString().Split(" ")[0];
+            string firstDate = ordersList[0].Date;
             string lastDate = DateTime.Now.ToString().Split(" ")[0];
             foreach (var order in ordersList)
             {
                 string orderDate = order.Date.ToString().Split(" ")[0];
                 DateOperations dataOperations = new DateOperations();
-                if (dataOperations.IsEarlier(firstDate, orderDate))
+                if (dataOperations.IsLater(firstDate, orderDate))
                 {
                     firstDate = orderDate;
                 }
@@ -41,8 +41,8 @@ namespace POS_System.BL.Repos
             MainReport report = new MainReport()
             {
                 Id = Guid.NewGuid(),
-                StartTime = DateTime.Parse(firstDate),
-                EndTime = DateTime.Parse(lastDate),
+                StartTime = firstDate,
+                EndTime = lastDate,
                 TotalIncomingPrice = totalIncoming,
                 TotalSellingPrice = totalSelling,
                 NetProfit = netProfit
@@ -51,9 +51,34 @@ namespace POS_System.BL.Repos
             return Task.FromResult(report);
         }
 
-        public Task<MainReport> AllSellingReport(DateOnly startDate, DateOnly endDate)
+        public Task<MainReport> AllSellingReport(string startDate, string endDate)
         {
-            throw new NotImplementedException();
+            DateOperations dataOperations = new DateOperations();
+            var ordersList = dbContext.Orders.ToList();
+            double totalIncoming = 0, totalSelling = 0, netProfit = 0;
+            
+            foreach (var order in ordersList)
+            {
+                if (dataOperations.IsEarlierOrEqual(startDate, order.Date) && dataOperations.IsLaterOrEqual(endDate, order.Date))
+                {
+                    string orderDate = order.Date.ToString().Split(" ")[0];
+                    totalIncoming += order.TotalIncomingPrice;
+                    totalSelling += order.TotalSellingPrice;
+                }
+            }
+            netProfit = totalSelling - totalIncoming;
+
+            MainReport report = new MainReport()
+            {
+                Id = Guid.NewGuid(),
+                StartTime = startDate,
+                EndTime = endDate,
+                TotalIncomingPrice = totalIncoming,
+                TotalSellingPrice = totalSelling,
+                NetProfit = netProfit
+            };
+
+            return Task.FromResult(report);
         }
 
         public Task<MainReport> AllSellingReportByDepartmentName(string departmentName)
