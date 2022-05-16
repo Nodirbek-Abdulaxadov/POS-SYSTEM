@@ -11,17 +11,21 @@ namespace POS_System.BL.Interfaces
     {
         //boshidan oxirigacha
         Task<MainReport> AllSellingReport();
+        //bugunlik barcha hisobot
+        Task<MainReport> TodaysAllSellingReport();
+        //kunlik barcha hisobot
+        Task<MainReport> DailyAllSellingReport(string date);
         //sanadan sanagacha hisobot
         Task<MainReport> AllSellingReport(string startDate, string endDate);
         //nomi bo'yicha departmentning umumiy hisoboti
         Task<MainReport> AllSellingReportByDepartmentName(string departmentName);
         //barcha departmentlarning kunlik hisoboti
-        Task<MainReport> DailyAllDepartmentSellingReport();
+        Task<MainReport> TodaysAllDepartmentSellingReport(string departmentName);
         //nomi bo'yicha departmentning istalgan kunlik hisoboti
-        Task<MainReport> DailyDepartmentSellingReport(string departmentName, DateOnly date);
+        Task<MainReport> DailyDepartmentSellingReport(string departmentName, string date);
         //nomi bo'yicha departmentning bugungi hisoboti
         Task<MainReport> TodaysSellingReportByDepartmentName(string departmentName);        
-        Task<MainReport> AllSellingReportByDepartmentName(string departmentName, DateOnly startDate, DateOnly endDate);
+        Task<MainReport> AllSellingReportByDepartmentName(string departmentName, string startDate, string endDate);
 
     }
 }

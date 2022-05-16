@@ -11,6 +11,8 @@ namespace POS_System.Domains.Selling
         [Required]
         public double Quantity { get; set; }
         [Required]
+        public string Date { get; set; }
+        [Required]
         public double ProccessIncomingPrice { get; set; }
         [Required]
         public double ProccessSellingPrice { get; set; }

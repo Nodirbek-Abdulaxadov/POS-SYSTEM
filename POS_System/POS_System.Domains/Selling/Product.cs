@@ -27,6 +27,8 @@ namespace POS_System.Domains.Selling
         [Required]
         public Guid CategoryId { get; set; }
         [Required]
+        public Guid DepartmentId { get; set; }
+        [Required]
         public Guid AdminId { get; set; }
     }
 }

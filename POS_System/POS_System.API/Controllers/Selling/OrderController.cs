@@ -1,12 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using POS_System.BL.Extensions;
-using POS_System.Domains.Admin;
 using POS_System.Domains.Pagination;
 using POS_System.Domains.Selling;
-using POS_System.Repositories.Interfaces.Identity;
 using POS_System.Repositories.Interfaces.Selling;
-using POS_System.ViewModels.Admin;
 
 namespace POS_System.API.Controllers.Identity
 {

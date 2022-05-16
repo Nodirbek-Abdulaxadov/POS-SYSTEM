@@ -12,8 +12,8 @@ using POS_System.Data;
 namespace POS_System.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220513121159_asbkhdj")]
-    partial class asbkhdj
+    [Migration("20220516125141_departmentId")]
+    partial class departmentId
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -128,14 +128,16 @@ namespace POS_System.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<DateTime>("EndTime")
-                        .HasColumnType("timestamp with time zone");
+                    b.Property<string>("EndTime")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<double>("NetProfit")
                         .HasColumnType("double precision");
 
-                    b.Property<DateTime>("StartTime")
-                        .HasColumnType("timestamp with time zone");
+                    b.Property<string>("StartTime")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<double>("TotalIncomingPrice")
                         .HasColumnType("double precision");
@@ -243,8 +245,12 @@ namespace POS_System.Data.Migrations
                     b.Property<Guid>("AdminId")
                         .HasColumnType("uuid");
 
-                    b.Property<DateTime>("Date")
-                        .HasColumnType("timestamp with time zone");
+                    b.Property<string>("Date")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("DepartmentId")
+                        .HasColumnType("uuid");
 
                     b.Property<bool>("HasLoan")
                         .HasColumnType("boolean");
@@ -281,6 +287,9 @@ namespace POS_System.Data.Migrations
                         .HasColumnType("text");
 
                     b.Property<Guid>("CategoryId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("DepartmentId")
                         .HasColumnType("uuid");
 
                     b.Property<string>("Description")
