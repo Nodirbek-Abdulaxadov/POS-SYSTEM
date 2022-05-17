@@ -35,3 +35,26 @@ D:\Visual Studio Project\POS-System\POS_System\POS_System.BL\bin\Debug\net6.0\PO
 D:\Visual Studio Project\POS-System\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.Domains.pdb
 D:\Visual Studio Project\POS-System\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.ViewModels.pdb
 D:\Visual Studio Project\POS-System\POS_System\POS_System.BL\obj\Debug\net6.0\POS_System.BL.csproj.CopyComplete
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.BL.deps.json
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.BL.runtimeconfig.json
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.BL.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.BL.pdb
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.Data.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.Domains.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.Repositories.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.ViewModels.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.Repositories.pdb
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.Data.pdb
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.Domains.pdb
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.ViewModels.pdb
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\obj\Debug\net6.0\POS_System.BL.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\obj\Debug\net6.0\POS_System.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\obj\Debug\net6.0\POS_System.BL.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\obj\Debug\net6.0\POS_System.BL.AssemblyInfo.cs
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\obj\Debug\net6.0\POS_System.BL.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\obj\Debug\net6.0\POS_System.BL.csproj.CopyComplete
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\obj\Debug\net6.0\POS_System.BL.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\obj\Debug\net6.0\refint\POS_System.BL.dll
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\obj\Debug\net6.0\POS_System.BL.pdb
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\obj\Debug\net6.0\POS_System.BL.genruntimeconfig.cache
+C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.BL\obj\Debug\net6.0\ref\POS_System.BL.dll
