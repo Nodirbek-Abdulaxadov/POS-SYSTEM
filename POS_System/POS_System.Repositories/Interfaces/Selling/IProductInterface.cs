@@ -10,6 +10,7 @@ namespace POS_System.Repositories.Interfaces.Selling
     public interface IProductInterface
     {
         Task<List<Product>> GetProductsAsync();
+        bool ProductExist(string name);
         Task<Product> GetProductAsync(Guid productId);
         Task<Product> AddProductAsync(Product product);
         Task<Product> UpdateProductAsync(Product product);

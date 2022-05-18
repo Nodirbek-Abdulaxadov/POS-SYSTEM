@@ -17,5 +17,13 @@ namespace POS_System.BL.Interfaces
         Task<MainReport> ProductLastYearlyReport(string productName);
         //berilgan muddat oralig'idagi hisobot
         Task<MainReport> ProductReport(string productName, string startDate, string endDate);
+        //oxirgi N kunlik hisobot
+        Task<MainReport> ProductLastNDaysReport(string productName, int N);
+        //oxirgi N haftalif hisobot
+        Task<MainReport> ProductLastNWeeksReport(string productName, int N);
+        //oxirgi N oylik hisobot
+        Task<MainReport> ProductLastNMonthsReport(string productName, int N);
+        //oxirgi N yillik hisobot
+        Task<MainReport> ProductLastNYearsReport(string productName, int N);
     }
 }

@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "D:\\POS\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj": {}
+  },
+  "projects": {
+    "D:\\POS\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\POS\\POS_System\\POS_System.Data\\POS_System.Data.csproj",
+        "projectName": "POS_System.Data",
+        "projectPath": "D:\\POS\\POS_System\\POS_System.Data\\POS_System.Data.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\POS\\POS_System\\POS_System.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 8a0c0daa03bcadd7ac1d794ef618226765efb8a6
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +45,13 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
                 "projectPath": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
+=======
+              "D:\\POS\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
+                "projectPath": "D:\\POS\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
+>>>>>>> 8a0c0daa03bcadd7ac1d794ef618226765efb8a6
               }
             }
           }
@@ -84,6 +106,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -95,6 +118,19 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "D:\\POS\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\POS\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj",
+        "projectName": "POS_System.Domains",
+        "projectPath": "D:\\POS\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\POS\\POS_System\\POS_System.Domains\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 8a0c0daa03bcadd7ac1d794ef618226765efb8a6
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,8 +144,13 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
                 "projectPath": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj"
+=======
+              "D:\\POS\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
+                "projectPath": "D:\\POS\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj"
+>>>>>>> 8a0c0daa03bcadd7ac1d794ef618226765efb8a6
               }
             }
           }
@@ -164,6 +205,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -175,6 +217,19 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "D:\\POS\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\POS\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj",
+        "projectName": "POS_System.Repositories",
+        "projectPath": "D:\\POS\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\POS\\POS_System\\POS_System.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 8a0c0daa03bcadd7ac1d794ef618226765efb8a6
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -188,11 +243,19 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {
                 "projectPath": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Data\\POS_System.Data.csproj"
               },
               "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
                 "projectPath": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
+=======
+              "D:\\POS\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {
+                "projectPath": "D:\\POS\\POS_System\\POS_System.Data\\POS_System.Data.csproj"
+              },
+              "D:\\POS\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
+                "projectPath": "D:\\POS\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
+>>>>>>> 8a0c0daa03bcadd7ac1d794ef618226765efb8a6
               }
             }
           }
@@ -247,6 +310,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -258,6 +322,19 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "D:\\POS\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\POS\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj",
+        "projectName": "POS_System.ViewModels",
+        "projectPath": "D:\\POS\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\POS\\POS_System\\POS_System.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 8a0c0daa03bcadd7ac1d794ef618226765efb8a6
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

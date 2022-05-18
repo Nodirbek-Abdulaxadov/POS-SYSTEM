@@ -6,6 +6,7 @@ using POS_System.Domains.Selling;
 using POS_System.Repositories.Interfaces.Identity;
 using POS_System.Repositories.Interfaces.Selling;
 using POS_System.ViewModels.Admin;
+using POS_System.ViewModels.Selling;
 
 namespace POS_System.API.Controllers.Identity
 {
@@ -38,9 +39,9 @@ namespace POS_System.API.Controllers.Identity
 
         [HttpPost]
         [Route("add")]
-        public async Task<IActionResult> AddDepartment(Department department)
+        public async Task<IActionResult> AddDepartment(AddDepartmentViewModel department)
         {
-            var res = await _departmentInterface.AddDepartmentAsync(department);
+            var res = await _departmentInterface.AddDepartmentAsync((Department)department);
             return Ok(res);
 
 

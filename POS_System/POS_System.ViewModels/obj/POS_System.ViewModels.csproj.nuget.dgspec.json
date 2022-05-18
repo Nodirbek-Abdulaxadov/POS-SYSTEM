@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "D:\\POS\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {}
+  },
+  "projects": {
+    "D:\\POS\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\POS\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj",
+        "projectName": "POS_System.ViewModels",
+        "projectPath": "D:\\POS\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\POS\\POS_System\\POS_System.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 8a0c0daa03bcadd7ac1d794ef618226765efb8a6
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

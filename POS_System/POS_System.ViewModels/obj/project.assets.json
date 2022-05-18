@@ -741,11 +741,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\hp\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\User\\.nuget\\packages\\": {}
+>>>>>>> 8a0c0daa03bcadd7ac1d794ef618226765efb8a6
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj",
       "projectName": "POS_System.ViewModels",
       "projectPath": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj",
@@ -754,6 +759,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "D:\\POS\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj",
+      "projectName": "POS_System.ViewModels",
+      "projectPath": "D:\\POS\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\POS\\POS_System\\POS_System.ViewModels\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 8a0c0daa03bcadd7ac1d794ef618226765efb8a6
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -818,5 +833,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\POS\\POS_System\\POS_System.ViewModels\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
