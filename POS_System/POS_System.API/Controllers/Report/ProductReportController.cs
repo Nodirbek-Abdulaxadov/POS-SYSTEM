@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using POS_System.BL.Interfaces;
 using POS_System.Domains.Selling;
+using POS_System.Repositories.Interfaces.Selling;
 
 namespace POS_System.API.Controllers.Report
 {
@@ -8,25 +9,32 @@ namespace POS_System.API.Controllers.Report
     public class ProductReportController: ControllerBase
     {
         private readonly IProductReportInterface reportInterface;
+        private readonly IProductInterface product;
 
-        public ProductReportController(IProductReportInterface reportInterface)
+        public ProductReportController(IProductReportInterface reportInterface,
+                                        IProductInterface product)
         {
             this.reportInterface = reportInterface;
+            this.product = product;
         }
         [HttpGet, Route("getallreport")]
-        public async Task<IActionResult> ProductAllReport(string productName)
+        public async Task<IActionResult> AllReport(string productName)
         {
-            Product product = new Product();
-            if(productName != product.Name)
+            if (await product.ProductExist(productName))
             {
                 return BadRequest();
             }
+            
             return Ok(await reportInterface.ProductAllReport(productName));
         }
         [HttpGet, Route("todaysreport")]
         public async Task<IActionResult> TodaysReport(string productName)
         {
-
+            if (await product.ProductExist(productName));
+            {
+                return BadRequest();
+            }
+            return Ok(await reportInterface.ProductTodaysReport(productName));
         }
     }
 }

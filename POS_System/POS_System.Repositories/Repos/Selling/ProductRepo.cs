@@ -38,10 +38,10 @@ namespace POS_System.Repositories.Repos.Selling
         public Task<List<Product>> GetProductsAsync() =>
             _dbContext.Products.ToListAsync();
 
-        public bool ProductExist(string name)
+        public Task<bool> ProductExist(string name)
         {
             var products = _dbContext.Products.FirstOrDefault(p => p.Name == name);
-            return products != null;
+            return Task.FromResult(products != null);
         }
 
         public Task<Product> UpdateProductAsync(Product product)

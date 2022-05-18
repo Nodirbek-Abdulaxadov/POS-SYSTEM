@@ -58,3 +58,12 @@ D:\POS\POS_System\POS_System.BL\obj\Debug\net6.0\refint\POS_System.BL.dll
 D:\POS\POS_System\POS_System.BL\obj\Debug\net6.0\POS_System.BL.pdb
 D:\POS\POS_System\POS_System.BL\obj\Debug\net6.0\POS_System.BL.genruntimeconfig.cache
 D:\POS\POS_System\POS_System.BL\obj\Debug\net6.0\ref\POS_System.BL.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.Data.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.Domains.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.Repositories.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.ViewModels.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.Repositories.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.Data.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.Domains.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.BL\bin\Debug\net6.0\POS_System.ViewModels.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.BL\obj\Debug\net6.0\POS_System.BL.csproj.CopyComplete
