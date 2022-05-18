@@ -870,19 +870,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MRTMTex00051\\.nuget\\packages\\": {}
+    "C:\\Users\\hp\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.BL\\POS_System.BL.csproj",
+      "projectUniqueName": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.BL\\POS_System.BL.csproj",
       "projectName": "POS_System.BL",
-      "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.BL\\POS_System.BL.csproj",
-      "packagesPath": "C:\\Users\\MRTMTex00051\\.nuget\\packages\\",
-      "outputPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.BL\\obj\\",
+      "projectPath": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.BL\\POS_System.BL.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.BL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MRTMTex00051\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -896,8 +896,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj": {
-              "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj"
+            "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj": {
+              "projectPath": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj"
             }
           }
         }
@@ -952,7 +952,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

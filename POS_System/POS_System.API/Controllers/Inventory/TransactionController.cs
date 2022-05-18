@@ -7,6 +7,7 @@ using POS_System.Repositories.Interfaces.Identity;
 using POS_System.Repositories.Interfaces.Inventory;
 using POS_System.Repositories.Interfaces.Selling;
 using POS_System.ViewModels.Admin;
+using POS_System.ViewModels.Inventory;
 
 namespace POS_System.API.Controllers.Identity
 {
@@ -39,9 +40,9 @@ namespace POS_System.API.Controllers.Identity
 
         [HttpPost]
         [Route("add")]
-        public async Task<IActionResult> AddTransacction(Transaction transaction)
+        public async Task<IActionResult> AddTransacction(AddTransactionViewModel transaction)
         {
-            var res = await _transactionInterface.AddTransactionAsync(transaction);
+            var res = await _transactionInterface.AddTransactionAsync((Transaction)transaction);
             return Ok(res);
         }
 
