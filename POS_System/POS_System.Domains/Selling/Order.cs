@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using POS_System.ViewModels.Selling;
+using System.ComponentModel.DataAnnotations;
 
 namespace POS_System.Domains.Selling
 {
@@ -20,5 +21,20 @@ namespace POS_System.Domains.Selling
         public Guid DepartmentId { get; set; }
         [Required]
         public Guid AdminId { get; set; }
+
+        public static explicit operator Order(AddOrderViewModel viewModel)
+        {
+            return new Order
+            {
+                Id = Guid.NewGuid(),
+                Date = viewModel.Date,
+                TotalIncomingPrice = viewModel.TotalIncomingPrice,
+                TotalSellingPrice = viewModel.TotalSellingPrice,
+                PaymentMehtod = viewModel.PaymentMehtod,
+                HasLoan = viewModel.HasLoan,
+                DepartmentId = viewModel.DepartmentId,
+                AdminId = viewModel.AdminId,
+            };
+        }
     }
 }

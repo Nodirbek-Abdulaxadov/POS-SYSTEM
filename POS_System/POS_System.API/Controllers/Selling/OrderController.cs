@@ -4,6 +4,7 @@ using POS_System.BL.Extensions;
 using POS_System.Domains.Pagination;
 using POS_System.Domains.Selling;
 using POS_System.Repositories.Interfaces.Selling;
+using POS_System.ViewModels.Selling;
 
 namespace POS_System.API.Controllers.Identity
 {
@@ -62,12 +63,12 @@ namespace POS_System.API.Controllers.Identity
 
         [HttpPost]
         [Route("add")]
-        public async Task<IActionResult> AddOrder(Order order)
+        public async Task<IActionResult> AddOrder(AddOrderViewModel order)
         {
             Date date1 = new Date(DateTime.Now);
             order.Date = date1.ToStringDate(date1, '/');
 
-            var res = await _orderInterface.AddOrderAsync(order);
+            var res = await _orderInterface.AddOrderAsync((Order)order);
             return Ok(res);
 
 
