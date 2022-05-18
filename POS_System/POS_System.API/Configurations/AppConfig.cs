@@ -35,6 +35,7 @@ namespace POS_System.API.Configurations
             services.AddTransient<ISellingProccessInterface, SellingProccessRepo>();
             services.AddTransient<ITransactionProccessInterface, TransactionProccessRepo>();
             services.AddTransient<ISellingReportInterface, SellingReportRepo>();
+            services.AddTransient<IProductReportInterface, ProductReportRepo>();
             
         }
 

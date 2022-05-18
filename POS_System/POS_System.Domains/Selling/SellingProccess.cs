@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using POS_System.ViewModels.Selling;
+using System.ComponentModel.DataAnnotations;
 
 namespace POS_System.Domains.Selling
 {
@@ -18,5 +19,19 @@ namespace POS_System.Domains.Selling
         public double ProccessSellingPrice { get; set; }
         [Required]
         public Guid OrderId { get; set; }
+
+        public static explicit operator SellingProccess(AddSellingProccessViewModel viewModel)
+        {
+            return new SellingProccess
+            {
+                Id = Guid.NewGuid(),
+                ProductId = viewModel.ProductId,
+                Quantity = viewModel.Quantity,
+                Date = viewModel.Date,
+                ProccessIncomingPrice = viewModel.ProccessIncomingPrice,
+                ProccessSellingPrice = viewModel.ProccessSellingPrice,
+                OrderId = viewModel.OrderId,
+            };
+        }
     }
 }

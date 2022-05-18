@@ -5,6 +5,7 @@ using POS_System.Domains.Selling;
 using POS_System.Repositories.Interfaces.Identity;
 using POS_System.Repositories.Interfaces.Selling;
 using POS_System.ViewModels.Admin;
+using POS_System.ViewModels.Selling;
 
 namespace POS_System.API.Controllers.Identity
 {
@@ -37,9 +38,9 @@ namespace POS_System.API.Controllers.Identity
 
         [HttpPost]
         [Route("add")]
-        public async Task<IActionResult> AddProduct(Product product)
+        public async Task<IActionResult> AddProduct(AddProductViewModel product)
         {
-            var res = await _productInterface.AddProductAsync(product);
+            var res = await _productInterface.AddProductAsync((Product)product);
             return Ok(res);
 
 
