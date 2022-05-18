@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using POS_System.Data;
+using POS_System.Domains.Pagination;
 using POS_System.Domains.Selling;
 using POS_System.Repositories.Interfaces.Selling;
 using System;
@@ -30,6 +31,31 @@ namespace POS_System.Repositories.Repos.Selling
             _dbContext.LoanForClients.Remove(_dbContext.LoanForClients.FirstOrDefault(p => p.Id == loanforclienId));
             _dbContext.SaveChanges();
             return Task.CompletedTask;
+        }
+
+        public Task<List<LoanForClient>> GetAllClientLoansByClientId(Guid id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<LoanForClient>> GetAllClientsLoans()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<PagedList<LoanForClient>> GetAllClientsLoansPaged()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<LoanForClient> GetClientLoanByClientId(Guid id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<LoanForClient> GetClientLoanByLoanId(Guid id)
+        {
+            throw new NotImplementedException();
         }
 
         public Task<LoanForClient> GetLoanForClientAsync(Guid loanforclientId) =>

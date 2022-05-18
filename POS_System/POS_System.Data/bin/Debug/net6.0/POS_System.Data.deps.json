@@ -223,20 +223,10 @@
       "POS_System.Domains/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.4",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4",
-          "POS_System.ViewModels": "1.0.0"
-        },
-        "runtime": {
-          "POS_System.Domains.dll": {}
-        }
-      },
-      "POS_System.ViewModels/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4"
         },
         "runtime": {
-          "POS_System.ViewModels.dll": {}
+          "POS_System.Domains.dll": {}
         }
       }
     }
@@ -395,11 +385,6 @@
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
     "POS_System.Domains/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "POS_System.ViewModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

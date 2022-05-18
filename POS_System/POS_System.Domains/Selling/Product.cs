@@ -1,5 +1,4 @@
-﻿using POS_System.ViewModels.Selling;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace POS_System.Domains.Selling
 {
@@ -31,25 +30,5 @@ namespace POS_System.Domains.Selling
         public Guid DepartmentId { get; set; }
         [Required]
         public Guid AdminId { get; set; }
-
-        public static explicit operator Product(AddProductViewModel viewMOdel)
-        {
-            return new Product
-            {
-                Id = Guid.NewGuid(),
-                Name = viewMOdel.Name,
-                Description = viewMOdel.Description,
-                IncomingPrice = viewMOdel.IncomingPrice,
-                SellingPrice = viewMOdel.SellingPrice,
-                ManufacturedDate = viewMOdel.ManufacturedDate,
-                ExpirationDate = viewMOdel.ExpirationDate,
-                Quantity = viewMOdel.Quantity,
-                BarCode = viewMOdel.BarCode,
-                AmountAlert = viewMOdel.AmountAlert,
-                CategoryId = viewMOdel.CategoryId,
-                DepartmentId = viewMOdel.DepartmentId,
-                AdminId = viewMOdel.AdminId,
-            };
-        }
     }
 }

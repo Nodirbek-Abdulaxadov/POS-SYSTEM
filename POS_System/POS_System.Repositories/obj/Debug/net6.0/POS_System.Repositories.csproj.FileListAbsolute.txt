@@ -36,8 +36,6 @@ D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\obj\Debug\net6.0\refi
 D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.pdb
 D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.genruntimeconfig.cache
 D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\obj\Debug\net6.0\ref\POS_System.Repositories.dll
-D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.ViewModels.dll
-D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.ViewModels.pdb
 C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.csproj.AssemblyReference.cache
 C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.AssemblyInfoInputs.cache

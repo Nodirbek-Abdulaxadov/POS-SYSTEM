@@ -36,15 +36,13 @@ namespace POS_System.API.Controllers.Identity
             return Ok(json);
         }
 
-        [HttpPost]
-        [Route("add")]
-        public async Task<IActionResult> AddProduct(AddProductViewModel product)
-        {
-            var res = await _productInterface.AddProductAsync((Product)product);
-            return Ok(res);
-
-
-        }
+        //[HttpPost]
+        //[Route("add")]
+        //public async Task<IActionResult> AddProduct(AddProductViewModel product)
+        //{
+        //    var res = await _productInterface.AddProductAsync((Product)product);
+        //    return Ok(res);
+        //}
 
         [HttpPut]
 

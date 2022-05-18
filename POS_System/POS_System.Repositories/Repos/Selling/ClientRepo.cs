@@ -38,6 +38,12 @@ namespace POS_System.Repositories.Repos.Selling
         public Task<List<Client>> GetClientsAsync() =>
             _dbContext.Clients.ToListAsync();
 
+        public Task<List<Client>> GetHasLoanClientsAsync()
+        {
+            return Task.FromResult(_dbContext.Clients
+                .Where(c => c.HasLoan == true).ToList());
+        }
+
         public Task<Client> UpdateClientAsync(Client client)
         {
             _dbContext.Clients.Update(client);

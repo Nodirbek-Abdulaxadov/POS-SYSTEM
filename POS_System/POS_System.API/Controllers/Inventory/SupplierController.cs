@@ -38,13 +38,13 @@ namespace POS_System.API.Controllers.Identity
             return Ok(json);
         }
 
-        [HttpPost]
-        [Route("add")]
-        public async Task<IActionResult> AddSupplier(AddSupplierViewModel supplier)
-        {
-            var res = await _supplierInterface.AddSupplierAsync((Supplier)supplier);
-            return Ok(res);
-        }
+        //[HttpPost]
+        //[Route("add")]
+        //public async Task<IActionResult> AddSupplier(AddSupplierViewModel supplier)
+        //{
+        //    var res = await _supplierInterface.AddSupplierAsync((Supplier)supplier);
+        //    return Ok(res);
+        //}
 
         [HttpPut]
 
