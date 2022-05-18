@@ -129,7 +129,3 @@ D:\Visual Studio Project\POS-System\POS_System\POS_System.API\bin\Debug\net6.0\D
 D:\Visual Studio Project\POS-System\POS_System\POS_System.API\bin\Debug\net6.0\WorkWithDateTimes.dll
 D:\Visual Studio Project\POS-System\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.BL.dll
 D:\Visual Studio Project\POS-System\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.BL.pdb
-C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\DateTimeHelper.dll
-C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\WorkWithDateTimes.dll
-C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.BL.dll
-C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.API\bin\Debug\net6.0\POS_System.BL.pdb

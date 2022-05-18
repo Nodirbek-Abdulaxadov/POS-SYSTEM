@@ -62,7 +62,7 @@ namespace POS_System.API.Controllers.Identity
 
         [HttpPost]
         [Route("add")]
-        public async Task<IActionResult> AddOrder(Category order)
+        public async Task<IActionResult> AddOrder(Order order)
         {
             Date date1 = new Date(DateTime.Now);
             order.Date = date1.ToStringDate(date1, '/');
@@ -77,7 +77,7 @@ namespace POS_System.API.Controllers.Identity
 
 
         [Route("update")]
-        public async Task<IActionResult> UpdateOrder(Category order)
+        public async Task<IActionResult> UpdateOrder(Order order)
         {
             order = await _orderInterface.UpdateOrderAsync(order);
             return Ok(order);

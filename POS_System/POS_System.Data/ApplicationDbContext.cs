@@ -22,7 +22,7 @@ namespace POS_System.Data
         public DbSet<Client> Clients { get; set; }
         public DbSet<Department> Departments { get; set; }
         public DbSet<LoanForClient> LoanForClients { get; set; }
-        public DbSet<Category> Orders { get; set; }
+        public DbSet<Order> Orders { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<SellingProccess> SellingProccesses { get; set; }
         //Inventory
