@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using POS_System.Domains.Inventory;
 using POS_System.Repositories.Interfaces.Inventory;
+using POS_System.ViewModels.Inventory;
 
 namespace POS_System.API.Controllers.Inventory
 {
@@ -34,10 +35,10 @@ namespace POS_System.API.Controllers.Inventory
         [HttpPost]
         [Route("add")]
 
-        public async Task<IActionResult> AddLoanForInventoryAsync(LoanForInventory loanForInventory)
+        public async Task<IActionResult> AddLoanForInventoryAsync(AddLoanForInventoryViewModel loanForInventory)
         {
 
-            var res = await _loanForInventoryInterface.AddLoanForInventoryAsync(loanForInventory);
+            var res = await _loanForInventoryInterface.AddLoanForInventoryAsync((LoanForInventory)loanForInventory);
             return Ok(res);
         
         }
