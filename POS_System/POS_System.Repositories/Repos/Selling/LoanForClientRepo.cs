@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using POS_System.Data;
+using POS_System.Domains.Pagination;
 using POS_System.Domains.Selling;
 using POS_System.Repositories.Interfaces.Selling;
 using System;
@@ -34,6 +35,11 @@ namespace POS_System.Repositories.Repos.Selling
 
         public Task<LoanForClient> GetLoanForClientAsync(Guid loanforclientId) =>
             _dbContext.LoanForClients.FirstOrDefaultAsync(p => p.Id == loanforclientId);
+
+        public Task<PagedList<LoanForClient>> GetLoanForClients(QueryStringParameters parameters)
+        {
+            return Task.FromResult(PagedList<LoanForClient>.ToPagedList(_dbContext.LoanForClients, parameters.PageNumber, parameters.PageSize));
+        }
 
         public Task<List<LoanForClient>> GetLoanForClientsAsync() =>
             _dbContext.LoanForClients.ToListAsync();

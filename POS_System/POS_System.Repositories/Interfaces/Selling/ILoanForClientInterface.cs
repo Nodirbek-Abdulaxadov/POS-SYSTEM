@@ -1,4 +1,5 @@
-﻿using POS_System.Domains.Selling;
+﻿using POS_System.Domains.Pagination;
+using POS_System.Domains.Selling;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace POS_System.Repositories.Interfaces.Selling
 {
     public interface ILoanForClientInterface
     {
+        Task<PagedList<LoanForClient>> GetLoanForClients(QueryStringParameters parameters);
         Task<List<LoanForClient>> GetLoanForClientsAsync();
         Task<LoanForClient> GetLoanForClientAsync(Guid loanforclientId);
         Task<LoanForClient> AddLoanForClientAsync(LoanForClient loanForClient);

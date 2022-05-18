@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using POS_System.Data;
+using POS_System.Domains.Pagination;
 using POS_System.Domains.Selling;
 using POS_System.Repositories.Interfaces.Selling;
 using System;
@@ -31,6 +32,12 @@ namespace POS_System.Repositories.Repos.Selling
             _dbContext.SaveChanges();
             return Task.FromResult(0);
         }
+
+        public Task<PagedList<Category>> GetCategories(QueryStringParameters parameters)
+        {
+            return Task.FromResult(PagedList<Category>.ToPagedList(_dbContext.Categories, parameters.PageNumber, parameters.PageSize));
+        }
+    
 
         public Task<List<Category>> GetCategoriesAsync() =>
             _dbContext.Categories.ToListAsync();

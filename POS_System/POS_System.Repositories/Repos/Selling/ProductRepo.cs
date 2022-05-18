@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using POS_System.Data;
+using POS_System.Domains.Pagination;
 using POS_System.Domains.Selling;
 using POS_System.Repositories.Interfaces.Selling;
 using System;
@@ -34,6 +35,12 @@ namespace POS_System.Repositories.Repos.Selling
 
         public Task<Product> GetProductAsync(Guid productId) =>
             _dbContext.Products.FirstOrDefaultAsync(p => p.Id == productId);
+
+        public Task<PagedList<Product>> GetProducts(QueryStringParameters parameters)
+        {
+            return Task.FromResult(PagedList<Product>.ToPagedList(_dbContext.Products, parameters.PageNumber, parameters.PageSize));
+        }
+
 
         public Task<List<Product>> GetProductsAsync() =>
             _dbContext.Products.ToListAsync();
