@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\POS_System.Repositories\POS_System.Repositories.csproj" />
+    <ProjectReference Include="..\POS_System.ViewModels\POS_System.ViewModels.csproj" />
   </ItemGroup>
 
   <ItemGroup>

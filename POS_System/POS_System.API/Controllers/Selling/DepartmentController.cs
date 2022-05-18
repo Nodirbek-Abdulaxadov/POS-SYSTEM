@@ -43,8 +43,6 @@ namespace POS_System.API.Controllers.Identity
         {
             var res = await _departmentInterface.AddDepartmentAsync((Department)department);
             return Ok(res);
-
-
         }
 
         [HttpPut]

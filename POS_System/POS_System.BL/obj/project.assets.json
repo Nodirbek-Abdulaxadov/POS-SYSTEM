@@ -322,8 +322,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.4",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4",
-          "POS_System.ViewModels": "1.0.0"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4"
         },
         "compile": {
           "bin/placeholder/POS_System.Domains.dll": {}
@@ -353,7 +352,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.4",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4",
+          "POS_System.Domains": "1.0.0"
         },
         "compile": {
           "bin/placeholder/POS_System.ViewModels.dll": {}
@@ -866,23 +866,29 @@
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.4",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.4",
       "POS_System.Repositories >= 1.0.0",
+      "POS_System.ViewModels >= 1.0.0",
       "WorkWithDateTimes >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\MRTMTex00135\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\POS\\POS_System\\POS_System.BL\\POS_System.BL.csproj",
+      "projectUniqueName": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.BL\\POS_System.BL.csproj",
       "projectName": "POS_System.BL",
-      "projectPath": "D:\\POS\\POS_System\\POS_System.BL\\POS_System.BL.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\POS\\POS_System\\POS_System.BL\\obj\\",
+      "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.BL\\POS_System.BL.csproj",
+      "packagesPath": "C:\\Users\\MRTMTex00135\\.nuget\\packages\\",
+      "outputPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.BL\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MRTMTex00135\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -896,8 +902,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\POS\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj": {
-              "projectPath": "D:\\POS\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj"
+            "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj": {
+              "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj"
+            },
+            "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
+              "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj"
             }
           }
         }
@@ -952,16 +961,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\POS\\POS_System\\POS_System.BL\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

@@ -32,13 +32,13 @@ namespace POS_System.API.Controllers.Identity
             return Ok(json);
         }
 
-        [HttpPost]
-        [Route("add")]
-        public async Task<IActionResult> AddAdmin(AddAdminViewModel admin)
-        {
-            var res = await _adminInterface.CreateAdminAsync((Admin)admin);
-            return Ok(res);
-        }
+        //[HttpPost]
+        //[Route("add")]
+        //public async Task<IActionResult> AddAdmin(AddAdminViewModel admin)
+        //{
+        //    var res = await _adminInterface.CreateAdminAsync((Admin)admin);
+        //    return Ok(res);
+        //}
 
         [HttpPut]
         [Route("update")]

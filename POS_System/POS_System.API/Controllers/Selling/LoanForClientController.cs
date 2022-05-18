@@ -21,20 +21,20 @@ namespace POS_System.API.Controllers.Identity
             _loanForClientInterface = loanForClientInterface;
         }
 
-        [HttpGet]
-        [Route("getall")]
-        public async Task<IActionResult> GetAll()
-        {
-            var listofLoanForclients = await _loanForClientInterface.GetLoanForClientsAsync();
+        //[HttpGet]
+        //[Route("getall")]
+        //public async Task<IActionResult> GetAll()
+        //{
+        //    var listofLoanForclients = await _loanForClientInterface.GetLoanForClientsAsync();
 
-            var json = JsonConvert.SerializeObject(listofLoanForclients, Formatting.Indented,
-                    new JsonSerializerSettings
-                    {
-                        ReferenceLoopHandling = ReferenceLoopHandling.Ignore
-                    });
+        //    var json = JsonConvert.SerializeObject(listofLoanForclients, Formatting.Indented,
+        //            new JsonSerializerSettings
+        //            {
+        //                ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+        //            });
 
-            return Ok(json);
-        }
+        //    return Ok(json);
+        //}
 
         [HttpPost]
         [Route("add")]
@@ -61,12 +61,12 @@ namespace POS_System.API.Controllers.Identity
             return Ok();
         }
 
-        [HttpGet, Route("get/{id}")]
-        public async Task<IActionResult> GetloanForClient(Guid id)
-        {
-            await _loanForClientInterface.GetLoanForClientAsync(id);
-            return Ok();
-        }
+        //[HttpGet, Route("get/{id}")]
+        //public async Task<IActionResult> GetloanForClient(Guid id)
+        //{
+        //    await _loanForClientInterface.GetLoanForClientAsync(id);
+        //    return Ok();
+        //}
 
     }
 }
