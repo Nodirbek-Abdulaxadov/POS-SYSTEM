@@ -20,7 +20,7 @@ namespace POS_System.Repositories.Repos.Selling
             _dbContext = dbContext;
         }
 
-        public Task<Order> AddOrderAsync(Order order)
+        public Task<Category> AddOrderAsync(Category order)
         {
             _dbContext.Orders.Add(order);
             _dbContext.SaveChanges();
@@ -34,18 +34,18 @@ namespace POS_System.Repositories.Repos.Selling
             return Task.CompletedTask;
         }
 
-        public Task<Order> GetOrderAsync(Guid orderId) =>
+        public Task<Category> GetOrderAsync(Guid orderId) =>
             _dbContext.Orders.FirstOrDefaultAsync(p => p.Id == orderId);
 
-        public Task<PagedList<Order>> GetOrders(QueryStringParameters parameters)
+        public Task<PagedList<Category>> GetOrders(QueryStringParameters parameters)
         {
-            return Task.FromResult(PagedList<Order>.ToPagedList(_dbContext.Orders, parameters.PageNumber, parameters.PageSize));
+            return Task.FromResult(PagedList<Category>.ToPagedList(_dbContext.Orders, parameters.PageNumber, parameters.PageSize));
         }
 
-        public Task<List<Order>> GetOrdersAsync() =>
+        public Task<List<Category>> GetOrdersAsync() =>
             _dbContext.Orders.ToListAsync();
 
-        public Task<Order> UpdateOrderAsync(Order order)
+        public Task<Category> UpdateOrderAsync(Category order)
         {
             _dbContext.Orders.Update(order);
             _dbContext.SaveChanges();

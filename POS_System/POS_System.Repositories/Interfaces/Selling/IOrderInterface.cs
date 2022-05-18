@@ -5,11 +5,11 @@ namespace POS_System.Repositories.Interfaces.Selling
 {
     public interface IOrderInterface
     {
-        Task<PagedList<Order>> GetOrders(QueryStringParameters parameters);
-        Task<List<Order>> GetOrdersAsync();
-        Task<Order> GetOrderAsync(Guid orderId);
-        Task<Order> AddOrderAsync(Order order);
-        Task<Order> UpdateOrderAsync(Order order);
+        Task<PagedList<Category>> GetOrders(QueryStringParameters parameters);
+        Task<List<Category>> GetOrdersAsync();
+        Task<Category> GetOrderAsync(Guid orderId);
+        Task<Category> AddOrderAsync(Category order);
+        Task<Category> UpdateOrderAsync(Category order);
         Task DeleteOrderAsync(Guid orderId);
     }
 }

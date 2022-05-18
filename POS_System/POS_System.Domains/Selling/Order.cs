@@ -2,7 +2,7 @@
 
 namespace POS_System.Domains.Selling
 {
-    public class Order
+    public class Category
     {
         [Key, Required]
         public Guid Id { get; set; }
