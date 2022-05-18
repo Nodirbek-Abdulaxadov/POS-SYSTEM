@@ -5,6 +5,7 @@ using POS_System.Domains.Selling;
 using POS_System.Repositories.Interfaces.Identity;
 using POS_System.Repositories.Interfaces.Selling;
 using POS_System.ViewModels.Admin;
+using POS_System.ViewModels.Selling;
 
 namespace POS_System.API.Controllers.Identity
 {
@@ -37,9 +38,9 @@ namespace POS_System.API.Controllers.Identity
 
         [HttpPost]
         [Route("add")]
-        public async Task<IActionResult> AddLoanForClient(LoanForClient loanForClient)
+        public async Task<IActionResult> AddLoanForClient(AddLoanForClientViewModel loanForClient)
         {
-            var res = await _loanForClientInterface.AddLoanForClientAsync(loanForClient);
+            var res = await _loanForClientInterface.AddLoanForClientAsync((LoanForClient)loanForClient);
             return Ok(res);
         }
 
