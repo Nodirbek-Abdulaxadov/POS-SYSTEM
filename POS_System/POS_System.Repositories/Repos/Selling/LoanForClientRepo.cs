@@ -3,11 +3,6 @@ using POS_System.Data;
 using POS_System.Domains.Pagination;
 using POS_System.Domains.Selling;
 using POS_System.Repositories.Interfaces.Selling;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace POS_System.Repositories.Repos.Selling
 {
@@ -35,25 +30,10 @@ namespace POS_System.Repositories.Repos.Selling
 
         public Task<List<LoanForClient>> GetAllClientLoansByClientId(Guid id)
         {
-            throw new NotImplementedException();
-        }
-
-        public Task<List<LoanForClient>> GetAllClientsLoans()
-        {
-            throw new NotImplementedException();
+            return Task.FromResult(_dbContext.LoanForClients.Where(l => l.ClientId == id).ToList());
         }
 
         public Task<PagedList<LoanForClient>> GetAllClientsLoansPaged()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<LoanForClient> GetClientLoanByClientId(Guid id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<LoanForClient> GetClientLoanByLoanId(Guid id)
         {
             throw new NotImplementedException();
         }

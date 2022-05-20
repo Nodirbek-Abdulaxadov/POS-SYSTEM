@@ -15,7 +15,7 @@ namespace POS_System.API.Controllers.Report
             this.sellingReport = sellingReport;
         }
 
-
+        //barcha hisoboti
         [HttpGet("getall")]
         public IActionResult Get()
         {
