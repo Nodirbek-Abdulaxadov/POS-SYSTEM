@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using POS_System.BL.Interfaces;
-using POS_System.Domains.Selling;
 using POS_System.Repositories.Interfaces.Selling;
 
 namespace POS_System.API.Controllers.Report
@@ -27,7 +26,7 @@ namespace POS_System.API.Controllers.Report
                 return BadRequest();
             }
             
-            return Ok(await reportInterface.ProductTodaysReport(productName));
+            return Ok(await reportInterface.ProductAllReport(productName));
         }
 
         //bugunlik hisobot
@@ -41,7 +40,7 @@ namespace POS_System.API.Controllers.Report
             return Ok(await reportInterface.ProductTodaysReport(productName));
         }
         //kunlik hisobot
-        [HttpGet,Route("dailyreport/{productName}/{date}")]
+        [HttpGet,Route("dailyreport/")]
         public async Task<IActionResult> ProductDailyReport(string productName, string date)
         {
             if(!(await ProductExist(productName)))
@@ -85,7 +84,7 @@ namespace POS_System.API.Controllers.Report
         }
 
         //berilgan muddat oralig'idagi hisobot
-        [HttpGet, Route("productreport/{productName}/{startDate}/{endDate}")]
+        [HttpGet, Route("productreport")]
         public async Task<IActionResult> ProductReport(string productName, string startDate, string endDate)
         {
             if (!(await ProductExist(productName)))
@@ -134,7 +133,6 @@ namespace POS_System.API.Controllers.Report
             }
             return Ok(await reportInterface.ProductLastNYearsReport(productName, N));
         }
-
 
         [NonAction]
         private async Task<bool> ProductExist(string name)
