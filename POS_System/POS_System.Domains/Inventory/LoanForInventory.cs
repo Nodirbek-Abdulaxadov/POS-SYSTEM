@@ -16,5 +16,7 @@ namespace POS_System.Domains.Inventory
         public bool IsPaid { get; set; }
         public Guid SupplierId { get; set; }
         public Guid TransactionId { get; set; }
+
+        
     }
 }

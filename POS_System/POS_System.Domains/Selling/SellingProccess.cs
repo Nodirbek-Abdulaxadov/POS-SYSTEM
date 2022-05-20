@@ -18,5 +18,7 @@ namespace POS_System.Domains.Selling
         public double ProccessSellingPrice { get; set; }
         [Required]
         public Guid OrderId { get; set; }
+
+        
     }
 }
