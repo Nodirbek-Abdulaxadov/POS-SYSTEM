@@ -1,27 +1,7 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {}
-=======
-<<<<<<< HEAD
-    "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {}
-  },
-  "projects": {
-    "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Data\\POS_System.Data.csproj",
-        "projectName": "POS_System.Data",
-        "projectPath": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Data\\POS_System.Data.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Data\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "D:\\POS\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {}
->>>>>>> 2702b1fc9fa18496daf18427dc8399d426b28e1d
   },
   "projects": {
     "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {
@@ -34,12 +14,7 @@
         "outputPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\MRTMTex00051\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 8a0c0daa03bcadd7ac1d794ef618226765efb8a6
->>>>>>> 2702b1fc9fa18496daf18427dc8399d426b28e1d
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,18 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-<<<<<<< HEAD
               "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
                 "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
-=======
-<<<<<<< HEAD
-              "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
-                "projectPath": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
-=======
-              "D:\\POS\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
-                "projectPath": "D:\\POS\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
->>>>>>> 8a0c0daa03bcadd7ac1d794ef618226765efb8a6
->>>>>>> 2702b1fc9fa18496daf18427dc8399d426b28e1d
               }
             }
           }
@@ -115,28 +80,11 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
     "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
-=======
-<<<<<<< HEAD
-    "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj",
-        "projectName": "POS_System.Domains",
-        "projectPath": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.Domains\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "D:\\POS\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
->>>>>>> 2702b1fc9fa18496daf18427dc8399d426b28e1d
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj",
@@ -146,12 +94,7 @@
         "outputPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\MRTMTex00051\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 8a0c0daa03bcadd7ac1d794ef618226765efb8a6
->>>>>>> 2702b1fc9fa18496daf18427dc8399d426b28e1d
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -165,18 +108,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-<<<<<<< HEAD
               "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
                 "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj"
-=======
-<<<<<<< HEAD
-              "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
-                "projectPath": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj"
-=======
-              "D:\\POS\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
-                "projectPath": "D:\\POS\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj"
->>>>>>> 8a0c0daa03bcadd7ac1d794ef618226765efb8a6
->>>>>>> 2702b1fc9fa18496daf18427dc8399d426b28e1d
               }
             }
           }
@@ -227,28 +160,11 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
     "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
-=======
-<<<<<<< HEAD
-    "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj",
-        "projectName": "POS_System.ViewModels",
-        "projectPath": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Darslik materiallar\\Pos-Sys\\POS_System\\POS_System.ViewModels\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "D:\\POS\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
->>>>>>> 2702b1fc9fa18496daf18427dc8399d426b28e1d
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj",
@@ -258,12 +174,7 @@
         "outputPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\MRTMTex00051\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 8a0c0daa03bcadd7ac1d794ef618226765efb8a6
->>>>>>> 2702b1fc9fa18496daf18427dc8399d426b28e1d
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -325,7 +236,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
