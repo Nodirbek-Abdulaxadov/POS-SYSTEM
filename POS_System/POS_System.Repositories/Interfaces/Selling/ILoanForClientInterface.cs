@@ -9,6 +9,8 @@ namespace POS_System.Repositories.Interfaces.Selling
         Task<PagedList<LoanForClient>> GetLoanForClients(QueryStringParameters parameters);
         //barcha qarzlarni qaytaradi
         Task<List<LoanForClient>> GetLoanForClientsAsync();
+        //orderId bo'yicha loan qaytaradi
+        Task<LoanForClient> GetLoanByOrderId(Guid orderId);
         //id bo'yicha qarzni qaytaradi
         Task<LoanForClient> GetLoanForClientAsync(Guid loanforclientId);
         //mijozning barcha qarzlarini mijozId bo'yicha qayataradi
