@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using POS_System.Data;
 using POS_System.Domains.Inventory;
+using POS_System.Domains.Pagination;
 using POS_System.Repositories.Interfaces.Inventory;
 using System;
 using System.Collections.Generic;
@@ -30,6 +31,11 @@ namespace POS_System.Repositories.Repos.Inventory
             _dbContext.Suppliers.Remove(_dbContext.Suppliers.FirstOrDefault(p => p.Id == supplierId));
             _dbContext.SaveChanges();
             return Task.CompletedTask;
+        }
+
+        public Task<PagedList<Supplier>> GetAllSuppliers(QueryStringParameters parameters)
+        {
+            return Task.FromResult(PagedList<Supplier>.ToPagedList(_dbContext.Suppliers, parameters.PageNumber, parameters.PageSize));
         }
 
         public Task<Supplier> GetSupplierAsync(Guid supplierId) =>

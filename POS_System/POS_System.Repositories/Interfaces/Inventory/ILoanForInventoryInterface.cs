@@ -1,4 +1,5 @@
 ﻿using POS_System.Domains.Inventory;
+using POS_System.Domains.Pagination;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace POS_System.Repositories.Interfaces.Inventory
 {
     public interface ILoanForInventoryInterface
     {
+        Task<PagedList<LoanForInventory>> GetAllLoanForInventorysAsync(QueryStringParameters parameters);
         Task<List<LoanForInventory>> GetLoanForInventorysAsync();
         Task<LoanForInventory> GetLoanForInventoryAsync(Guid loanforinventoryId);
         Task<LoanForInventory> AddLoanForInventoryAsync(LoanForInventory loanForInventory);

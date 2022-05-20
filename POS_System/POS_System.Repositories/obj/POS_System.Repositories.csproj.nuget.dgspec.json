@@ -1,7 +1,11 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+    "D:\\C# Darslik materiallar\\Pos-System\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj": {}
+=======
     "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj": {}
+>>>>>>> f0d9ba1ada8b8f4cfe6e4a0137fb637aed639c17
   },
   "projects": {
     "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {
@@ -9,6 +13,14 @@
       "restore": {
         "projectUniqueName": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Data\\POS_System.Data.csproj",
         "projectName": "POS_System.Data",
+<<<<<<< HEAD
+        "projectPath": "D:\\C# Darslik materiallar\\Pos-System\\POS_System\\POS_System.Data\\POS_System.Data.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "D:\\C# Darslik materiallar\\Pos-System\\POS_System\\POS_System.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
         "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Data\\POS_System.Data.csproj",
         "packagesPath": "C:\\Users\\MRTMTex00135\\.nuget\\packages\\",
         "outputPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Data\\obj\\",
@@ -19,6 +31,7 @@
         "configFilePaths": [
           "C:\\Users\\MRTMTex00135\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> f0d9ba1ada8b8f4cfe6e4a0137fb637aed639c17
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +45,13 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
+              "D:\\C# Darslik materiallar\\Pos-System\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
+                "projectPath": "D:\\C# Darslik materiallar\\Pos-System\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
+=======
               "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
                 "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
+>>>>>>> f0d9ba1ada8b8f4cfe6e4a0137fb637aed639c17
               }
             }
           }
@@ -88,11 +106,23 @@
         }
       }
     },
+<<<<<<< HEAD
+    "D:\\C# Darslik materiallar\\Pos-System\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
+=======
     "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
+>>>>>>> f0d9ba1ada8b8f4cfe6e4a0137fb637aed639c17
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj",
         "projectName": "POS_System.Domains",
+<<<<<<< HEAD
+        "projectPath": "D:\\C# Darslik materiallar\\Pos-System\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "D:\\C# Darslik materiallar\\Pos-System\\POS_System\\POS_System.Domains\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
         "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj",
         "packagesPath": "C:\\Users\\MRTMTex00135\\.nuget\\packages\\",
         "outputPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Domains\\obj\\",
@@ -103,6 +133,7 @@
         "configFilePaths": [
           "C:\\Users\\MRTMTex00135\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> f0d9ba1ada8b8f4cfe6e4a0137fb637aed639c17
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -168,6 +199,19 @@
         }
       }
     },
+<<<<<<< HEAD
+    "D:\\C# Darslik materiallar\\Pos-System\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C# Darslik materiallar\\Pos-System\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj",
+        "projectName": "POS_System.Repositories",
+        "projectPath": "D:\\C# Darslik materiallar\\Pos-System\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "D:\\C# Darslik materiallar\\Pos-System\\POS_System\\POS_System.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
     "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -183,6 +227,7 @@
         "configFilePaths": [
           "C:\\Users\\MRTMTex00135\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> f0d9ba1ada8b8f4cfe6e4a0137fb637aed639c17
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -196,11 +241,19 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
+              "D:\\C# Darslik materiallar\\Pos-System\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {
+                "projectPath": "D:\\C# Darslik materiallar\\Pos-System\\POS_System\\POS_System.Data\\POS_System.Data.csproj"
+              },
+              "D:\\C# Darslik materiallar\\Pos-System\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
+                "projectPath": "D:\\C# Darslik materiallar\\Pos-System\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
+=======
               "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Data\\POS_System.Data.csproj": {
                 "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Data\\POS_System.Data.csproj"
               },
               "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
                 "projectPath": "D:\\Visual Studio Project\\POS-System\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
+>>>>>>> f0d9ba1ada8b8f4cfe6e4a0137fb637aed639c17
               }
             }
           }
