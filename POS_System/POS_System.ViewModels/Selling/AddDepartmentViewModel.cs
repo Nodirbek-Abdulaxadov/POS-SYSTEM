@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using POS_System.Domains.Selling;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace POS_System.ViewModels.Selling
 {
@@ -12,5 +8,15 @@ namespace POS_System.ViewModels.Selling
         
         [Required]
         public string? Name { get; set; }
+
+        public static explicit operator Department(AddDepartmentViewModel viewModel)
+        {
+            return new Department
+            {
+                Id = Guid.NewGuid(),
+                Name = viewModel.Name,
+
+            };
+        }
     }
 }

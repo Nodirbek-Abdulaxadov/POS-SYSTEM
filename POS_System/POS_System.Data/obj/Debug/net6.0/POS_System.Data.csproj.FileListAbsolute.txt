@@ -32,8 +32,6 @@ D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\obj\Debug\net6.0\refint\POS_S
 D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.pdb
 D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.genruntimeconfig.cache
 D:\davronoff\POS-SYSTEM\POS_System\POS_System.Data\obj\Debug\net6.0\ref\POS_System.Data.dll
-D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.ViewModels.dll
-D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.ViewModels.pdb
 C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Data.deps.json
 C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Data.runtimeconfig.json
 C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Data.dll
@@ -60,9 +58,7 @@ D:\POS\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Data.runtimeconfig
 D:\POS\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Data.dll
 D:\POS\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Data.pdb
 D:\POS\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Domains.dll
-D:\POS\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.ViewModels.dll
 D:\POS\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.Domains.pdb
-D:\POS\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.ViewModels.pdb
 D:\POS\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.csproj.AssemblyReference.cache
 D:\POS\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.GeneratedMSBuildEditorConfig.editorconfig
 D:\POS\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.AssemblyInfoInputs.cache

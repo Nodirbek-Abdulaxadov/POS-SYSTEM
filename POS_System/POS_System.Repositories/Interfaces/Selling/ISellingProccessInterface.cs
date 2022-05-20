@@ -1,4 +1,5 @@
-﻿using POS_System.Domains.Selling;
+﻿using POS_System.Domains.Pagination;
+using POS_System.Domains.Selling;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,8 @@ namespace POS_System.Repositories.Interfaces.Selling
 {
     public interface ISellingProccessInterface
     {
+
+        Task<PagedList<SellingProccess>> GetSellingProccesses(QueryStringParameters parameters);
         Task<List<SellingProccess>> GetAllSellingProccessAsync();
         Task<SellingProccess> GetSellingProccessAsync(Guid sellingproccessId);
         Task<SellingProccess> AddSellingProccessAsync(SellingProccess sellingProccess);

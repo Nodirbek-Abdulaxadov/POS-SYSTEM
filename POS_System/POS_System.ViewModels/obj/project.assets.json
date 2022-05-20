@@ -280,6 +280,20 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "POS_System.Domains/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.4",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4"
+        },
+        "compile": {
+          "bin/placeholder/POS_System.Domains.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/POS_System.Domains.dll": {}
+        }
       }
     }
   },
@@ -730,6 +744,11 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "POS_System.Domains/1.0.0": {
+      "type": "project",
+      "path": "../POS_System.Domains/POS_System.Domains.csproj",
+      "msbuildProject": "../POS_System.Domains/POS_System.Domains.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -737,7 +756,8 @@
       "Microsoft.EntityFrameworkCore >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.4",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.4"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.4",
+      "POS_System.Domains >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -766,7 +786,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj": {
+              "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Domains\\POS_System.Domains.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

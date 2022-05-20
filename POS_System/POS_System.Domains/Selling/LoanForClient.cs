@@ -1,5 +1,4 @@
-﻿using POS_System.ViewModels.Selling;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace POS_System.Domains.Selling
 {
@@ -19,18 +18,5 @@ namespace POS_System.Domains.Selling
         public Guid ClientId { get; set; }
         [Required]
         public Guid OrderId { get; set; }
-
-        public static explicit operator LoanForClient(AddLoanForClientViewModel viewModel)
-        {
-          return new LoanForClient()
-          {
-              Id=Guid.NewGuid(),
-              Date=viewModel.Date,
-              PaidPrice=viewModel.PaidPrice,
-              LeftPrice=viewModel.LeftPrice,
-              ClientId=viewModel.ClientId,
-              OrderId=viewModel.OrderId,
-          };
-        }
     }
 }

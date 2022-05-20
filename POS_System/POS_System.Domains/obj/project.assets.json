@@ -280,20 +280,6 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
-      },
-      "POS_System.ViewModels/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.4",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4"
-        },
-        "compile": {
-          "bin/placeholder/POS_System.ViewModels.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/POS_System.ViewModels.dll": {}
-        }
       }
     }
   },
@@ -744,11 +730,6 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "POS_System.ViewModels/1.0.0": {
-      "type": "project",
-      "path": "../POS_System.ViewModels/POS_System.ViewModels.csproj",
-      "msbuildProject": "../POS_System.ViewModels/POS_System.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -756,8 +737,7 @@
       "Microsoft.EntityFrameworkCore >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.4",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.4",
-      "POS_System.ViewModels >= 1.0.0"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.4"
     ]
   },
   "packageFolders": {
@@ -786,11 +766,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
-              "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

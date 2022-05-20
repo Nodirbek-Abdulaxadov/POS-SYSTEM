@@ -30,7 +30,7 @@ namespace POS_System.BL.Repos
                     firstDate = orderDate;
                 }
                 totalIncoming += sellingProccess.ProccessIncomingPrice;
-                totalSelling += sellingProccess.ProccessIncomingPrice;
+                totalSelling += sellingProccess.ProccessSellingPrice;
             }
             netProfit = totalSelling - totalIncoming;
 
@@ -60,7 +60,7 @@ namespace POS_System.BL.Repos
                 if (dataOperations.Equals(date, sellingProccessDate))
                 {
                     totalIncoming += sellingProccess.ProccessIncomingPrice;
-                    totalSelling += sellingProccess.ProccessIncomingPrice;
+                    totalSelling += sellingProccess.ProccessSellingPrice;
                 }
             }
             netProfit = totalSelling - totalIncoming;
@@ -95,7 +95,7 @@ namespace POS_System.BL.Repos
                     firstDate = orderDate;
                 }
                 totalIncoming += sellingProccess.ProccessIncomingPrice;
-                totalSelling += sellingProccess.ProccessIncomingPrice;
+                totalSelling += sellingProccess.ProccessSellingPrice;
             }
             netProfit = totalSelling - totalIncoming;
 
@@ -129,7 +129,7 @@ namespace POS_System.BL.Repos
                     firstDate = orderDate;
                 }
                 totalIncoming += sellingProccess.ProccessIncomingPrice;
-                totalSelling += sellingProccess.ProccessIncomingPrice;
+                totalSelling += sellingProccess.ProccessSellingPrice;
             }
             netProfit = totalSelling - totalIncoming;
 
@@ -163,7 +163,7 @@ namespace POS_System.BL.Repos
                     firstDate = orderDate;
                 }
                 totalIncoming += sellingProccess.ProccessIncomingPrice;
-                totalSelling += sellingProccess.ProccessIncomingPrice;
+                totalSelling += sellingProccess.ProccessSellingPrice;
             }
             netProfit = totalSelling - totalIncoming;
 
@@ -197,7 +197,7 @@ namespace POS_System.BL.Repos
                     firstDate = orderDate;
                 }
                 totalIncoming += sellingProccess.ProccessIncomingPrice;
-                totalSelling += sellingProccess.ProccessIncomingPrice;
+                totalSelling += sellingProccess.ProccessSellingPrice;
             }
             netProfit = totalSelling - totalIncoming;
 
@@ -231,7 +231,7 @@ namespace POS_System.BL.Repos
                     firstDate = orderDate;
                 }
                 totalIncoming += sellingProccess.ProccessIncomingPrice;
-                totalSelling += sellingProccess.ProccessIncomingPrice;
+                totalSelling += sellingProccess.ProccessSellingPrice;
             }
             netProfit = totalSelling - totalIncoming;
 
@@ -265,7 +265,7 @@ namespace POS_System.BL.Repos
                     firstDate = orderDate;
                 }
                 totalIncoming += sellingProccess.ProccessIncomingPrice;
-                totalSelling += sellingProccess.ProccessIncomingPrice;
+                totalSelling += sellingProccess.ProccessSellingPrice;
             }
             netProfit = totalSelling - totalIncoming;
 
@@ -299,7 +299,7 @@ namespace POS_System.BL.Repos
                     firstDate = orderDate;
                 }
                 totalIncoming += sellingProccess.ProccessIncomingPrice;
-                totalSelling += sellingProccess.ProccessIncomingPrice;
+                totalSelling += sellingProccess.ProccessSellingPrice;
             }
             netProfit = totalSelling - totalIncoming;
 
@@ -333,7 +333,7 @@ namespace POS_System.BL.Repos
                     firstDate = orderDate;
                 }
                 totalIncoming += sellingProccess.ProccessIncomingPrice;
-                totalSelling += sellingProccess.ProccessIncomingPrice;
+                totalSelling += sellingProccess.ProccessSellingPrice;
             }
             netProfit = totalSelling - totalIncoming;
 
@@ -364,7 +364,7 @@ namespace POS_System.BL.Repos
                 if (dataOperations.Equals(today, sellingProccessDate))
                 {
                     totalIncoming += sellingProccess.ProccessIncomingPrice;
-                    totalSelling += sellingProccess.ProccessIncomingPrice;
+                    totalSelling += sellingProccess.ProccessSellingPrice;
                 }
             }
             netProfit = totalSelling - totalIncoming;

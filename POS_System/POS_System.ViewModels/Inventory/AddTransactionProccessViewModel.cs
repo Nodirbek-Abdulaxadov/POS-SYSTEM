@@ -1,4 +1,5 @@
-﻿using System;
+﻿using POS_System.Domains.Inventory;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -14,5 +15,16 @@ namespace POS_System.ViewModels.Inventory
         [Required]
         public double TotalPrice { get; set; }
         public Guid ProductId { get; set; }
+
+        public static explicit operator TransactionProccess(AddTransactionProccessViewModel v)
+        {
+            return new TransactionProccess()
+            {
+                Quantity = v.Quantity,
+                TotalPrice = v.TotalPrice,
+                ProductId = v.ProductId
+
+            };
+        }
     }
 }

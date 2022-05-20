@@ -42,8 +42,6 @@ namespace POS_System.API.Controllers.Identity
         {
             var res = await _sellingProccessInterface.AddSellingProccessAsync((SellingProccess)sellingProccess);
             return Ok(res);
-
-
         }
 
         [HttpPut]

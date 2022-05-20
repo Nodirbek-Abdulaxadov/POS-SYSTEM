@@ -322,8 +322,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.4",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4",
-          "POS_System.ViewModels": "1.0.0"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4"
         },
         "compile": {
           "bin/placeholder/POS_System.Domains.dll": {}
@@ -353,7 +352,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.4",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4",
+          "POS_System.Domains": "1.0.0"
         },
         "compile": {
           "bin/placeholder/POS_System.ViewModels.dll": {}
@@ -866,6 +866,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.4",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.4",
       "POS_System.Repositories >= 1.0.0",
+      "POS_System.ViewModels >= 1.0.0",
       "WorkWithDateTimes >= 1.0.0"
     ]
   },
@@ -898,6 +899,9 @@
           "projectReferences": {
             "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj": {
               "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.Repositories\\POS_System.Repositories.csproj"
+            },
+            "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj": {
+              "projectPath": "D:\\davronoff\\POS-SYSTEM\\POS_System\\POS_System.ViewModels\\POS_System.ViewModels.csproj"
             }
           }
         }

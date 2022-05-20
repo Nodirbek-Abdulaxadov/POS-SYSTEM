@@ -40,7 +40,7 @@ namespace POS_System.API.Controllers.Inventory
 
             var res = await _loanForInventoryInterface.AddLoanForInventoryAsync((LoanForInventory)loanForInventory);
             return Ok(res);
-        
+
         }
 
         [HttpPut, Route("update")]

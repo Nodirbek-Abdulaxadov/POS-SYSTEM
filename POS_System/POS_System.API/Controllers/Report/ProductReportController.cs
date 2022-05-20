@@ -17,10 +17,10 @@ namespace POS_System.API.Controllers.Report
             this.reportInterface = reportInterface;
             this.product = product;
         }
-        [HttpGet, Route("getallreport")]
+        [HttpGet, Route("getallreport/{productName}")]
         public async Task<IActionResult> AllReport(string productName)
         {
-            if (await product.ProductExist(productName))
+            if (!(await ProductExist(productName)))
             {
                 return BadRequest();
             }
@@ -30,11 +30,18 @@ namespace POS_System.API.Controllers.Report
         [HttpGet, Route("todaysreport")]
         public async Task<IActionResult> TodaysReport(string productName)
         {
-            if (await product.ProductExist(productName));
+            if (!(await ProductExist(productName)))
             {
                 return BadRequest();
             }
             return Ok(await reportInterface.ProductTodaysReport(productName));
+        }
+
+        [NonAction]
+        private async Task<bool> ProductExist(string name)
+        {
+            var list = await product.GetProductsAsync();
+            return list.Any(p => p.Name == name);
         }
     }
 }

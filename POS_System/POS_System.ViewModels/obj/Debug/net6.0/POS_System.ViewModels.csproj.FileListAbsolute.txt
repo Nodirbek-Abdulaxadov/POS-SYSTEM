@@ -54,3 +54,9 @@ D:\POS\POS_System\POS_System.ViewModels\obj\Debug\net6.0\refint\POS_System.ViewM
 D:\POS\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.pdb
 D:\POS\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.genruntimeconfig.cache
 D:\POS\POS_System\POS_System.ViewModels\obj\Debug\net6.0\ref\POS_System.ViewModels.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.Domains.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.Domains.pdb
+D:\Visual Studio Project\POS-System\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.csproj.CopyComplete
+D:\POS\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.Domains.dll
+D:\POS\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.Domains.pdb
+D:\POS\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.csproj.CopyComplete

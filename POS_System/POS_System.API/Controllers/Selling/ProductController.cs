@@ -42,8 +42,6 @@ namespace POS_System.API.Controllers.Identity
         {
             var res = await _productInterface.AddProductAsync((Product)product);
             return Ok(res);
-
-
         }
 
         [HttpPut]

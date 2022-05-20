@@ -286,28 +286,13 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.4",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4",
-          "POS_System.ViewModels": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/POS_System.Domains.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/POS_System.Domains.dll": {}
-        }
-      },
-      "POS_System.ViewModels/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4"
         },
         "compile": {
-          "bin/placeholder/POS_System.ViewModels.dll": {}
+          "bin/placeholder/POS_System.Domains.dll": {}
         },
         "runtime": {
-          "bin/placeholder/POS_System.ViewModels.dll": {}
+          "bin/placeholder/POS_System.Domains.dll": {}
         }
       }
     }
@@ -764,11 +749,6 @@
       "type": "project",
       "path": "../POS_System.Domains/POS_System.Domains.csproj",
       "msbuildProject": "../POS_System.Domains/POS_System.Domains.csproj"
-    },
-    "POS_System.ViewModels/1.0.0": {
-      "type": "project",
-      "path": "../POS_System.ViewModels/POS_System.ViewModels.csproj",
-      "msbuildProject": "../POS_System.ViewModels/POS_System.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -70,8 +70,6 @@ namespace POS_System.API.Controllers.Identity
 
             var res = await _orderInterface.AddOrderAsync((Order)order);
             return Ok(res);
-
-
         }
 
         [HttpPut]

@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using POS_System.Domains.Selling;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace POS_System.ViewModels.Selling
 {
@@ -14,5 +10,17 @@ namespace POS_System.ViewModels.Selling
         public string? Adress { get; set; }
         [Required]
         public string? PhoneNumber { get; set; }
+
+        public static explicit operator Client(AddClientViewModel v)
+        {
+            return new Client()
+            {
+                FullName = v.FullName,
+                Adress = v.Adress,
+                PhoneNumber = v.PhoneNumber,
+                Id = Guid.NewGuid(),
+                HasLoan = false
+            };
+        }
     }
 }
