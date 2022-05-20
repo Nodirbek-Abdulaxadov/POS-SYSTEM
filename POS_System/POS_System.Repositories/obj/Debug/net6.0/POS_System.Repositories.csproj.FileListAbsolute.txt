@@ -65,10 +65,8 @@ D:\POS\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Repositori
 D:\POS\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Repositories.pdb
 D:\POS\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Data.dll
 D:\POS\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Domains.dll
-D:\POS\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.ViewModels.dll
 D:\POS\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Data.pdb
 D:\POS\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Domains.pdb
-D:\POS\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.ViewModels.pdb
 D:\POS\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.csproj.AssemblyReference.cache
 D:\POS\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.GeneratedMSBuildEditorConfig.editorconfig
 D:\POS\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.AssemblyInfoInputs.cache

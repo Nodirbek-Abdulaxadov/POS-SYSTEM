@@ -50,14 +50,11 @@ D:\POS\POS_System\POS_System.Domains\bin\Debug\net6.0\POS_System.Domains.deps.js
 D:\POS\POS_System\POS_System.Domains\bin\Debug\net6.0\POS_System.Domains.runtimeconfig.json
 D:\POS\POS_System\POS_System.Domains\bin\Debug\net6.0\POS_System.Domains.dll
 D:\POS\POS_System\POS_System.Domains\bin\Debug\net6.0\POS_System.Domains.pdb
-D:\POS\POS_System\POS_System.Domains\bin\Debug\net6.0\POS_System.ViewModels.dll
-D:\POS\POS_System\POS_System.Domains\bin\Debug\net6.0\POS_System.ViewModels.pdb
 D:\POS\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.csproj.AssemblyReference.cache
 D:\POS\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.GeneratedMSBuildEditorConfig.editorconfig
 D:\POS\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.AssemblyInfoInputs.cache
 D:\POS\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.AssemblyInfo.cs
 D:\POS\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.csproj.CoreCompileInputs.cache
-D:\POS\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.csproj.CopyComplete
 D:\POS\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.dll
 D:\POS\POS_System\POS_System.Domains\obj\Debug\net6.0\refint\POS_System.Domains.dll
 D:\POS\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.pdb
