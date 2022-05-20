@@ -80,3 +80,5 @@ D:\POS\POS_System\POS_System.Repositories\obj\Debug\net6.0\refint\POS_System.Rep
 D:\POS\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.pdb
 D:\POS\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.genruntimeconfig.cache
 D:\POS\POS_System\POS_System.Repositories\obj\Debug\net6.0\ref\POS_System.Repositories.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.ViewModels.dll
+D:\Visual Studio Project\POS-System\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.ViewModels.pdb

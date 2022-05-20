@@ -35,7 +35,7 @@ namespace POS_System.Repositories.Repos.Selling
 
         public Task<List<LoanForClient>> GetAllClientLoansByClientId(Guid id)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(_dbContext.LoanForClients.Where(l => l.ClientId == id).ToList());
         }
 
         public Task<List<LoanForClient>> GetAllClientsLoans()
