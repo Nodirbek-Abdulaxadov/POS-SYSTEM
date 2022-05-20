@@ -60,3 +60,17 @@ D:\POS\POS_System\POS_System.Domains\obj\Debug\net6.0\refint\POS_System.Domains.
 D:\POS\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.pdb
 D:\POS\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.genruntimeconfig.cache
 D:\POS\POS_System\POS_System.Domains\obj\Debug\net6.0\ref\POS_System.Domains.dll
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.Domains\bin\Debug\net6.0\POS_System.Domains.deps.json
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.Domains\bin\Debug\net6.0\POS_System.Domains.runtimeconfig.json
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.Domains\bin\Debug\net6.0\POS_System.Domains.dll
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.Domains\bin\Debug\net6.0\ref\POS_System.Domains.dll
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.Domains\bin\Debug\net6.0\POS_System.Domains.pdb
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.csproj.AssemblyReference.cache
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.AssemblyInfoInputs.cache
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.AssemblyInfo.cs
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.csproj.CoreCompileInputs.cache
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.dll
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.Domains\obj\Debug\net6.0\ref\POS_System.Domains.dll
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.pdb
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.Domains\obj\Debug\net6.0\POS_System.Domains.genruntimeconfig.cache

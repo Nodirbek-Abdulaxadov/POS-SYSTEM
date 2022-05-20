@@ -60,3 +60,20 @@ D:\Visual Studio Project\POS-System\POS_System\POS_System.ViewModels\obj\Debug\n
 D:\POS\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.Domains.dll
 D:\POS\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.Domains.pdb
 D:\POS\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.csproj.CopyComplete
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.ViewModels.deps.json
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.ViewModels.runtimeconfig.json
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.ViewModels.dll
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.ViewModels\bin\Debug\net6.0\ref\POS_System.ViewModels.dll
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.ViewModels.pdb
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.Domains.dll
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.Domains.pdb
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.csproj.AssemblyReference.cache
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.AssemblyInfoInputs.cache
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.AssemblyInfo.cs
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.csproj.CoreCompileInputs.cache
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.csproj.CopyComplete
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.dll
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.ViewModels\obj\Debug\net6.0\ref\POS_System.ViewModels.dll
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.pdb
+D:\C# Darslik materiallar\Pos-System\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.genruntimeconfig.cache

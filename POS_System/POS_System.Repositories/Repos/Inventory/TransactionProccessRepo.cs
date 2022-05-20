@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using POS_System.Data;
 using POS_System.Domains.Inventory;
+using POS_System.Domains.Pagination;
 using POS_System.Repositories.Interfaces.Inventory;
 using System;
 using System.Collections.Generic;
@@ -30,6 +31,11 @@ namespace POS_System.Repositories.Repos.Inventory
             _dbContext.TransactionProccesses.Remove(_dbContext.TransactionProccesses.FirstOrDefault(p => p.Id == transactionproccessId));
             _dbContext.SaveChanges();
             return Task.CompletedTask;
+        }
+
+        public Task<PagedList<TransactionProccess>> GetAllTransactionProccess(QueryStringParameters parameters)
+        {
+            return Task.FromResult(PagedList<TransactionProccess>.ToPagedList(_dbContext.TransactionProccesses, parameters.PageNumber, parameters.PageSize));
         }
 
         public Task<List<TransactionProccess>> GetAllTransactionProccessAsync() =>
