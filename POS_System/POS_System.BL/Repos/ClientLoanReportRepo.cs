@@ -30,7 +30,7 @@ namespace POS_System.BL.Repos
             DateOperations dateOperations = new DateOperations();
             foreach (var clientLoan in clientLoansList)
             {
-                var order = await orderInterface.GetOrderAsync(clientLoan.Id);
+                var order = await orderInterface.GetOrderAsync(clientLoan.OrderId);
                 if (dateOperations.IsLater(order.Date, startDate))
                 {
                     startDate = order.Date;
