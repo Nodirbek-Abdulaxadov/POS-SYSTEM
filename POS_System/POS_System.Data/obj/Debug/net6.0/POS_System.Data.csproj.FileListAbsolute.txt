@@ -70,5 +70,3 @@ D:\POS\POS_System\POS_System.Data\obj\Debug\net6.0\refint\POS_System.Data.dll
 D:\POS\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.pdb
 D:\POS\POS_System\POS_System.Data\obj\Debug\net6.0\POS_System.Data.genruntimeconfig.cache
 D:\POS\POS_System\POS_System.Data\obj\Debug\net6.0\ref\POS_System.Data.dll
-D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.ViewModels.dll
-D:\Visual Studio Project\POS-System\POS_System\POS_System.Data\bin\Debug\net6.0\POS_System.ViewModels.pdb
