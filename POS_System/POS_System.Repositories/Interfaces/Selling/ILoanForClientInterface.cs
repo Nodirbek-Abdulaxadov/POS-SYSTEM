@@ -1,10 +1,5 @@
 ﻿using POS_System.Domains.Pagination;
 using POS_System.Domains.Selling;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace POS_System.Repositories.Interfaces.Selling
 {

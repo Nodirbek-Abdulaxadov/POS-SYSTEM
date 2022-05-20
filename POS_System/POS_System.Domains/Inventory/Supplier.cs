@@ -12,5 +12,7 @@ namespace POS_System.Domains.Inventory
         public string? Adress { get; set; }
         [Required]
         public string? PhoneNumber { get; set; }
+
+        
     }
 }

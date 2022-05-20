@@ -11,5 +11,7 @@ namespace POS_System.Domains.Inventory
         [Required]
         public double TotalPrice { get; set; }
         public Guid ProductId { get; set; }
+
+        
     }
 }

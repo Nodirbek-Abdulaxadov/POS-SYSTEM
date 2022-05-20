@@ -30,5 +30,7 @@ namespace POS_System.Domains.Selling
         public Guid DepartmentId { get; set; }
         [Required]
         public Guid AdminId { get; set; }
+
+        
     }
 }
