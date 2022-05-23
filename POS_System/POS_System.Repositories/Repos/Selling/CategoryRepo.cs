@@ -35,15 +35,22 @@ namespace POS_System.Repositories.Repos.Selling
 
         public Task<PagedList<Category>> GetCategories(QueryStringParameters parameters)
         {
-            return Task.FromResult(PagedList<Category>.ToPagedList(_dbContext.Categories, parameters.PageNumber, parameters.PageSize));
+            return Task.FromResult(PagedList<Category>.ToPagedList(_dbContext.Categories.OrderBy(c => c.Name), parameters.PageNumber, parameters.PageSize));
         }
     
 
         public Task<List<Category>> GetCategoriesAsync() =>
-            _dbContext.Categories.ToListAsync();
+            _dbContext.Categories.OrderBy(c => c.Name).ToListAsync();
 
         public Task<Category> GetCategoryAsync(Guid categoryId) =>
             _dbContext.Categories.FirstOrDefaultAsync(p => p.Id == categoryId);
+
+        public Task<bool> IsNameExist(string name)
+        {
+            bool res = _dbContext.Categories.Any(p => p.Name == name);
+
+            return Task.FromResult(res);
+        }
 
         public Task<Category> UpdateCategoryAsync(Category category)
         {

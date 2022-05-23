@@ -40,6 +40,11 @@ namespace POS_System.API.Controllers.Identity
         [Route("add")]
         public async Task<IActionResult> AddCategory(AddCategoryViewModel category)
         {
+            if (await _catagoryInterface.IsNameExist(category.Name))
+            {
+                return BadRequest($"{category.Name} is already exist!");
+            }
+
             var res = await _catagoryInterface.AddCategoryAsync((Category)category);
             return Ok(res);
         }
