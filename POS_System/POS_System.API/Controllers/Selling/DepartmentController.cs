@@ -1,11 +1,7 @@
-﻿
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using POS_System.Domains.Admin;
 using POS_System.Domains.Selling;
-using POS_System.Repositories.Interfaces.Identity;
 using POS_System.Repositories.Interfaces.Selling;
-using POS_System.ViewModels.Admin;
 using POS_System.ViewModels.Selling;
 
 namespace POS_System.API.Controllers.Identity
@@ -41,7 +37,7 @@ namespace POS_System.API.Controllers.Identity
         [Route("add")]
         public async Task<IActionResult> AddDepartment(AddDepartmentViewModel department)
         {
-            if(await _departmentInterface.IsNameExist(department.Name)
+            if(await _departmentInterface.IsNameExist(department.Name))
             {
                 return BadRequest($"{department.Name} is already exist !");
             }

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace POS_System.Domains.Selling
 {
@@ -17,7 +18,7 @@ namespace POS_System.Domains.Selling
         [Required]
         public string? ManufacturedDate { get; set; }
         [Required]
-        public string? ExpirationDate { get; set; }
+        public DateTime ExpirationDate { get; set; }
         [Required]
         public double Quantity { get; set; }
         [Required]

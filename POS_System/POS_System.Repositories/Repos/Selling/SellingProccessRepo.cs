@@ -36,10 +36,9 @@ namespace POS_System.Repositories.Repos.Selling
         public Task<List<SellingProccess>> GetAllSellingProccessAsync() =>
             _dbContext.SellingProccesses.ToListAsync();
 
-        public Task<SellingProccess> GetByProductIdSellingProccessAsync(Guid id)
+        public Task<List<SellingProccess>> GetByProductIdSellingProccessAsync(Guid productId)
         {
-            //return Task.FromResult( _dbContext.SellingProccesses.Where(p => p.ProductId == id));
-            throw new Exception();
+            return Task.FromResult(_dbContext.SellingProccesses.Where(p => p.ProductId == productId).ToList());
         }
 
         public Task<SellingProccess> GetSellingProccessAsync(Guid sellingproccessId) =>

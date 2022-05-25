@@ -37,7 +37,7 @@ namespace POS_System.API.Controllers.Report
                 return BadRequest();
             }
 
-            return Ok(sellingReport.AllSellingReport(startDate, endDate));
+            return Ok(sellingReport.AllSellingReport(DateTime.Parse(startDate), DateTime.Parse(endDate)));
         }
     }
 }

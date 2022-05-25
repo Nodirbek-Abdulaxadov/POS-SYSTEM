@@ -29,7 +29,7 @@ namespace POS_System.Data.Migrations
                         .HasColumnType("uuid");
 
                     b.Property<DateTime>("DateTime")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<bool>("IsPaid")
                         .HasColumnType("boolean");
@@ -84,7 +84,7 @@ namespace POS_System.Data.Migrations
                         .HasColumnType("uuid");
 
                     b.Property<DateTime>("DateTime")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<Guid>("SupplierId")
                         .HasColumnType("uuid");
@@ -126,16 +126,14 @@ namespace POS_System.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<string>("EndTime")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<DateTime>("EndTime")
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<double>("NetProfit")
                         .HasColumnType("double precision");
 
-                    b.Property<string>("StartTime")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<DateTime>("StartTime")
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<double>("TotalIncomingPrice")
                         .HasColumnType("double precision");
@@ -216,9 +214,8 @@ namespace POS_System.Data.Migrations
                     b.Property<Guid>("ClientId")
                         .HasColumnType("uuid");
 
-                    b.Property<string>("Date")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<bool>("IsPaid")
                         .HasColumnType("boolean");
@@ -246,9 +243,8 @@ namespace POS_System.Data.Migrations
                     b.Property<Guid>("AdminId")
                         .HasColumnType("uuid");
 
-                    b.Property<string>("Date")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<Guid>("DepartmentId")
                         .HasColumnType("uuid");
@@ -296,9 +292,8 @@ namespace POS_System.Data.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("text");
 
-                    b.Property<string>("ExpirationDate")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<DateTime>("ExpirationDate")
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<double>("IncomingPrice")
                         .HasColumnType("double precision");
@@ -328,9 +323,8 @@ namespace POS_System.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<string>("Date")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<Guid>("OrderId")
                         .HasColumnType("uuid");

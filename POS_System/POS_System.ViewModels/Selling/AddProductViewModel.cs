@@ -20,7 +20,7 @@ namespace POS_System.ViewModels.Selling
         [Required]
         public string? ManufacturedDate { get; set; }
         [Required]
-        public string? ExpirationDate { get; set; }
+        public DateTime ExpirationDate { get; set; }
         [Required]
         public double Quantity { get; set; }
         [Required]

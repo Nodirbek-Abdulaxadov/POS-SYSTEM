@@ -11,7 +11,7 @@ namespace POS_System.ViewModels.Selling
     public class AddLoanForClientViewModel
     {
         [Required]
-        public string Date { get; set; }
+        public DateTime Date { get; set; }
         [Required]
         public double PaidPrice { get; set; }
         [Required]

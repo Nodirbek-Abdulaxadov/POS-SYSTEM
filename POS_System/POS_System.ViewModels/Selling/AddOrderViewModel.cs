@@ -10,7 +10,7 @@ namespace POS_System.ViewModels.Selling
 {
     public class AddOrderViewModel
     {
-        public string Date { get; set; }
+        public DateTime Date { get; set; }
         [Required]
         public double TotalIncomingPrice { get; set; }
         [Required]

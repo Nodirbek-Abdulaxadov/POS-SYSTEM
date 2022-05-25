@@ -44,7 +44,9 @@ namespace POS_System.API.Configurations
         public static void AddDbContexts(this IServiceCollection services, ConfigurationManager configuration )
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseNpgsql(configuration.GetConnectionString("PostgreDB")));
+                {
+                    options.UseNpgsql(configuration.GetConnectionString("PostgreDB"));
+                });
             services.AddDbContext<IdentityDbContext>(options =>
                             options.UseNpgsql(configuration.GetConnectionString("PostgreDB")));
         }
