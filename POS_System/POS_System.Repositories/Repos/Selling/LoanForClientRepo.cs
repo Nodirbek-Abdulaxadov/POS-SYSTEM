@@ -35,11 +35,11 @@ namespace POS_System.Repositories.Repos.Selling
 
         public Task<List<LoanForClient>> GetAllClientsLoans()
         {
-<<<<<<< HEAD
+
             throw new NotImplementedException();
-=======
-            return Task.FromResult(_dbContext.LoanForClients.Where(l => l.ClientId == id).OrderBy(l => l.Date).ToList());
->>>>>>> ba1224619fc2091082f5a87a14e24c64bae3ea8b
+
+            
+
         }
 
         public Task<PagedList<LoanForClient>> GetAllClientsLoansPaged()
@@ -69,11 +69,11 @@ namespace POS_System.Repositories.Repos.Selling
         }
 
         public Task<List<LoanForClient>> GetLoanForClientsAsync() =>
-<<<<<<< HEAD
+
             _dbContext.LoanForClients.OrderBy(p => p.ClientId).ToListAsync();
-=======
-            _dbContext.LoanForClients.OrderBy(l => l.Date).ToListAsync();
->>>>>>> ba1224619fc2091082f5a87a14e24c64bae3ea8b
+
+
+
 
         public Task<LoanForClient> UpdateLoanForClientAsync(LoanForClient loanForClient)
         {

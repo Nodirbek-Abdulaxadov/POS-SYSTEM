@@ -38,17 +38,14 @@ namespace POS_System.API.Controllers.Inventory
         public async Task<IActionResult> AddLoanForInventoryAsync(AddLoanForInventoryViewModel loanForInventory)
         {
 
-<<<<<<< HEAD
         //    var res = await _loanForInventoryInterface.AddLoanForInventoryAsync((LoanForInventory)loanForInventory);
         //    return Ok(res);
 
         //}
-=======
-            var res = await _loanForInventoryInterface.AddLoanForInventoryAsync((LoanForInventory)loanForInventory);
+          var res = await _loanForInventoryInterface.AddLoanForInventoryAsync((LoanForInventory)loanForInventory);
             return Ok(res);
 
         }
->>>>>>> e6f981273b7a3defb60d85f03696f3becb637502
 
         [HttpPut, Route("update")]
 

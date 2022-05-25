@@ -42,11 +42,11 @@ namespace POS_System.Repositories.Repos.Selling
         }
 
         public Task<List<Client>> GetClientsAsync() =>
-<<<<<<< HEAD
-            _dbContext.Clients.OrderBy(p => p.FullName).ToListAsync();
-=======
-            Task.FromResult(_dbContext.Clients.OrderBy(c => c.FullName).ToList());
->>>>>>> ba1224619fc2091082f5a87a14e24c64bae3ea8b
+
+           Task.FromResult(_dbContext.Clients.OrderBy(c => c.FullName).ToList());
+
+
+
 
         public Task<List<Client>> GetHasLoanClientsAsync()
         {
