@@ -60,3 +60,6 @@ D:\Visual Studio Project\POS-System\POS_System\POS_System.ViewModels\obj\Debug\n
 D:\POS\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.Domains.dll
 D:\POS\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.Domains.pdb
 D:\POS\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.csproj.CopyComplete
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.Domains.dll
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.ViewModels\bin\Debug\net6.0\POS_System.Domains.pdb
+D:\davronoff\POS-SYSTEM\POS_System\POS_System.ViewModels\obj\Debug\net6.0\POS_System.ViewModels.csproj.CopyComplete
