@@ -2,36 +2,43 @@
 using POS_System.BL.Interfaces;
 using POS_System.Data;
 using POS_System.Domains.Report;
+using POS_System.Repositories.Interfaces.Selling;
 
 namespace POS_System.BL.Repos
 {
     public class ProductReportRepo : IProductReportInterface
     {
+        private readonly IProductInterface productInterface;
+        private readonly ISellingProccessInterface sellingProccess;
         private readonly ApplicationDbContext dbContext;
 
-        public ProductReportRepo(ApplicationDbContext dbContext)
+        public ProductReportRepo(ApplicationDbContext dbContext,
+                                IProductInterface productInterface,
+                                ISellingProccessInterface sellingProccess)
         {
+            this.productInterface = productInterface;
+            this.sellingProccess = sellingProccess;
             this.dbContext = dbContext;
         }
         public Task<MainReport> ProductAllReport(string productName)
         {
-            var product = dbContext.Products.FirstOrDefault(p => p.Name == productName);
-            var sellingProccesses = dbContext.SellingProccesses.Where(sp => sp.ProductId == product.Id).ToList();
+            var product = productInterface.GetProductByNameAsync(productName);
+            //var sellingProccesses = sellingProccess.GetByProductIdSellingProccessAsync(product.Id);
 
             double totalIncoming = 0, totalSelling = 0, netProfit = 0;
-            string firstDate = sellingProccesses[0].Date;
+            string firstDate = "";//sellingProccesses[0].Date;
             string lastDate = DateTime.Now.ToString().Split(" ")[0];
-            foreach (var sellingProccess in sellingProccesses)
-            {
-                string orderDate = sellingProccess.Date.ToString().Split(" ")[0];
-                DateOperations dataOperations = new DateOperations();
-                if (dataOperations.IsLater(firstDate, orderDate))
-                {
-                    firstDate = orderDate;
-                }
-                totalIncoming += sellingProccess.ProccessIncomingPrice;
-                totalSelling += sellingProccess.ProccessSellingPrice;
-            }
+            //foreach (var sellingProccess in sellingProccesses)
+            //{
+            //    string orderDate = sellingProccess.Date.ToString().Split(" ")[0];
+            //    DateOperations dataOperations = new DateOperations();
+            //    if (dataOperations.IsLater(firstDate, orderDate))
+            //    {
+            //        firstDate = orderDate;
+            //    }
+            //    totalIncoming += sellingProccess.ProccessIncomingPrice;
+            //    totalSelling += sellingProccess.ProccessSellingPrice;
+            //}
             netProfit = totalSelling - totalIncoming;
 
             MainReport report = new MainReport()

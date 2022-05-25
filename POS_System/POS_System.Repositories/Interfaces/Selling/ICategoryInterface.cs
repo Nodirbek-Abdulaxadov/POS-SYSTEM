@@ -16,5 +16,6 @@ namespace POS_System.Repositories.Interfaces.Selling
         Task<Category> AddCategoryAsync(Category category);
         Task<Category> UpdateCategoryAsync(Category category);
         Task DeleteCategoryAsync(Guid categoryId);
+        Task<bool> IsNameExist(string name);
     }
 }

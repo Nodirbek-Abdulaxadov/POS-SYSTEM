@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using POS_System.BL.Extensions;
 using POS_System.BL.Interfaces;
 
@@ -19,7 +20,12 @@ namespace POS_System.API.Controllers.Report
         [HttpGet("getall")]
         public IActionResult Get()
         {
-            return Ok(sellingReport.AllSellingReport());
+            var json = JsonConvert.SerializeObject(sellingReport.AllSellingReport(), Formatting.Indented,
+                                                    new JsonSerializerSettings
+                                                    {
+                                                        ReferenceLoopHandling = ReferenceLoopHandling.Serialize
+                                                    });
+            return Ok(json);
         }
 
         [HttpGet("get")]

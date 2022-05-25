@@ -38,6 +38,13 @@ namespace POS_System.Repositories.Repos.Selling
             throw new NotImplementedException();
         }
 
+        public Task<LoanForClient> GetLoanByOrderId(Guid orderId)
+        {
+            var loan = _dbContext.LoanForClients.FirstOrDefault(l => l.OrderId == orderId);
+
+            return Task.FromResult(loan);
+        }
+
         public Task<LoanForClient> GetLoanForClientAsync(Guid loanforclientId) =>
             _dbContext.LoanForClients.FirstOrDefaultAsync(p => p.Id == loanforclientId);
 
