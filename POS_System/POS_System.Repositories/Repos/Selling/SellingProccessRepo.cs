@@ -34,12 +34,11 @@ namespace POS_System.Repositories.Repos.Selling
         }
 
         public Task<List<SellingProccess>> GetAllSellingProccessAsync() =>
-            _dbContext.SellingProccesses.ToListAsync();
+            _dbContext.SellingProccesses.OrderBy(o => o.Date).ToListAsync();
 
-        public Task<SellingProccess> GetByProductIdSellingProccessAsync(Guid id)
+        public Task<List<SellingProccess>> GetByProductIdSellingProccessAsync(Guid productId)
         {
-            //return Task.FromResult( _dbContext.SellingProccesses.Where(p => p.ProductId == id));
-            throw new Exception();
+            return Task.FromResult(_dbContext.SellingProccesses.Where(p => p.ProductId == productId).OrderBy(o => o.Date).ToList());
         }
 
         public Task<SellingProccess> GetSellingProccessAsync(Guid sellingproccessId) =>
@@ -47,7 +46,7 @@ namespace POS_System.Repositories.Repos.Selling
 
         public Task<PagedList<SellingProccess>> GetSellingProccesses(QueryStringParameters parameters)
         {
-            return Task.FromResult(PagedList<SellingProccess>.ToPagedList(_dbContext.SellingProccesses, parameters.PageNumber, parameters.PageSize));
+            return Task.FromResult(PagedList<SellingProccess>.ToPagedList(_dbContext.SellingProccesses.OrderBy(o => o.Date), parameters.PageNumber, parameters.PageSize));
         }
 
 

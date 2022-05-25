@@ -38,16 +38,25 @@ namespace POS_System.Repositories.Repos.Selling
 
         public Task<PagedList<Client>> GetClients(QueryStringParameters parameters)
         {
-            return Task.FromResult(PagedList<Client>.ToPagedList(_dbContext.Clients, parameters.PageNumber, parameters.PageSize));
+            return Task.FromResult(PagedList<Client>.ToPagedList(_dbContext.Clients.OrderBy(c => c.FullName), parameters.PageNumber, parameters.PageSize));
         }
 
         public Task<List<Client>> GetClientsAsync() =>
+<<<<<<< HEAD
             _dbContext.Clients.OrderBy(p => p.FullName).ToListAsync();
+=======
+            Task.FromResult(_dbContext.Clients.OrderBy(c => c.FullName).ToList());
+>>>>>>> ba1224619fc2091082f5a87a14e24c64bae3ea8b
 
         public Task<List<Client>> GetHasLoanClientsAsync()
         {
             return Task.FromResult(_dbContext.Clients
                 .Where(c => c.HasLoan == true).ToList());
+        }
+
+        public Task<bool> IsNameExist(string Name)
+        {
+            return Task.FromResult(_dbContext.Clients.Any(c => c.FullName == Name));
         }
 
         public Task<Client> UpdateClientAsync(Client client)

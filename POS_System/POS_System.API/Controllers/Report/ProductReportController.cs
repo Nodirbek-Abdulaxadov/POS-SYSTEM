@@ -47,7 +47,7 @@ namespace POS_System.API.Controllers.Report
             {
                 return BadRequest();
             }
-            return Ok(await reportInterface.ProductDailyReport(productName, date));
+            return Ok(await reportInterface.ProductDailyReport(productName, DateTime.Parse(date)));
         }
 
         //oxirgi haftalik hisobot
@@ -91,7 +91,7 @@ namespace POS_System.API.Controllers.Report
             {
                 return BadRequest();
             }
-            return Ok(await reportInterface.ProductReport(productName, startDate, endDate));
+            return Ok(await reportInterface.ProductReport(productName, DateTime.Parse(startDate), DateTime.Parse(endDate)));
         }
         //oxirgi N kunlik hisobot
         [HttpGet, Route("ndaysreport/{productName}/{N}")]

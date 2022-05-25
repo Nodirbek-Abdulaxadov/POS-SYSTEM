@@ -26,12 +26,12 @@ namespace POS_System.BL.Repos
             List<LoanViewModel> loans = new List<LoanViewModel>();
 
             double totalPrice = 0, leftLoan = 0, paidLoan = 0;
-            string startDate = DateTime.Now.ToString().Split(" ")[0];
+            DateTime startDate = DateTime.Now;
             DateOperations dateOperations = new DateOperations();
             foreach (var clientLoan in clientLoansList)
             {
                 var order = await orderInterface.GetOrderAsync(clientLoan.OrderId);
-                if (dateOperations.IsLater(order.Date, startDate))
+                if (startDate > order.Date)
                 {
                     startDate = order.Date;
                 }

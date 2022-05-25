@@ -23,30 +23,33 @@ namespace POS_System.BL.Repos
         {
             var ordersList = await orderInterface.GetOrdersAsync();
             double totalIncoming = 0,  totalSelling = 0, netProfit = 0;
-            string firstDate = ordersList[0].Date;
-            string lastDate = DateTime.Now.ToString().Split(" ")[0];
-            foreach (var order in ordersList)
+            DateTime firstDate = DateTime.Now;
+            DateTime lastDate = DateTime.Now;
+            
+            if (ordersList.Count > 0)
             {
-                string orderDate = order.Date.ToString().Split(" ")[0];
-                DateOperations dataOperations = new DateOperations();
-                if (dataOperations.IsLater(firstDate, orderDate))
+                firstDate = ordersList[0].Date;
+                foreach (var order in ordersList)
                 {
-                    firstDate = orderDate;
-                }
+                    if (order.Date < firstDate)
+                    {
+                        firstDate = order.Date;
+                    }
 
-                totalIncoming += order.TotalIncomingPrice;
+                    totalIncoming += order.TotalIncomingPrice;
 
-                if (!order.HasLoan)
-                {
-                    totalSelling += order.TotalSellingPrice;
+                    if (!order.HasLoan)
+                    {
+                        totalSelling += order.TotalSellingPrice;
+                    }
+                    else
+                    {
+                        var loan = await loanInterface.GetLoanByOrderId(order.Id);
+                        totalSelling += loan.PaidPrice;
+                    }
                 }
-                else
-                {
-                    var loan = await loanInterface.GetLoanByOrderId(order.Id);
-                    totalSelling += loan.PaidPrice;
-                }                
+                netProfit = totalSelling - totalIncoming;
             }
-            netProfit = totalSelling - totalIncoming;
 
             MainReport report = new MainReport()
             {
@@ -61,17 +64,15 @@ namespace POS_System.BL.Repos
             return report;
         }
 
-        public async Task<MainReport> AllSellingReport(string startDate, string endDate)
+        public async Task<MainReport> AllSellingReport(DateTime startDate, DateTime endDate)
         {
-            DateOperations dataOperations = new DateOperations();
             var ordersList = await orderInterface.GetOrdersAsync();
             double totalIncoming = 0, totalSelling = 0, netProfit = 0;
             
             foreach (var order in ordersList)
             {
-                if (dataOperations.IsEarlierOrEqual(startDate, order.Date) && dataOperations.IsLaterOrEqual(endDate, order.Date))
+                if (order.Date >= startDate && order.Date <= endDate)
                 {
-                    string orderDate = order.Date.ToString().Split(" ")[0];
                     if (!order.HasLoan)
                     {
                         totalIncoming += order.TotalIncomingPrice;
@@ -111,15 +112,13 @@ namespace POS_System.BL.Repos
                                 .ToList();
 
             double totalIncoming = 0, totalSelling = 0, netProfit = 0;
-            string firstDate = ordersList[0].Date;
-            string lastDate = DateTime.Now.ToString().Split(" ")[0];
+            DateTime firstDate = ordersList[0].Date;
+            DateTime lastDate = DateTime.Now;
             foreach (var order in ordersList)
             {
-                string orderDate = order.Date.ToString().Split(" ")[0];
-                DateOperations dataOperations = new DateOperations();
-                if (dataOperations.IsLater(firstDate, orderDate))
+                if (firstDate > order.Date)
                 {
-                    firstDate = orderDate;
+                    firstDate = order.Date;
                 }
                 if (!order.HasLoan)
                 {
@@ -149,9 +148,8 @@ namespace POS_System.BL.Repos
             return report;
         }
 
-        public async Task<MainReport> AllSellingReportByDepartmentName(string departmentName, string startDate, string endDate)
+        public async Task<MainReport> AllSellingReportByDepartmentName(string departmentName, DateTime startDate, DateTime endDate)
         {
-            DateOperations dataOperations = new DateOperations();
             var department = (await departmentInterface.GetDepartmentsAsync())
                             .FirstOrDefault(d => d.Name == departmentName);
 
@@ -163,7 +161,7 @@ namespace POS_System.BL.Repos
 
             foreach (var order in ordersList)
             {
-                if (dataOperations.IsEarlierOrEqual(startDate, order.Date) && dataOperations.IsLaterOrEqual(endDate, order.Date))
+                if (order.Date >= startDate)
                 {
                     string orderDate = order.Date.ToString().Split(" ")[0];
                     if (!order.HasLoan)
@@ -205,12 +203,10 @@ namespace POS_System.BL.Repos
                                 .ToList();
 
             double totalIncoming = 0, totalSelling = 0, netProfit = 0;
-            string today = DateTime.Now.ToString().Split(" ")[0];
+            DateTime today = DateTime.Now;
             foreach (var order in ordersList)
             {
-                string orderDate = order.Date.ToString().Split(" ")[0];
-                DateOperations dataOperations = new DateOperations();
-                if (dataOperations.Equals(today, orderDate))
+                if (today.Equals(order.Date))
                 {
                     if (!order.HasLoan)
                     {
@@ -245,12 +241,10 @@ namespace POS_System.BL.Repos
         {
             var ordersList = await orderInterface.GetOrdersAsync();
             double totalIncoming = 0, totalSelling = 0, netProfit = 0;
-            string today = DateTime.Now.ToString().Split(" ")[0];
+            DateTime today = DateTime.Now;
             foreach (var order in ordersList)
             {
-                string orderDate = order.Date.ToString().Split(" ")[0];
-                DateOperations dataOperations = new DateOperations();
-                if (dataOperations.Equals(today, orderDate))
+                if (today.Equals(order.Date))
                 {
                     if (!order.HasLoan)
                     {
@@ -281,7 +275,7 @@ namespace POS_System.BL.Repos
             return report;
         }
 
-        public async Task<MainReport> DailyDepartmentSellingReport(string departmentName, string date)
+        public async Task<MainReport> DailyDepartmentSellingReport(string departmentName, DateTime date)
         {
             var department = (await departmentInterface.GetDepartmentsAsync())
                             .FirstOrDefault(d => d.Name == departmentName);
@@ -293,9 +287,7 @@ namespace POS_System.BL.Repos
             double totalIncoming = 0, totalSelling = 0, netProfit = 0;
             foreach (var order in ordersList)
             {
-                string orderDate = order.Date.ToString().Split(" ")[0];
-                DateOperations dataOperations = new DateOperations();
-                if (dataOperations.Equals(date, orderDate))
+                if (date.Equals(order.Date))
                 {
                     if (!order.HasLoan)
                     {
@@ -336,12 +328,12 @@ namespace POS_System.BL.Repos
                                 .ToList();
 
             double totalIncoming = 0, totalSelling = 0, netProfit = 0;
-            string today = DateTime.Now.ToString().Split(" ")[0];
+            DateTime today = DateTime.Now;
             foreach (var order in ordersList)
             {
                 string orderDate = order.Date.ToString().Split(" ")[0];
                 DateOperations dataOperations = new DateOperations();
-                if (dataOperations.Equals(today, orderDate))
+                if (today.Equals(order.Date))
                 {
                     if (!order.HasLoan)
                     {
@@ -372,15 +364,13 @@ namespace POS_System.BL.Repos
             return report;
         }
 
-        public async Task<MainReport> DailyAllSellingReport(string date)
+        public async Task<MainReport> DailyAllSellingReport(DateTime date)
         {
             var ordersList = await orderInterface.GetOrdersAsync();
             double totalIncoming = 0, totalSelling = 0, netProfit = 0;
             foreach (var order in ordersList)
             {
-                string orderDate = order.Date.ToString().Split(" ")[0];
-                DateOperations dataOperations = new DateOperations();
-                if (dataOperations.Equals(date, orderDate))
+                if (date.Equals(order.Date))
                 {
                     if (!order.HasLoan)
                     {

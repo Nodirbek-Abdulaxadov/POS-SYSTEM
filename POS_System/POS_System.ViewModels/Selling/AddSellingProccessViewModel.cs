@@ -15,7 +15,7 @@ namespace POS_System.ViewModels.Selling
         [Required]
         public double Quantity { get; set; }
         [Required]
-        public string Date { get; set; }
+        public DateTime Date { get; set; }
         [Required]
         public double ProccessIncomingPrice { get; set; }
         [Required]
@@ -29,7 +29,7 @@ namespace POS_System.ViewModels.Selling
             {
                 ProductId = viewModel.ProductId,
                 Quantity = viewModel.Quantity,
-                Date = viewModel.Date,
+                //Date = viewModel.Date,
                 ProccessIncomingPrice = viewModel.ProccessIncomingPrice,
                 ProccessSellingPrice = viewModel.ProccessSellingPrice,
                 OrderId = viewModel.OrderId

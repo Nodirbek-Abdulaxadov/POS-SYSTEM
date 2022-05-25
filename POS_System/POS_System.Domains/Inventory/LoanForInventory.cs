@@ -16,7 +16,11 @@ namespace POS_System.Domains.Inventory
         public bool IsPaid { get; set; }
         public Guid SupplierId { get; set; }
         public Guid TransactionId { get; set; }
+<<<<<<< HEAD
 
 
+=======
+        
+>>>>>>> ba1224619fc2091082f5a87a14e24c64bae3ea8b
     }
 }

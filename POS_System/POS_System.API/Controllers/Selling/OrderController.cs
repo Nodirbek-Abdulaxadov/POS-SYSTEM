@@ -65,8 +65,7 @@ namespace POS_System.API.Controllers.Identity
         [Route("add")]
         public async Task<IActionResult> AddOrder(AddOrderViewModel order)
         {
-            Date date1 = new Date(DateTime.Now);
-            order.Date = date1.ToStringDate(date1, '/');
+            order.Date = DateTime.Now;
 
             var res = await _orderInterface.AddOrderAsync((Order)order);
             return Ok(res);

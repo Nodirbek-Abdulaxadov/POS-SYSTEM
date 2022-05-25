@@ -20,25 +20,23 @@ namespace POS_System.BL.Repos
             this.sellingProccess = sellingProccess;
             this.dbContext = dbContext;
         }
-        public Task<MainReport> ProductAllReport(string productName)
+        public async Task<MainReport> ProductAllReport(string productName)
         {
-            var product = productInterface.GetProductByNameAsync(productName);
-            //var sellingProccesses = sellingProccess.GetByProductIdSellingProccessAsync(product.Id);
+            var product = await productInterface.GetProductByNameAsync(productName);
+            var sellingProccesses = await sellingProccess.GetByProductIdSellingProccessAsync(product.Id);
 
             double totalIncoming = 0, totalSelling = 0, netProfit = 0;
-            string firstDate = "";//sellingProccesses[0].Date;
-            string lastDate = DateTime.Now.ToString().Split(" ")[0];
-            //foreach (var sellingProccess in sellingProccesses)
-            //{
-            //    string orderDate = sellingProccess.Date.ToString().Split(" ")[0];
-            //    DateOperations dataOperations = new DateOperations();
-            //    if (dataOperations.IsLater(firstDate, orderDate))
-            //    {
-            //        firstDate = orderDate;
-            //    }
-            //    totalIncoming += sellingProccess.ProccessIncomingPrice;
-            //    totalSelling += sellingProccess.ProccessSellingPrice;
-            //}
+            DateTime firstDate = sellingProccesses[0].Date;
+            DateTime lastDate = DateTime.Now;
+            foreach (var sellingProccess in sellingProccesses)
+            {
+                if (firstDate < sellingProccess.Date)
+                {
+                    firstDate = sellingProccess.Date;
+                }
+                totalIncoming += sellingProccess.ProccessIncomingPrice;
+                totalSelling += sellingProccess.ProccessSellingPrice;
+            }
             netProfit = totalSelling - totalIncoming;
 
             MainReport report = new MainReport()
@@ -51,10 +49,10 @@ namespace POS_System.BL.Repos
                 NetProfit = netProfit
             };
 
-            return Task.FromResult(report);
+            return report;
         }
 
-        public Task<MainReport> ProductDailyReport(string productName, string date)
+        public Task<MainReport> ProductDailyReport(string productName, DateTime date)
         {
             var product = dbContext.Products.FirstOrDefault(p => p.Name == productName);
             var sellingProccesses = dbContext.SellingProccesses.Where(sp => sp.ProductId == product.Id).ToList();
@@ -64,7 +62,7 @@ namespace POS_System.BL.Repos
             {
                 string sellingProccessDate = sellingProccess.Date.ToString().Split(" ")[0];
                 DateOperations dataOperations = new DateOperations();
-                if (dataOperations.Equals(date, sellingProccessDate))
+                if (dataOperations.Equals(date.ToString().Split()[0], sellingProccessDate))
                 {
                     totalIncoming += sellingProccess.ProccessIncomingPrice;
                     totalSelling += sellingProccess.ProccessSellingPrice;
@@ -109,8 +107,8 @@ namespace POS_System.BL.Repos
             MainReport report = new MainReport()
             {
                 Id = Guid.NewGuid(),
-                StartTime = firstDate,
-                EndTime = lastDate,
+                StartTime = DateTime.Parse(firstDate),
+                EndTime = DateTime.Parse(lastDate),
                 TotalIncomingPrice = totalIncoming,
                 TotalSellingPrice = totalSelling,
                 NetProfit = netProfit
@@ -143,8 +141,8 @@ namespace POS_System.BL.Repos
             MainReport report = new MainReport()
             {
                 Id = Guid.NewGuid(),
-                StartTime = firstDate,
-                EndTime = lastDate,
+                StartTime = DateTime.Parse(firstDate),
+                EndTime = DateTime.Parse(lastDate),
                 TotalIncomingPrice = totalIncoming,
                 TotalSellingPrice = totalSelling,
                 NetProfit = netProfit
@@ -177,8 +175,8 @@ namespace POS_System.BL.Repos
             MainReport report = new MainReport()
             {
                 Id = Guid.NewGuid(),
-                StartTime = firstDate,
-                EndTime = lastDate,
+                StartTime = DateTime.Parse(firstDate),
+                EndTime = DateTime.Parse(lastDate),
                 TotalIncomingPrice = totalIncoming,
                 TotalSellingPrice = totalSelling,
                 NetProfit = netProfit
@@ -211,8 +209,8 @@ namespace POS_System.BL.Repos
             MainReport report = new MainReport()
             {
                 Id = Guid.NewGuid(),
-                StartTime = firstDate,
-                EndTime = lastDate,
+                StartTime = DateTime.Parse(firstDate),
+                EndTime = DateTime.Parse(lastDate),
                 TotalIncomingPrice = totalIncoming,
                 TotalSellingPrice = totalSelling,
                 NetProfit = netProfit
@@ -245,8 +243,8 @@ namespace POS_System.BL.Repos
             MainReport report = new MainReport()
             {
                 Id = Guid.NewGuid(),
-                StartTime = firstDate,
-                EndTime = lastDate,
+                StartTime = DateTime.Parse(firstDate),
+                EndTime = DateTime.Parse(lastDate),
                 TotalIncomingPrice = totalIncoming,
                 TotalSellingPrice = totalSelling,
                 NetProfit = netProfit
@@ -279,8 +277,8 @@ namespace POS_System.BL.Repos
             MainReport report = new MainReport()
             {
                 Id = Guid.NewGuid(),
-                StartTime = firstDate,
-                EndTime = lastDate,
+                StartTime = DateTime.Parse(firstDate),
+                EndTime = DateTime.Parse(lastDate),
                 TotalIncomingPrice = totalIncoming,
                 TotalSellingPrice = totalSelling,
                 NetProfit = netProfit
@@ -313,8 +311,8 @@ namespace POS_System.BL.Repos
             MainReport report = new MainReport()
             {
                 Id = Guid.NewGuid(),
-                StartTime = firstDate,
-                EndTime = lastDate,
+                StartTime = DateTime.Parse(firstDate),
+                EndTime = DateTime.Parse(lastDate),
                 TotalIncomingPrice = totalIncoming,
                 TotalSellingPrice = totalSelling,
                 NetProfit = netProfit
@@ -323,7 +321,7 @@ namespace POS_System.BL.Repos
             return Task.FromResult(report);
         }
 
-        public Task<MainReport> ProductReport(string productName, string startDate, string endDate)
+        public Task<MainReport> ProductReport(string productName, DateTime startDate, DateTime endDate)
         {
             var product = dbContext.Products.FirstOrDefault(p => p.Name == productName);
             var sellingProccesses = dbContext.SellingProccesses.Where(sp => sp.ProductId == product.Id).ToList();
@@ -331,7 +329,7 @@ namespace POS_System.BL.Repos
             DateOperations dataOperations = new DateOperations();
             double totalIncoming = 0, totalSelling = 0, netProfit = 0;
             string lastDate = DateTime.Now.ToString().Split(" ")[0];
-            string firstDate = startDate;
+            string firstDate = startDate.ToString().Split()[0];
             foreach (var sellingProccess in sellingProccesses)
             {
                 string orderDate = sellingProccess.Date.ToString().Split(" ")[0];
@@ -347,8 +345,8 @@ namespace POS_System.BL.Repos
             MainReport report = new MainReport()
             {
                 Id = Guid.NewGuid(),
-                StartTime = firstDate,
-                EndTime = lastDate,
+                StartTime = DateTime.Parse(firstDate),
+                EndTime = DateTime.Parse(lastDate),
                 TotalIncomingPrice = totalIncoming,
                 TotalSellingPrice = totalSelling,
                 NetProfit = netProfit
@@ -379,8 +377,8 @@ namespace POS_System.BL.Repos
             MainReport report = new MainReport()
             {
                 Id = Guid.NewGuid(),
-                StartTime = today,
-                EndTime = today,
+                StartTime = DateTime.Now,
+                EndTime = DateTime.Now,
                 TotalIncomingPrice = totalIncoming,
                 TotalSellingPrice = totalSelling,
                 NetProfit = netProfit

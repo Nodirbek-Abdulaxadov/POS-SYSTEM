@@ -40,8 +40,15 @@ namespace POS_System.API.Controllers.Identity
         [Route("add")]
         public async Task<IActionResult> AddProduct(AddProductViewModel product)
         {
-            var res = await _productInterface.AddProductAsync((Product)product);
-            return Ok(res);
+            if(await _productInterface.IsNameExist(product.Name))
+            {
+                return BadRequest($"{product.Name} is already exist!");
+            }
+            else
+            {
+                var res = await _productInterface.AddProductAsync((Product)product);
+                return Ok(res);
+            }
         }
 
         [HttpPut]
