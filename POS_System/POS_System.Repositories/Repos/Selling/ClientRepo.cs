@@ -50,6 +50,11 @@ namespace POS_System.Repositories.Repos.Selling
                 .Where(c => c.HasLoan == true).ToList());
         }
 
+        public Task<bool> IsNameExist(string Name)
+        {
+            return Task.FromResult(_dbContext.Clients.Any(c => c.FullName == Name));
+        }
+
         public Task<Client> UpdateClientAsync(Client client)
         {
             _dbContext.Clients.Update(client);

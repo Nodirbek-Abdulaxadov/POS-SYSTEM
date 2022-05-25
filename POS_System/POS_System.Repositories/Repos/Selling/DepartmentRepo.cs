@@ -40,6 +40,10 @@ namespace POS_System.Repositories.Repos.Selling
         public Task<List<Department>> GetDepartmentsAsync() =>
             _dbContext.Departments.ToListAsync();
 
+        public Task<bool> IsNameExist(string Name)
+        {
+            return Task.FromResult(_dbContext.Departments.Any(d => d.Name == Name));        }
+
         public Task<Department> UpdateDepartmentAsync(Department department)
         {
             _dbContext.Departments.Update(department);
