@@ -23,28 +23,33 @@ namespace POS_System.BL.Repos
         {
             var ordersList = await orderInterface.GetOrdersAsync();
             double totalIncoming = 0,  totalSelling = 0, netProfit = 0;
-            DateTime firstDate = ordersList[0].Date;
+            DateTime firstDate = DateTime.Now;
             DateTime lastDate = DateTime.Now;
-            foreach (var order in ordersList)
+            
+            if (ordersList.Count > 0)
             {
-                if (order.Date < firstDate)
+                firstDate = ordersList[0].Date;
+                foreach (var order in ordersList)
                 {
-                    firstDate = order.Date;
-                }
+                    if (order.Date < firstDate)
+                    {
+                        firstDate = order.Date;
+                    }
 
-                totalIncoming += order.TotalIncomingPrice;
+                    totalIncoming += order.TotalIncomingPrice;
 
-                if (!order.HasLoan)
-                {
-                    totalSelling += order.TotalSellingPrice;
+                    if (!order.HasLoan)
+                    {
+                        totalSelling += order.TotalSellingPrice;
+                    }
+                    else
+                    {
+                        var loan = await loanInterface.GetLoanByOrderId(order.Id);
+                        totalSelling += loan.PaidPrice;
+                    }
                 }
-                else
-                {
-                    var loan = await loanInterface.GetLoanByOrderId(order.Id);
-                    totalSelling += loan.PaidPrice;
-                }                
+                netProfit = totalSelling - totalIncoming;
             }
-            netProfit = totalSelling - totalIncoming;
 
             MainReport report = new MainReport()
             {

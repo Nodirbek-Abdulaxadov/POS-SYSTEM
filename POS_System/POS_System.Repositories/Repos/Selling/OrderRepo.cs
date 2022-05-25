@@ -39,11 +39,11 @@ namespace POS_System.Repositories.Repos.Selling
 
         public Task<PagedList<Order>> GetOrders(QueryStringParameters parameters)
         {
-            return Task.FromResult(PagedList<Order>.ToPagedList(_dbContext.Orders, parameters.PageNumber, parameters.PageSize));
+            return Task.FromResult(PagedList<Order>.ToPagedList(_dbContext.Orders.OrderBy(o => o.Date), parameters.PageNumber, parameters.PageSize));
         }
 
         public Task<List<Order>> GetOrdersAsync() =>
-            _dbContext.Orders.ToListAsync();
+            Task.FromResult(_dbContext.Orders.OrderBy(o => o.Date).ToList());
 
         public Task<Order> UpdateOrderAsync(Order order)
         {

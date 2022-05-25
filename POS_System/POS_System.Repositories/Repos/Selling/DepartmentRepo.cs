@@ -34,11 +34,11 @@ namespace POS_System.Repositories.Repos.Selling
 
         public Task<PagedList<Department>> GetDepartments(QueryStringParameters parameters)
         {
-            return Task.FromResult(PagedList<Department>.ToPagedList(_dbContext.Departments, parameters.PageNumber, parameters.PageSize));
+            return Task.FromResult(PagedList<Department>.ToPagedList(_dbContext.Departments.OrderBy(d => d.Name), parameters.PageNumber, parameters.PageSize));
         }
 
         public Task<List<Department>> GetDepartmentsAsync() =>
-            _dbContext.Departments.ToListAsync();
+            Task.FromResult(_dbContext.Departments.OrderBy(d => d.Name).ToList());
 
         public Task<bool> IsNameExist(string Name)
         {

@@ -30,7 +30,7 @@ namespace POS_System.Repositories.Repos.Selling
 
         public Task<List<LoanForClient>> GetAllClientLoansByClientId(Guid id)
         {
-            return Task.FromResult(_dbContext.LoanForClients.Where(l => l.ClientId == id).ToList());
+            return Task.FromResult(_dbContext.LoanForClients.Where(l => l.ClientId == id).OrderBy(l => l.Date).ToList());
         }
 
         public Task<PagedList<LoanForClient>> GetAllClientsLoansPaged()
@@ -50,11 +50,11 @@ namespace POS_System.Repositories.Repos.Selling
 
         public Task<PagedList<LoanForClient>> GetLoanForClients(QueryStringParameters parameters)
         {
-            return Task.FromResult(PagedList<LoanForClient>.ToPagedList(_dbContext.LoanForClients, parameters.PageNumber, parameters.PageSize));
+            return Task.FromResult(PagedList<LoanForClient>.ToPagedList(_dbContext.LoanForClients.OrderBy(l => l.Date), parameters.PageNumber, parameters.PageSize));
         }
 
         public Task<List<LoanForClient>> GetLoanForClientsAsync() =>
-            _dbContext.LoanForClients.ToListAsync();
+            _dbContext.LoanForClients.OrderBy(l => l.Date).ToListAsync();
 
         public Task<LoanForClient> UpdateLoanForClientAsync(LoanForClient loanForClient)
         {

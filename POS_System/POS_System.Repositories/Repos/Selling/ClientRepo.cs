@@ -38,11 +38,11 @@ namespace POS_System.Repositories.Repos.Selling
 
         public Task<PagedList<Client>> GetClients(QueryStringParameters parameters)
         {
-            return Task.FromResult(PagedList<Client>.ToPagedList(_dbContext.Clients, parameters.PageNumber, parameters.PageSize));
+            return Task.FromResult(PagedList<Client>.ToPagedList(_dbContext.Clients.OrderBy(c => c.FullName), parameters.PageNumber, parameters.PageSize));
         }
 
         public Task<List<Client>> GetClientsAsync() =>
-            _dbContext.Clients.ToListAsync();
+            Task.FromResult(_dbContext.Clients.OrderBy(c => c.FullName).ToList());
 
         public Task<List<Client>> GetHasLoanClientsAsync()
         {
