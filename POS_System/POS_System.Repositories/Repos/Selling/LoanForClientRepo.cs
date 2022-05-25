@@ -33,10 +33,9 @@ namespace POS_System.Repositories.Repos.Selling
             return Task.CompletedTask;
         }
 
-        public Task<List<LoanForClient>> GetAllClientLoansByClientId(Guid id)
-        {
-            throw new NotImplementedException();
-        }
+        public Task<List<LoanForClient>> GetAllClientLoansByClientId(Guid id) =>
+               _dbContext.LoanForClients.Where(l => l.ClientId == id).ToListAsync();
+       
 
         public Task<List<LoanForClient>> GetAllClientsLoans()
         {
@@ -51,8 +50,8 @@ namespace POS_System.Repositories.Repos.Selling
         public Task<LoanForClient> GetClientLoanByClientId(Guid id)
         {
             throw new NotImplementedException();
-        }
 
+        }
         public Task<LoanForClient> GetClientLoanByLoanId(Guid id)
         {
             throw new NotImplementedException();

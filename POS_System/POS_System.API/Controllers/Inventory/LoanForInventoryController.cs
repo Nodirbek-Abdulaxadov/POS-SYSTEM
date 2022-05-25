@@ -32,15 +32,15 @@ namespace POS_System.API.Controllers.Inventory
             return Ok(json);
         }
 
-        //[HttpPost]
-        //[Route("add")]
+        [HttpPost]
+        [Route("add")]
 
         //public async Task<IActionResult> AddLoanForInventoryAsync(AddLoanForInventoryViewModel loanForInventory)
         //{
 
         //    var res = await _loanForInventoryInterface.AddLoanForInventoryAsync((LoanForInventory)loanForInventory);
         //    return Ok(res);
-        
+
         //}
 
         [HttpPut, Route("update")]

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using POS_System.Domains.Inventory;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -18,5 +19,7 @@ namespace POS_System.ViewModels.Inventory
         public bool IsPaid { get; set; }
         public Guid SupplierId { get; set; }
         public Guid TransactionId { get; set; }
+
+
     }
 }
