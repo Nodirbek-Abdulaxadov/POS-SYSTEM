@@ -38,7 +38,7 @@ namespace POS_System.Repositories.Repos.Selling
         }
 
         public Task<List<Department>> GetDepartmentsAsync() =>
-            _dbContext.Departments.ToListAsync();
+            _dbContext.Departments.OrderBy(p => p.Name).ToListAsync();
 
         public Task<Department> UpdateDepartmentAsync(Department department)
         {

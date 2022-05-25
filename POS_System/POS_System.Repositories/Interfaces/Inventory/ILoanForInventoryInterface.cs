@@ -10,11 +10,11 @@ namespace POS_System.Repositories.Interfaces.Inventory
 {
     public interface ILoanForInventoryInterface
     {
-<<<<<<< HEAD
+
         Task<PagedList<LoanForInventory>> GetAllLoanForInventorys(QueryStringParameters parameters);
-=======
+
         Task<PagedList<LoanForInventory>> GetAllLoanForInventorysAsync(QueryStringParameters parameters);
->>>>>>> e6f981273b7a3defb60d85f03696f3becb637502
+
         Task<List<LoanForInventory>> GetLoanForInventorysAsync();
         Task<LoanForInventory> GetLoanForInventoryAsync(Guid loanforinventoryId);
         Task<LoanForInventory> AddLoanForInventoryAsync(LoanForInventory loanForInventory);
