@@ -38,7 +38,11 @@ namespace POS_System.API.Controllers.Inventory
         public async Task<IActionResult> AddLoanForInventoryAsync(AddLoanForInventoryViewModel loanForInventory)
         {
 
-            var res = await _loanForInventoryInterface.AddLoanForInventoryAsync((LoanForInventory)loanForInventory);
+        //    var res = await _loanForInventoryInterface.AddLoanForInventoryAsync((LoanForInventory)loanForInventory);
+        //    return Ok(res);
+
+        //}
+          var res = await _loanForInventoryInterface.AddLoanForInventoryAsync((LoanForInventory)loanForInventory);
             return Ok(res);
 
         }

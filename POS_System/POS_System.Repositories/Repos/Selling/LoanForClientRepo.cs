@@ -28,9 +28,18 @@ namespace POS_System.Repositories.Repos.Selling
             return Task.CompletedTask;
         }
 
-        public Task<List<LoanForClient>> GetAllClientLoansByClientId(Guid id)
+
+        public Task<List<LoanForClient>> GetAllClientLoansByClientId(Guid id) =>
+               _dbContext.LoanForClients.Where(l => l.ClientId == id).ToListAsync();
+
+
+        public Task<List<LoanForClient>> GetAllClientsLoans()
         {
-            return Task.FromResult(_dbContext.LoanForClients.Where(l => l.ClientId == id).OrderBy(l => l.Date).ToList());
+
+            throw new NotImplementedException();
+
+            
+
         }
 
         public Task<PagedList<LoanForClient>> GetAllClientsLoansPaged()
@@ -40,9 +49,15 @@ namespace POS_System.Repositories.Repos.Selling
 
         public Task<LoanForClient> GetLoanByOrderId(Guid orderId)
         {
-            var loan = _dbContext.LoanForClients.FirstOrDefault(l => l.OrderId == orderId);
+            throw new NotImplementedException();
+
+        }
+        public Task<LoanForClient> GetClientLoanByLoanId(Guid id)
+        {
+            var loan = _dbContext.LoanForClients.FirstOrDefault(l => l.OrderId == id);
 
             return Task.FromResult(loan);
+
         }
 
         public Task<LoanForClient> GetLoanForClientAsync(Guid loanforclientId) =>
@@ -54,7 +69,11 @@ namespace POS_System.Repositories.Repos.Selling
         }
 
         public Task<List<LoanForClient>> GetLoanForClientsAsync() =>
-            _dbContext.LoanForClients.OrderBy(l => l.Date).ToListAsync();
+
+            _dbContext.LoanForClients.OrderBy(p => p.ClientId).ToListAsync();
+
+
+
 
         public Task<LoanForClient> UpdateLoanForClientAsync(LoanForClient loanForClient)
         {

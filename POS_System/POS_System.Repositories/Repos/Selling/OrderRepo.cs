@@ -43,7 +43,11 @@ namespace POS_System.Repositories.Repos.Selling
         }
 
         public Task<List<Order>> GetOrdersAsync() =>
+
             Task.FromResult(_dbContext.Orders.OrderBy(o => o.Date).ToList());
+
+
+
 
         public Task<Order> UpdateOrderAsync(Order order)
         {

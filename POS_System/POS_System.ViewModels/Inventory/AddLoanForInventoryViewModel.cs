@@ -20,6 +20,7 @@ namespace POS_System.ViewModels.Inventory
         public Guid SupplierId { get; set; }
         public Guid TransactionId { get; set; }
 
+
         public static explicit operator LoanForInventory(AddLoanForInventoryViewModel viewModel)
         {
             return new LoanForInventory
@@ -35,5 +36,6 @@ namespace POS_System.ViewModels.Inventory
             
 
         }
+
     }
 }

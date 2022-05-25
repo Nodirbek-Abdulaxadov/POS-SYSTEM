@@ -32,8 +32,12 @@ namespace POS_System.Repositories.Repos.Inventory
             _dbContext.SaveChanges();
             return Task.CompletedTask;
         }
-
+        public Task<PagedList<LoanForInventory>> GetAllLoanForInventorys(QueryStringParameters parameters)
+        {
+            throw new Exception();
+        }
         public Task<PagedList<LoanForInventory>> GetAllLoanForInventorysAsync(QueryStringParameters parameters)
+
         {
             return Task.FromResult(PagedList<LoanForInventory>.ToPagedList(_dbContext.LoanForInventorys, parameters.PageNumber, parameters.PageSize));
         }
