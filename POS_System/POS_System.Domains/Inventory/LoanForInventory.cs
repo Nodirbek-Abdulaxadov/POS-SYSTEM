@@ -17,5 +17,9 @@ namespace POS_System.Domains.Inventory
         public Guid SupplierId { get; set; }
         public Guid TransactionId { get; set; }
 
+<<<<<<< HEAD
+=======
+        
+>>>>>>> e6f981273b7a3defb60d85f03696f3becb637502
     }
 }

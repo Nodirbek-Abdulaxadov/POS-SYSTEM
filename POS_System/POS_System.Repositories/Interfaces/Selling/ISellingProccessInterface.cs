@@ -17,5 +17,6 @@ namespace POS_System.Repositories.Interfaces.Selling
         Task<SellingProccess> AddSellingProccessAsync(SellingProccess sellingProccess);
         Task<SellingProccess> UpdateSellingProccessAsync(SellingProccess sellingProccess);
         Task DeeleteSellingProccessAsync(Guid sellingproccessId);
+        Task<SellingProccess> GetByProductIdSellingProccessAsync(Guid id);
     }
 }

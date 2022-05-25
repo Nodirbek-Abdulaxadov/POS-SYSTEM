@@ -8,6 +8,7 @@ using POS_System.Repositories.Interfaces.Selling;
 using POS_System.Repositories.Repos.Identity;
 using POS_System.Repositories.Repos.Inventory;
 using POS_System.Repositories.Repos.Selling;
+using Newtonsoft.Json;
 
 namespace POS_System.API.Configurations
 {

@@ -36,14 +36,18 @@ namespace POS_System.Repositories.Repos.Selling
         public Task<Product> GetProductAsync(Guid productId) =>
             _dbContext.Products.FirstOrDefaultAsync(p => p.Id == productId);
 
-        public Task<PagedList<Product>> GetProducts(QueryStringParameters parameters)
+        public Task<List<Product>> GetProductByNameAsync(string productName)
         {
-            return Task.FromResult(PagedList<Product>.ToPagedList(_dbContext.Products, parameters.PageNumber, parameters.PageSize));
+            return Task.FromResult( _dbContext.Products.Where(p => p.Name == productName).ToList());
         }
 
+        public Task<PagedList<Product>> GetProducts(QueryStringParameters parameters)
+        {
+            return Task.FromResult(PagedList<Product>.ToPagedList(_dbContext.Products.OrderBy(p => p.Name), parameters.PageNumber, parameters.PageSize));
+        }
 
         public Task<List<Product>> GetProductsAsync() =>
-            _dbContext.Products.ToListAsync();
+            _dbContext.Products.OrderBy(p => p.Name).ToListAsync();
 
         public Task<Product> UpdateProductAsync(Product product)
         {

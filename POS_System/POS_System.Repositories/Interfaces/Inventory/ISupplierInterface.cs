@@ -1,4 +1,5 @@
 ﻿using POS_System.Domains.Inventory;
+using POS_System.Domains.Pagination;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace POS_System.Repositories.Interfaces.Inventory
 {
     public interface ISupplierInterface
     {
+        Task<PagedList<Supplier>> GetAllSuppliers(QueryStringParameters parameters);
         Task<List<Supplier>> GetSuppliersAsync();
         Task<Supplier> GetSupplierAsync(Guid supplierId);
         Task<Supplier> AddSupplierAsync(Supplier supplier);

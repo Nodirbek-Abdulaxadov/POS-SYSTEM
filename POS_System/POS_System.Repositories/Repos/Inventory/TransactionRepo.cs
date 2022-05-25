@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using POS_System.Domains.Inventory;
+using POS_System.Domains.Pagination;
 
 namespace POS_System.Repositories.Repos.Inventory
 {
@@ -30,6 +31,11 @@ namespace POS_System.Repositories.Repos.Inventory
             _dbContext.Transactions.Remove(_dbContext.Transactions.FirstOrDefault(p => p.Id == transactionId));
             _dbContext.SaveChanges();
             return Task.CompletedTask;
+        }
+
+        public Task<PagedList<Transaction>> GetAllTransactions(QueryStringParameters parameters)
+        {
+            return Task.FromResult(PagedList<Transaction>.ToPagedList(_dbContext.Transactions, parameters.PageNumber, parameters.PageSize));
         }
 
         public Task<Transaction> GetTransactionAsync(Guid transactionId) =>

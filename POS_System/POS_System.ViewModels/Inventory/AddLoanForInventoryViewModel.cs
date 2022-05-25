@@ -20,6 +20,24 @@ namespace POS_System.ViewModels.Inventory
         public Guid SupplierId { get; set; }
         public Guid TransactionId { get; set; }
 
+<<<<<<< HEAD
 
+=======
+        public static explicit operator LoanForInventory(AddLoanForInventoryViewModel viewModel)
+        {
+            return new LoanForInventory
+            {
+                Id = Guid.NewGuid(),
+                PaidPrice = viewModel.PaidPrice,
+                LeftPrice = viewModel.LeftPrice,
+                IsPaid = viewModel.IsPaid,
+                SupplierId = viewModel.SupplierId,
+                TransactionId = viewModel.TransactionId,
+
+            };
+            
+
+        }
+>>>>>>> e6f981273b7a3defb60d85f03696f3becb637502
     }
 }

@@ -3,11 +3,6 @@ using POS_System.Data;
 using POS_System.Domains.Pagination;
 using POS_System.Domains.Selling;
 using POS_System.Repositories.Interfaces.Selling;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace POS_System.Repositories.Repos.Selling
 {
@@ -33,6 +28,7 @@ namespace POS_System.Repositories.Repos.Selling
             return Task.CompletedTask;
         }
 
+<<<<<<< HEAD
         public Task<List<LoanForClient>> GetAllClientLoansByClientId(Guid id) =>
                _dbContext.LoanForClients.Where(l => l.ClientId == id).ToListAsync();
        
@@ -40,6 +36,11 @@ namespace POS_System.Repositories.Repos.Selling
         public Task<List<LoanForClient>> GetAllClientsLoans()
         {
             throw new NotImplementedException();
+=======
+        public Task<List<LoanForClient>> GetAllClientLoansByClientId(Guid id)
+        {
+            return Task.FromResult(_dbContext.LoanForClients.Where(l => l.ClientId == id).ToList());
+>>>>>>> e6f981273b7a3defb60d85f03696f3becb637502
         }
 
         public Task<PagedList<LoanForClient>> GetAllClientsLoansPaged()
@@ -47,14 +48,20 @@ namespace POS_System.Repositories.Repos.Selling
             throw new NotImplementedException();
         }
 
-        public Task<LoanForClient> GetClientLoanByClientId(Guid id)
+        public Task<LoanForClient> GetLoanByOrderId(Guid orderId)
         {
+<<<<<<< HEAD
             throw new NotImplementedException();
 
         }
         public Task<LoanForClient> GetClientLoanByLoanId(Guid id)
         {
             throw new NotImplementedException();
+=======
+            var loan = _dbContext.LoanForClients.FirstOrDefault(l => l.OrderId == orderId);
+
+            return Task.FromResult(loan);
+>>>>>>> e6f981273b7a3defb60d85f03696f3becb637502
         }
 
         public Task<LoanForClient> GetLoanForClientAsync(Guid loanforclientId) =>

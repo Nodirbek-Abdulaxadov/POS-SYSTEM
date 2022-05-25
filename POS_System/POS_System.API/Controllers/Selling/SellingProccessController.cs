@@ -36,13 +36,13 @@ namespace POS_System.API.Controllers.Identity
             return Ok(json);
         }
 
-        //[HttpPost]
-        //[Route("add")]
-        //public async Task<IActionResult> AddSellingProccess(AddSellingProccessViewModel sellingProccess)
-        //{
-        //    var res = await _sellingProccessInterface.AddSellingProccessAsync((SellingProccess)sellingProccess);
-        //    return Ok(res);
-        //}
+        [HttpPost]
+        [Route("add")]
+        public async Task<IActionResult> AddSellingProccess(AddSellingProccessViewModel sellingProccess)
+        {
+            var res = await _sellingProccessInterface.AddSellingProccessAsync((SellingProccess)sellingProccess);
+            return Ok(res);
+        }
 
         [HttpPut]
 
