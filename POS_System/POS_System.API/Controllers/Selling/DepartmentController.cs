@@ -41,8 +41,15 @@ namespace POS_System.API.Controllers.Identity
         [Route("add")]
         public async Task<IActionResult> AddDepartment(AddDepartmentViewModel department)
         {
-            var res = await _departmentInterface.AddDepartmentAsync((Department)department);
-            return Ok(res);
+            if(await _departmentInterface.IsNameExist(department.Name)
+            {
+                return BadRequest($"{department.Name} is already exist !");
+            }
+            else
+            {
+                var res = await _departmentInterface.AddDepartmentAsync((Department)department);
+                return Ok(res);
+            }
         }
 
         [HttpPut]

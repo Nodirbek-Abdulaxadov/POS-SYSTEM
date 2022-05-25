@@ -12,5 +12,6 @@ namespace POS_System.Repositories.Interfaces.Selling
         Task<Client> AddClientAsync(Client client);
         Task<Client> UpdateClientAsync(Client client);
         Task DeleteClientAsync(Guid clientId);
+        Task<bool> IsNameExist(string Name);
     }
 }

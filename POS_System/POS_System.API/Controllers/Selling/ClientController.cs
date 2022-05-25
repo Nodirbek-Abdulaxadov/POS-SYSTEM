@@ -1,10 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using POS_System.Domains.Admin;
 using POS_System.Domains.Selling;
-using POS_System.Repositories.Interfaces.Identity;
 using POS_System.Repositories.Interfaces.Selling;
-using POS_System.ViewModels.Admin;
 using POS_System.ViewModels.Selling;
 
 namespace POS_System.API.Controllers.Identity
@@ -40,13 +37,18 @@ namespace POS_System.API.Controllers.Identity
         [Route("add")]
         public async Task<IActionResult> AddClient(AddClientViewModel client)
         {
-            var res = await _clientInterface.AddClientAsync((Client)client);
-            return Ok(res);
+            if (await _clientInterface.IsNameExist(client.FullName))
+            {
+                return BadRequest($"{client.FullName} is already exist!");
+            }
+            else
+            {
+                var res = await _clientInterface.AddClientAsync((Client)client);
+                return Ok(res);
+            }
         }
 
         [HttpPut]
-
-
         [Route("update")]
         public async Task<IActionResult> UpdateClient(Client client)
         {

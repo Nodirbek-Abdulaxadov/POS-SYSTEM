@@ -57,8 +57,6 @@ C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.Repositories\bin\Debu
 C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.csproj.CopyComplete
 C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.Repositories\obj\Debug\net6.0\POS_System.Repositories.genruntimeconfig.cache
 C:\Users\User\Desktop\New folder\Pos\POS_System\POS_System.Repositories\obj\Debug\net6.0\ref\POS_System.Repositories.dll
-D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.ViewModels.dll
-D:\davronoff\POS-SYSTEM\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.ViewModels.pdb
 D:\POS\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Repositories.deps.json
 D:\POS\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Repositories.runtimeconfig.json
 D:\POS\POS_System\POS_System.Repositories\bin\Debug\net6.0\POS_System.Repositories.dll

@@ -12,5 +12,6 @@ namespace POS_System.Repositories.Interfaces.Selling
         Task<Department> AddDepartmentAsync(Department department);
         Task<Department> UpdateDepartmentAsync(Department department);
         Task DeleteDepartmentAsync(Guid departmentId);
+        Task<bool> IsNameExist(string Name);
     }
 }
