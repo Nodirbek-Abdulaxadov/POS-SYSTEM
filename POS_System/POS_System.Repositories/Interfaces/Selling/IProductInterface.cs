@@ -17,5 +17,6 @@ namespace POS_System.Repositories.Interfaces.Selling
         Task<Product> AddProductAsync(Product product);
         Task<Product> UpdateProductAsync(Product product);
         Task DeleteProductAsync(Guid productId);
+        Task<List<Product>> GetProductByNameAsync(string productName);
     }
 }
